@@ -9,3 +9,6 @@ CREATE TABLE users (
 );
 
 SHOW TABLES;
+
+ALTER USER 'root'@'localhost'
+IDENTIFIED BY '';
