@@ -1,0 +1,116 @@
+user_id,name,address,email,date_of_birth
+1,LiveNation North,"101 King Street West, Toronto",organizer1@mytix.example,1980-05-15
+2,StageWorks Inc,"102 King Street West, Toronto",organizer2@mytix.example,1980-05-15
+3,Arena Events Co,"103 King Street West, Toronto",organizer3@mytix.example,1980-05-15
+4,Broadway Partners,"104 King Street West, Toronto",organizer4@mytix.example,1980-05-15
+5,Stadium Presents,"105 King Street West, Toronto",organizer5@mytix.example,1980-05-15
+6,Alex Jackson,"12 Queen Street East, Toronto",customer6@mail.example,1977-01-24
+7,Jordan Perez,"88 Robson Street, Vancouver",customer7@mail.example,1987-04-08
+8,Sam Harris,"200 Sainte-Catherine, Montreal",customer8@mail.example,1978-12-04
+9,Taylor Ramirez,"350 5th Avenue, New York",customer9@mail.example,2004-02-19
+10,Morgan Williams,"233 S Wacker Drive, Chicago",customer10@mail.example,1997-01-01
+11,Casey Garcia,"12 Queen Street East, Toronto",customer11@mail.example,1975-04-08
+12,Riley Rodriguez,"88 Robson Street, Vancouver",customer12@mail.example,2002-10-01
+13,Avery Lopez,"200 Sainte-Catherine, Montreal",customer13@mail.example,2005-04-23
+14,Quinn Anderson,"350 5th Avenue, New York",customer14@mail.example,2004-07-08
+15,Jamie Moore,"233 S Wacker Drive, Chicago",customer15@mail.example,1998-10-09
+16,Cameron Lee,"12 Queen Street East, Toronto",customer16@mail.example,1970-03-23
+17,Drew White,"88 Robson Street, Vancouver",customer17@mail.example,1997-06-09
+18,Parker Clark,"200 Sainte-Catherine, Montreal",customer18@mail.example,1979-04-25
+19,Reese Johnson,"350 5th Avenue, New York",customer19@mail.example,1991-02-03
+20,Skyler Jones,"233 S Wacker Drive, Chicago",customer20@mail.example,1994-02-12
+21,Blake Davis,"12 Queen Street East, Toronto",customer21@mail.example,1992-10-09
+22,Harper Hernandez,"88 Robson Street, Vancouver",customer22@mail.example,1972-12-15
+23,Rowan Wilson,"200 Sainte-Catherine, Montreal",customer23@mail.example,2004-02-13
+24,Finley Taylor,"350 5th Avenue, New York",customer24@mail.example,1975-09-10
+25,Emerson Martin,"233 S Wacker Drive, Chicago",customer25@mail.example,1993-10-07
+26,Noah Thompson,"12 Queen Street East, Toronto",customer26@mail.example,1974-01-22
+27,Olivia Sanchez,"88 Robson Street, Vancouver",customer27@mail.example,1984-05-03
+28,Liam Smith,"200 Sainte-Catherine, Montreal",customer28@mail.example,1984-02-13
+29,Emma Brown,"350 5th Avenue, New York",customer29@mail.example,1987-08-21
+30,Ethan Miller,"233 S Wacker Drive, Chicago",customer30@mail.example,1993-03-12
+31,Sophia Martinez,"12 Queen Street East, Toronto",customer31@mail.example,1992-04-22
+32,Mason Gonzalez,"88 Robson Street, Vancouver",customer32@mail.example,1987-12-22
+33,Isabella Thomas,"200 Sainte-Catherine, Montreal",customer33@mail.example,1974-10-21
+34,Lucas Jackson,"350 5th Avenue, New York",customer34@mail.example,1980-09-24
+35,Mia Perez,"233 S Wacker Drive, Chicago",customer35@mail.example,1985-03-15
+36,Logan Harris,"12 Queen Street East, Toronto",customer36@mail.example,1994-05-21
+37,Charlotte Ramirez,"88 Robson Street, Vancouver",customer37@mail.example,2005-04-22
+38,Alex Williams,"200 Sainte-Catherine, Montreal",customer38@mail.example,1990-01-08
+39,Jordan Garcia,"350 5th Avenue, New York",customer39@mail.example,1972-06-13
+40,Sam Rodriguez,"233 S Wacker Drive, Chicago",customer40@mail.example,1987-02-07
+41,Taylor Lopez,"12 Queen Street East, Toronto",customer41@mail.example,2006-12-11
+42,Morgan Anderson,"88 Robson Street, Vancouver",customer42@mail.example,1983-11-16
+43,Casey Moore,"200 Sainte-Catherine, Montreal",customer43@mail.example,1995-11-15
+44,Riley Lee,"350 5th Avenue, New York",customer44@mail.example,1979-05-05
+45,Avery White,"233 S Wacker Drive, Chicago",customer45@mail.example,1985-12-18
+46,Quinn Clark,"12 Queen Street East, Toronto",customer46@mail.example,2004-05-24
+47,Jamie Johnson,"88 Robson Street, Vancouver",customer47@mail.example,1997-10-13
+48,Cameron Jones,"200 Sainte-Catherine, Montreal",customer48@mail.example,1993-04-05
+49,Drew Davis,"350 5th Avenue, New York",customer49@mail.example,2002-08-03
+50,Parker Hernandez,"233 S Wacker Drive, Chicago",customer50@mail.example,1973-02-05
+51,Reese Wilson,"12 Queen Street East, Toronto",customer51@mail.example,1980-11-14
+52,Skyler Taylor,"88 Robson Street, Vancouver",customer52@mail.example,1974-07-13
+53,Blake Martin,"200 Sainte-Catherine, Montreal",customer53@mail.example,1999-09-09
+54,Harper Thompson,"350 5th Avenue, New York",customer54@mail.example,2005-01-22
+55,Rowan Sanchez,"233 S Wacker Drive, Chicago",customer55@mail.example,1977-11-18
+56,Finley Smith,"12 Queen Street East, Toronto",customer56@mail.example,1987-11-11
+57,Emerson Brown,"88 Robson Street, Vancouver",customer57@mail.example,1977-05-14
+58,Noah Miller,"200 Sainte-Catherine, Montreal",customer58@mail.example,1980-08-01
+59,Olivia Martinez,"350 5th Avenue, New York",customer59@mail.example,1986-09-25
+60,Liam Gonzalez,"233 S Wacker Drive, Chicago",customer60@mail.example,1981-09-04
+61,Emma Thomas,"12 Queen Street East, Toronto",customer61@mail.example,1989-11-17
+62,Ethan Jackson,"88 Robson Street, Vancouver",customer62@mail.example,1982-03-12
+63,Sophia Perez,"200 Sainte-Catherine, Montreal",customer63@mail.example,1980-09-25
+64,Mason Harris,"350 5th Avenue, New York",customer64@mail.example,2003-01-20
+65,Isabella Ramirez,"233 S Wacker Drive, Chicago",customer65@mail.example,1990-08-01
+66,Lucas Williams,"12 Queen Street East, Toronto",customer66@mail.example,1977-06-27
+67,Mia Garcia,"88 Robson Street, Vancouver",customer67@mail.example,1989-04-02
+68,Logan Rodriguez,"200 Sainte-Catherine, Montreal",customer68@mail.example,1985-10-03
+69,Charlotte Lopez,"350 5th Avenue, New York",customer69@mail.example,1975-12-16
+70,Alex Anderson,"233 S Wacker Drive, Chicago",customer70@mail.example,1974-09-25
+71,Jordan Moore,"12 Queen Street East, Toronto",customer71@mail.example,1978-03-22
+72,Sam Lee,"88 Robson Street, Vancouver",customer72@mail.example,2000-09-06
+73,Taylor White,"200 Sainte-Catherine, Montreal",customer73@mail.example,1986-09-28
+74,Morgan Clark,"350 5th Avenue, New York",customer74@mail.example,1997-04-18
+75,Casey Johnson,"233 S Wacker Drive, Chicago",customer75@mail.example,1982-12-10
+76,Riley Jones,"12 Queen Street East, Toronto",customer76@mail.example,1995-11-21
+77,Avery Davis,"88 Robson Street, Vancouver",customer77@mail.example,1993-08-17
+78,Quinn Hernandez,"200 Sainte-Catherine, Montreal",customer78@mail.example,1998-02-08
+79,Jamie Wilson,"350 5th Avenue, New York",customer79@mail.example,1984-02-11
+80,Cameron Taylor,"233 S Wacker Drive, Chicago",customer80@mail.example,1971-10-18
+81,Drew Martin,"12 Queen Street East, Toronto",customer81@mail.example,1984-10-08
+82,Parker Thompson,"88 Robson Street, Vancouver",customer82@mail.example,1970-02-23
+83,Reese Sanchez,"200 Sainte-Catherine, Montreal",customer83@mail.example,1973-04-03
+84,Skyler Smith,"350 5th Avenue, New York",customer84@mail.example,1972-06-03
+85,Blake Brown,"233 S Wacker Drive, Chicago",customer85@mail.example,2002-04-09
+86,Harper Miller,"12 Queen Street East, Toronto",customer86@mail.example,2001-04-18
+87,Rowan Martinez,"88 Robson Street, Vancouver",customer87@mail.example,1978-12-19
+88,Finley Gonzalez,"200 Sainte-Catherine, Montreal",customer88@mail.example,2006-08-08
+89,Emerson Thomas,"350 5th Avenue, New York",customer89@mail.example,2000-07-07
+90,Noah Jackson,"233 S Wacker Drive, Chicago",customer90@mail.example,1976-02-22
+91,Olivia Perez,"12 Queen Street East, Toronto",customer91@mail.example,1997-06-14
+92,Liam Harris,"88 Robson Street, Vancouver",customer92@mail.example,1996-08-28
+93,Emma Ramirez,"200 Sainte-Catherine, Montreal",customer93@mail.example,1973-11-21
+94,Ethan Williams,"350 5th Avenue, New York",customer94@mail.example,1976-01-13
+95,Sophia Garcia,"233 S Wacker Drive, Chicago",customer95@mail.example,1991-02-08
+96,Mason Rodriguez,"12 Queen Street East, Toronto",customer96@mail.example,1982-04-18
+97,Isabella Lopez,"88 Robson Street, Vancouver",customer97@mail.example,1998-03-14
+98,Lucas Anderson,"200 Sainte-Catherine, Montreal",customer98@mail.example,1981-05-15
+99,Mia Moore,"350 5th Avenue, New York",customer99@mail.example,1985-02-15
+100,Logan Lee,"233 S Wacker Drive, Chicago",customer100@mail.example,2005-02-02
+101,Charlotte White,"12 Queen Street East, Toronto",customer101@mail.example,2004-01-03
+102,Alex Clark,"88 Robson Street, Vancouver",customer102@mail.example,1985-03-14
+103,Jordan Johnson,"200 Sainte-Catherine, Montreal",customer103@mail.example,2001-08-07
+104,Sam Jones,"350 5th Avenue, New York",customer104@mail.example,1995-01-06
+105,Taylor Davis,"233 S Wacker Drive, Chicago",customer105@mail.example,1994-01-13
+106,Morgan Hernandez,"12 Queen Street East, Toronto",customer106@mail.example,1986-08-10
+107,Casey Wilson,"88 Robson Street, Vancouver",customer107@mail.example,1997-12-24
+108,Riley Taylor,"200 Sainte-Catherine, Montreal",customer108@mail.example,2005-11-23
+109,Avery Martin,"350 5th Avenue, New York",customer109@mail.example,2001-03-07
+110,Quinn Thompson,"233 S Wacker Drive, Chicago",customer110@mail.example,1988-04-02
+111,Jamie Sanchez,"12 Queen Street East, Toronto",customer111@mail.example,2004-01-24
+112,Cameron Smith,"88 Robson Street, Vancouver",customer112@mail.example,1990-01-02
+113,Drew Brown,"200 Sainte-Catherine, Montreal",customer113@mail.example,2000-09-28
+114,Parker Miller,"350 5th Avenue, New York",customer114@mail.example,2003-03-02
+115,Reese Martinez,"233 S Wacker Drive, Chicago",customer115@mail.example,2002-02-28

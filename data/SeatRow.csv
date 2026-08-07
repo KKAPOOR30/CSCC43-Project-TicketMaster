@@ -1,0 +1,73 @@
+venue_id,section_name,row_name
+1,Floor,A
+1,Floor,B
+1,Floor,C
+1,Floor,D
+1,100 Level,101
+1,100 Level,102
+1,100 Level,103
+1,200 Level,201
+1,200 Level,202
+2,Orchestra,A
+2,Orchestra,B
+2,Orchestra,C
+2,Orchestra,D
+2,Mezzanine,F
+2,Mezzanine,G
+2,Balcony,J
+2,Balcony,K
+3,Floor,A
+3,Floor,B
+3,Floor,C
+3,Floor,D
+3,Balcony,E
+3,Balcony,F
+4,Orchestra,A
+4,Orchestra,B
+4,Orchestra,C
+4,Orchestra,D
+4,Mezzanine,F
+4,Mezzanine,G
+4,Balcony,J
+4,Balcony,K
+5,Floor,A
+5,Floor,B
+5,Floor,C
+5,Floor,D
+5,100 Level,101
+5,100 Level,102
+5,100 Level,103
+5,200 Level,201
+5,200 Level,202
+6,Orchestra,A
+6,Orchestra,B
+6,Orchestra,C
+6,Orchestra,D
+6,Mezzanine,F
+6,Mezzanine,G
+6,Balcony,J
+6,Balcony,K
+7,Floor,A
+7,Floor,B
+7,Floor,C
+7,Floor,D
+7,100 Level,101
+7,100 Level,102
+7,100 Level,103
+7,200 Level,201
+7,200 Level,202
+8,Floor,A
+8,Floor,B
+8,Floor,C
+8,Floor,D
+8,100 Level,101
+8,100 Level,102
+8,100 Level,103
+8,200 Level,201
+8,200 Level,202
+9,Floor,A
+9,Floor,B
+9,Floor,C
+9,Floor,D
+9,Balcony,E
+9,Balcony,F

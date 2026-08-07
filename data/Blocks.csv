@@ -1,0 +1,34 @@
+performance_id,venue_id,section_name,row_name,seat_number,blocked_at,reason
+41,1,200 Level,202,3,2026-08-14 09:00:00,production equipment
+41,1,200 Level,202,4,2026-08-14 09:00:00,production equipment
+41,1,200 Level,202,5,2026-08-14 09:00:00,production equipment
+41,1,200 Level,202,6,2026-08-14 09:00:00,production equipment
+41,1,200 Level,202,7,2026-08-14 09:00:00,production equipment
+41,1,200 Level,202,8,2026-08-14 09:00:00,production equipment
+42,1,200 Level,202,3,2026-07-27 09:00:00,production equipment
+42,1,200 Level,202,4,2026-07-27 09:00:00,production equipment
+42,1,200 Level,202,5,2026-07-27 09:00:00,production equipment
+42,1,200 Level,202,6,2026-07-27 09:00:00,production equipment
+42,1,200 Level,202,7,2026-07-27 09:00:00,production equipment
+42,1,200 Level,202,8,2026-07-27 09:00:00,production equipment
+44,7,200 Level,202,3,2026-08-18 09:00:00,production equipment
+44,7,200 Level,202,4,2026-08-18 09:00:00,production equipment
+44,7,200 Level,202,5,2026-08-18 09:00:00,production equipment
+44,7,200 Level,202,6,2026-08-18 09:00:00,production equipment
+44,7,200 Level,202,7,2026-08-18 09:00:00,production equipment
+44,7,200 Level,202,8,2026-08-18 09:00:00,production equipment
+21,3,Floor,A,1,2026-06-14 09:00:00,obstructed view
+21,3,Floor,A,2,2026-06-14 09:00:00,obstructed view
+21,3,Floor,A,3,2026-06-14 09:00:00,obstructed view
+22,9,Floor,A,1,2026-05-30 09:00:00,obstructed view
+22,9,Floor,A,2,2026-05-30 09:00:00,obstructed view
+22,9,Floor,A,3,2026-05-30 09:00:00,obstructed view
+23,3,Floor,A,1,2026-04-15 09:00:00,obstructed view
+23,3,Floor,A,2,2026-04-15 09:00:00,obstructed view
+23,3,Floor,A,3,2026-04-15 09:00:00,obstructed view
+24,6,Orchestra,A,1,2026-03-26 09:00:00,obstructed view
+24,6,Orchestra,A,2,2026-03-26 09:00:00,obstructed view
+24,6,Orchestra,A,3,2026-03-26 09:00:00,obstructed view
+25,8,Floor,A,1,2026-03-06 09:00:00,obstructed view
+25,8,Floor,A,2,2026-03-06 09:00:00,obstructed view
+25,8,Floor,A,3,2026-03-06 09:00:00,obstructed view

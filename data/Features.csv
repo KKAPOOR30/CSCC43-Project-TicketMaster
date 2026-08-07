@@ -1,0 +1,39 @@
+event_id,artist_id,billing_order
+1,1,headliner
+2,2,headliner
+3,3,headliner
+3,8,special guest
+4,4,headliner
+5,5,headliner
+5,14,opening act
+6,6,headliner
+6,11,special guest
+7,7,headliner
+8,8,headliner
+9,9,headliner
+9,14,special guest
+10,10,headliner
+10,19,opening act
+11,11,headliner
+12,12,headliner
+12,17,special guest
+13,13,headliner
+14,14,headliner
+15,15,headliner
+15,20,special guest
+15,4,opening act
+16,16,headliner
+17,17,headliner
+18,18,headliner
+18,3,special guest
+19,19,headliner
+20,20,headliner
+20,9,opening act
+21,1,headliner
+21,6,special guest
+22,2,headliner
+23,3,headliner
+24,4,headliner
+24,9,special guest
+25,5,headliner
+25,14,opening act

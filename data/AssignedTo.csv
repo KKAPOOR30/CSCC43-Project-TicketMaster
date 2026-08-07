@@ -1,0 +1,237 @@
+venue_id,section_name,performance_id,tier_name
+2,Orchestra,1,P1
+2,Mezzanine,1,P2
+2,Balcony,1,P3
+2,Orchestra,2,P1
+2,Mezzanine,2,P2
+2,Balcony,2,P3
+2,Orchestra,3,P1
+2,Mezzanine,3,P2
+2,Balcony,3,P3
+2,Orchestra,4,P1
+2,Mezzanine,4,P2
+2,Balcony,4,P3
+2,Orchestra,5,P1
+2,Mezzanine,5,P2
+2,Balcony,5,P3
+2,Orchestra,6,P1
+2,Mezzanine,6,P2
+2,Balcony,6,P3
+2,Orchestra,7,P1
+2,Mezzanine,7,P2
+2,Balcony,7,P3
+2,Orchestra,8,P1
+2,Mezzanine,8,P2
+2,Balcony,8,P3
+2,Orchestra,9,P1
+2,Mezzanine,9,P2
+2,Balcony,9,P3
+2,Orchestra,10,P1
+2,Mezzanine,10,P2
+2,Balcony,10,P3
+2,Orchestra,11,P1
+2,Mezzanine,11,P2
+2,Balcony,11,P3
+2,Orchestra,12,P1
+2,Mezzanine,12,P2
+2,Balcony,12,P3
+1,Floor,13,VIP
+1,100 Level,13,Standard
+1,200 Level,13,Standard
+1,Standing Pit,13,Standard
+5,Floor,14,P1
+5,100 Level,14,P2
+5,200 Level,14,P3
+5,Standing Pit,14,P3
+7,Floor,15,P1
+7,100 Level,15,P2
+7,200 Level,15,P3
+7,Standing Pit,15,P3
+1,Floor,16,VIP
+1,100 Level,16,Standard
+1,200 Level,16,Standard
+1,Standing Pit,16,Standard
+8,Floor,17,P1
+8,100 Level,17,P2
+8,200 Level,17,P3
+8,Standing Pit,17,P3
+6,Orchestra,18,P1
+6,Mezzanine,18,P2
+6,Balcony,18,P3
+4,Orchestra,19,P1
+4,Mezzanine,19,P2
+4,Balcony,19,P3
+7,Floor,20,P1
+7,100 Level,20,P2
+7,200 Level,20,P3
+7,Standing Pit,20,P3
+3,Floor,21,P1
+3,Balcony,21,P2
+3,General Admission,21,P2
+9,Floor,22,P1
+9,Balcony,22,P2
+9,General Admission,22,P2
+3,Floor,23,P1
+3,Balcony,23,P2
+3,General Admission,23,P2
+6,Orchestra,24,P1
+6,Mezzanine,24,P2
+6,Balcony,24,P3
+8,Floor,25,P1
+8,100 Level,25,P2
+8,200 Level,25,P3
+8,Standing Pit,25,P3
+5,Floor,26,P1
+5,100 Level,26,P2
+5,200 Level,26,P3
+5,Standing Pit,26,P3
+1,Floor,27,P1
+1,100 Level,27,P2
+1,200 Level,27,P3
+1,Standing Pit,27,P3
+5,Floor,28,P1
+5,100 Level,28,P2
+5,200 Level,28,P3
+5,Standing Pit,28,P3
+2,Orchestra,29,P1
+2,Mezzanine,29,P2
+2,Balcony,29,P3
+7,Floor,30,P1
+7,100 Level,30,P2
+7,200 Level,30,P3
+7,Standing Pit,30,P3
+4,Orchestra,31,P1
+4,Mezzanine,31,P2
+4,Balcony,31,P3
+8,Floor,32,P1
+8,100 Level,32,P2
+8,200 Level,32,P3
+8,Standing Pit,32,P3
+6,Orchestra,33,P1
+6,Mezzanine,33,P2
+6,Balcony,33,P3
+1,Floor,34,P1
+1,100 Level,34,P2
+1,200 Level,34,P3
+1,Standing Pit,34,P3
+3,Floor,35,P1
+3,Balcony,35,P2
+3,General Admission,35,P2
+9,Floor,36,P1
+9,Balcony,36,P2
+9,General Admission,36,P2
+5,Floor,37,P1
+5,100 Level,37,P2
+5,200 Level,37,P3
+5,Standing Pit,37,P3
+7,Floor,38,P1
+7,100 Level,38,P2
+7,200 Level,38,P3
+7,Standing Pit,38,P3
+2,Orchestra,39,P1
+2,Mezzanine,39,P2
+2,Balcony,39,P3
+8,Floor,40,P1
+8,100 Level,40,P2
+8,200 Level,40,P3
+8,Standing Pit,40,P3
+1,Floor,41,P1
+1,100 Level,41,P2
+1,200 Level,41,P3
+1,Standing Pit,41,P3
+1,Floor,42,P1
+1,100 Level,42,P2
+1,200 Level,42,P3
+1,Standing Pit,42,P3
+5,Floor,43,P1
+5,100 Level,43,P2
+5,200 Level,43,P3
+5,Standing Pit,43,P3
+7,Floor,44,P1
+7,100 Level,44,P2
+7,200 Level,44,P3
+7,Standing Pit,44,P3
+3,Floor,45,P1
+3,Balcony,45,P2
+3,General Admission,45,P2
+4,Orchestra,46,P1
+4,Mezzanine,46,P2
+4,Balcony,46,P3
+6,Orchestra,47,P1
+6,Mezzanine,47,P2
+6,Balcony,47,P3
+8,Floor,48,P1
+8,100 Level,48,P2
+8,200 Level,48,P3
+8,Standing Pit,48,P3
+9,Floor,49,P1
+9,Balcony,49,P2
+9,General Admission,49,P2
+2,Orchestra,50,P1
+2,Mezzanine,50,P2
+2,Balcony,50,P3
+5,Floor,51,P1
+5,100 Level,51,P2
+5,200 Level,51,P3
+5,Standing Pit,51,P3
+1,Floor,52,P1
+1,100 Level,52,P2
+1,200 Level,52,P3
+1,Standing Pit,52,P3
+7,Floor,53,P1
+7,100 Level,53,P2
+7,200 Level,53,P3
+7,Standing Pit,53,P3
+6,Orchestra,54,P1
+6,Mezzanine,54,P2
+6,Balcony,54,P3
+8,Floor,55,P1
+8,100 Level,55,P2
+8,200 Level,55,P3
+8,Standing Pit,55,P3
+4,Orchestra,56,P1
+4,Mezzanine,56,P2
+4,Balcony,56,P3
+3,Floor,57,P1
+3,Balcony,57,P2
+3,General Admission,57,P2
+1,Floor,58,P1
+1,100 Level,58,P2
+1,200 Level,58,P3
+1,Standing Pit,58,P3
+5,Floor,59,P1
+5,100 Level,59,P2
+5,200 Level,59,P3
+5,Standing Pit,59,P3
+7,Floor,60,P1
+7,100 Level,60,P2
+7,200 Level,60,P3
+7,Standing Pit,60,P3
+2,Orchestra,61,P1
+2,Mezzanine,61,P2
+2,Balcony,61,P3
+9,Floor,62,P1
+9,Balcony,62,P2
+9,General Admission,62,P2
+4,Orchestra,63,P1
+4,Mezzanine,63,P2
+4,Balcony,63,P3
+1,Floor,64,P1
+1,100 Level,64,P2
+1,200 Level,64,P3
+1,Standing Pit,64,P3
+5,Floor,65,P1
+5,100 Level,65,P2
+5,200 Level,65,P3
+5,Standing Pit,65,P3
+7,Floor,66,P1
+7,100 Level,66,P2
+7,200 Level,66,P3
+7,Standing Pit,66,P3
+6,Orchestra,67,P1
+6,Mezzanine,67,P2
+6,Balcony,67,P3
+8,Floor,68,P1
+8,100 Level,68,P2
+8,200 Level,68,P3
+8,Standing Pit,68,P3

@@ -1,0 +1,26 @@
+event_id,name,genre,resale_cap_pct,user_id
+1,City Lights Tour,Rock,120.00,1
+2,Midnight Sessions,Pop,120.00,2
+3,Arena Rock Night,Hip-Hop/Rap,120.00,3
+4,Summer Pop Fest,Musical,150.00,4
+5,Rap Revolution,Comedy,120.00,5
+6,Broadway Bound,Basketball,120.00,1
+7,Laugh Out Loud Live,Hockey,120.00,2
+8,Court Kings Showcase,Classical,150.00,3
+9,Ice Rivalry,Rock,120.00,4
+10,Symphony Under Stars,Pop,120.00,5
+11,Indie Rising,Hip-Hop/Rap,120.00,1
+12,Electric Dreams,Musical,150.00,2
+13,Folk & Fire,Comedy,120.00,3
+14,Comedy Cellar Night,Basketball,120.00,4
+15,Hoops Classic,Hockey,120.00,5
+16,Rinkside Rivals,Classical,150.00,1
+17,Chamber Series,Rock,120.00,2
+18,Stadium Anthems,Pop,120.00,3
+19,Theatre Nights: Les Amis,Hip-Hop/Rap,120.00,4
+20,World Beat Week,Musical,150.00,5
+21,Acoustic After Dark,Comedy,120.00,1
+22,Neon Wave Tour,Basketball,120.00,2
+23,Playoff Fever,Hockey,120.00,3
+24,Opera Gala,Classical,150.00,4
+25,Open Mic Titans,Rock,120.00,5

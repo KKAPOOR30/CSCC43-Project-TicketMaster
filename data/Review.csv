@@ -1,0 +1,100 @@
+review_id,event_rating,venue_rating,comment_text,created_at,user_id,performance_id
+1,5,4,What a raw evening at the venue. The opening act captivated the crowd while the lighting added depth to every song. Truly a memorable vocals.,2026-06-18 19:00:00,7,22
+2,3,4,Solid show overall with a few rough edges. The stage design stood out and the vocals kept things interesting throughout the second half.,2026-06-19 19:00:00,13,22
+3,5,5,"Loved the atmosphere. The choreography was crisp, the lighting was emotional, and the entire performance felt carefully crafted for the audience.",2026-06-16 19:00:00,17,22
+4,4,5,What a electrifying evening at the venue. The headliner captivated the crowd while the drumming added depth to every song. Truly a memorable lighting.,2026-06-14 19:00:00,19,22
+5,4,3,"Loved the atmosphere. The opening act was crisp, the encore was emotional, and the entire bass line felt carefully crafted for the audience.",2026-05-06 19:00:00,8,23
+6,4,3,Solid headliner overall with a few rough edges. The stage design stood out and the show kept things interesting throughout the second half.,2026-05-02 19:00:00,24,23
+7,4,4,"Loved the atmosphere. The choreography was crisp, the crowd was emotional, and the entire show felt carefully crafted for the audience.",2026-05-03 19:00:00,28,23
+8,3,3,An unforgettable night. The intimate encore and powerful vocals created a setlist worth every dollar of the ticket price.,2026-04-30 19:00:00,29,23
+9,3,3,An unforgettable night. The vibrant encore and powerful vocals created a finale worth every dollar of the ticket price.,2026-07-01 19:00:00,8,21
+10,5,4,What a electrifying evening at the venue. The lighting captivated the crowd while the vocals added depth to every song. Truly a memorable vocals.,2026-07-03 19:00:00,9,21
+11,3,5,What a spectacular evening at the venue. The opening act captivated the crowd while the sound mix added depth to every song. Truly a memorable crowd.,2026-07-03 19:00:00,20,21
+12,4,3,The electrifying performance had incredible energy from start to finish. The show was outstanding and the show made the night unforgettable. I would gladly see this guitar solo again.,2026-06-29 19:00:00,21,21
+13,5,5,An unforgettable night. The electrifying vocals and powerful guitar solo created a opening act worth every dollar of the ticket price.,2026-05-24 19:00:00,6,14
+14,5,5,What a intimate evening at the venue. The encore captivated the crowd while the performance added depth to every song. Truly a memorable bass line.,2026-05-23 19:00:00,7,14
+15,5,5,"Loved the atmosphere. The sound mix was crisp, the lighting was emotional, and the entire opening act felt carefully crafted for the audience.",2026-05-20 19:00:00,8,14
+16,4,4,Solid concert overall with a few rough edges. The concert stood out and the guitar solo kept things interesting throughout the second half.,2026-05-23 19:00:00,9,14
+17,5,5,An unforgettable night. The intimate lighting and powerful lighting created a vocals worth every dollar of the ticket price.,2026-06-03 19:00:00,6,15
+18,3,5,Solid headliner overall with a few rough edges. The crowd stood out and the crowd kept things interesting throughout the second half.,2026-05-30 19:00:00,7,15
+19,4,3,What a raw evening at the venue. The guitar solo captivated the crowd while the choreography added depth to every song. Truly a memorable show.,2026-05-30 19:00:00,10,15
+20,3,5,"Loved the atmosphere. The finale was crisp, the stage design was emotional, and the entire harmony felt carefully crafted for the audience.",2026-06-03 19:00:00,23,15
+21,5,3,Solid stage design overall with a few rough edges. The vocals stood out and the bass line kept things interesting throughout the second half.,2026-04-26 19:00:00,6,30
+22,4,4,The spectacular performance had incredible energy from start to finish. The bass line was outstanding and the harmony made the night unforgettable. I would gladly see this crowd again.,2026-04-22 19:00:00,7,30
+23,5,5,The raw performance had incredible energy from start to finish. The harmony was outstanding and the opening act made the night unforgettable. I would gladly see this stage design again.,2026-04-22 19:00:00,11,30
+24,3,3,Solid encore overall with a few rough edges. The headliner stood out and the sound mix kept things interesting throughout the second half.,2026-04-25 19:00:00,16,30
+25,3,5,The polished performance had incredible energy from start to finish. The encore was outstanding and the stage design made the night unforgettable. I would gladly see this vocals again.,2026-08-04 19:00:00,6,34
+26,3,5,"Loved the atmosphere. The show was crisp, the encore was emotional, and the entire encore felt carefully crafted for the audience.",2026-08-03 19:00:00,7,34
+27,3,3,An unforgettable night. The polished drumming and powerful vocals created a encore worth every dollar of the ticket price.,2026-08-01 19:00:00,10,34
+28,5,4,"Loved the atmosphere. The show was crisp, the guitar solo was emotional, and the entire performance felt carefully crafted for the audience.",2026-07-31 19:00:00,17,34
+29,4,3,What a raw evening at the venue. The crowd captivated the crowd while the finale added depth to every song. Truly a memorable bass line.,2026-07-20 19:00:00,6,38
+30,3,3,What a spectacular evening at the venue. The sound mix captivated the crowd while the vocals added depth to every song. Truly a memorable vocals.,2026-07-19 19:00:00,7,38
+31,4,3,"Loved the atmosphere. The concert was crisp, the encore was emotional, and the entire concert felt carefully crafted for the audience.",2026-07-22 19:00:00,8,38
+32,5,4,"Loved the atmosphere. The headliner was crisp, the guitar solo was emotional, and the entire setlist felt carefully crafted for the audience.",2026-07-23 19:00:00,16,38
+33,3,3,Solid opening act overall with a few rough edges. The vocals stood out and the drumming kept things interesting throughout the second half.,2026-05-10 19:00:00,6,13
+34,4,4,An unforgettable night. The polished setlist and powerful crowd created a lighting worth every dollar of the ticket price.,2026-05-12 19:00:00,7,13
+35,5,3,The electrifying performance had incredible energy from start to finish. The guitar solo was outstanding and the encore made the night unforgettable. I would gladly see this concert again.,2026-05-11 19:00:00,8,13
+36,3,5,An unforgettable night. The electrifying vocals and powerful guitar solo created a setlist worth every dollar of the ticket price.,2026-05-11 19:00:00,9,13
+37,5,4,An unforgettable night. The electrifying finale and powerful guitar solo created a encore worth every dollar of the ticket price.,2026-05-25 19:00:00,6,27
+38,4,4,"Loved the atmosphere. The finale was crisp, the vocals was emotional, and the entire performance felt carefully crafted for the audience.",2026-05-30 19:00:00,7,27
+39,3,4,Solid opening act overall with a few rough edges. The stage design stood out and the drumming kept things interesting throughout the second half.,2026-05-30 19:00:00,9,27
+40,5,4,What a intimate evening at the venue. The sound mix captivated the crowd while the headliner added depth to every song. Truly a memorable crowd.,2026-05-31 19:00:00,24,27
+41,3,4,An unforgettable night. The electrifying choreography and powerful guitar solo created a harmony worth every dollar of the ticket price.,2026-05-16 19:00:00,99,28
+42,3,4,An unforgettable night. The vibrant bass line and powerful drumming created a performance worth every dollar of the ticket price.,2026-05-21 19:00:00,36,28
+43,4,5,What a spectacular evening at the venue. The concert captivated the crowd while the headliner added depth to every song. Truly a memorable guitar solo.,2026-05-18 19:00:00,38,28
+44,4,5,What a intimate evening at the venue. The harmony captivated the crowd while the choreography added depth to every song. Truly a memorable encore.,2026-05-21 19:00:00,6,28
+45,4,5,What a raw evening at the venue. The sound mix captivated the crowd while the vocals added depth to every song. Truly a memorable show.,2026-07-24 19:00:00,35,37
+46,3,5,An unforgettable night. The spectacular opening act and powerful encore created a encore worth every dollar of the ticket price.,2026-07-23 19:00:00,58,37
+47,4,5,An unforgettable night. The raw concert and powerful sound mix created a show worth every dollar of the ticket price.,2026-07-27 19:00:00,6,37
+48,3,5,Solid setlist overall with a few rough edges. The sound mix stood out and the guitar solo kept things interesting throughout the second half.,2026-07-25 19:00:00,7,37
+49,5,4,What a spectacular evening at the venue. The vocals captivated the crowd while the lighting added depth to every song. Truly a memorable headliner.,2026-04-07 20:00:00,96,12
+50,3,4,"Loved the atmosphere. The performance was crisp, the drumming was emotional, and the entire encore felt carefully crafted for the audience.",2026-04-08 20:00:00,64,12
+51,4,5,Solid drumming overall with a few rough edges. The drumming stood out and the lighting kept things interesting throughout the second half.,2026-04-12 20:00:00,34,12
+52,4,5,An unforgettable night. The polished encore and powerful choreography created a encore worth every dollar of the ticket price.,2026-04-07 20:00:00,97,12
+53,5,3,An unforgettable night. The spectacular finale and powerful setlist created a finale worth every dollar of the ticket price.,2026-07-26 19:00:00,66,32
+54,3,3,The raw performance had incredible energy from start to finish. The stage design was outstanding and the drumming made the night unforgettable. I would gladly see this guitar solo again.,2026-07-30 19:00:00,37,32
+55,5,3,"Loved the atmosphere. The bass line was crisp, the concert was emotional, and the entire concert felt carefully crafted for the audience.",2026-07-24 19:00:00,104,32
+56,3,4,An unforgettable night. The intimate vocals and powerful headliner created a crowd worth every dollar of the ticket price.,2026-07-26 19:00:00,73,32
+57,3,5,"Loved the atmosphere. The show was crisp, the show was emotional, and the entire setlist felt carefully crafted for the audience.",2026-07-11 19:00:00,64,40
+58,4,4,"Loved the atmosphere. The headliner was crisp, the concert was emotional, and the entire vocals felt carefully crafted for the audience.",2026-07-09 19:00:00,65,40
+59,3,3,The spectacular performance had incredible energy from start to finish. The choreography was outstanding and the choreography made the night unforgettable. I would gladly see this lighting again.,2026-07-07 19:00:00,66,40
+60,5,3,Solid guitar solo overall with a few rough edges. The bass line stood out and the stage design kept things interesting throughout the second half.,2026-07-12 19:00:00,70,40
+61,5,5,What a electrifying evening at the venue. The choreography captivated the crowd while the opening act added depth to every song. Truly a memorable lighting.,2026-03-19 20:00:00,32,9
+62,3,5,"Loved the atmosphere. The vocals was crisp, the crowd was emotional, and the entire performance felt carefully crafted for the audience.",2026-03-18 20:00:00,99,9
+63,3,5,"Loved the atmosphere. The lighting was crisp, the lighting was emotional, and the entire bass line felt carefully crafted for the audience.",2026-03-18 20:00:00,67,9
+64,3,4,What a electrifying evening at the venue. The sound mix captivated the crowd while the concert added depth to every song. Truly a memorable lighting.,2026-03-17 20:00:00,27,9
+65,3,3,The electrifying performance had incredible energy from start to finish. The bass line was outstanding and the drumming made the night unforgettable. I would gladly see this performance again.,2026-05-11 19:00:00,99,29
+66,5,5,The vibrant performance had incredible energy from start to finish. The performance was outstanding and the choreography made the night unforgettable. I would gladly see this sound mix again.,2026-05-11 19:00:00,43,29
+67,4,5,An unforgettable night. The electrifying choreography and powerful opening act created a encore worth every dollar of the ticket price.,2026-05-11 19:00:00,46,29
+68,5,4,"Loved the atmosphere. The show was crisp, the stage design was emotional, and the entire choreography felt carefully crafted for the audience.",2026-05-09 19:00:00,110,29
+69,3,3,An unforgettable night. The polished harmony and powerful finale created a vocals worth every dollar of the ticket price.,2026-08-01 19:00:00,97,36
+70,3,5,What a raw evening at the venue. The harmony captivated the crowd while the crowd added depth to every song. Truly a memorable harmony.,2026-07-31 19:00:00,67,36
+71,5,4,The electrifying performance had incredible energy from start to finish. The performance was outstanding and the setlist made the night unforgettable. I would gladly see this concert again.,2026-07-31 19:00:00,68,36
+72,4,5,"Loved the atmosphere. The vocals was crisp, the performance was emotional, and the entire encore felt carefully crafted for the audience.",2026-08-02 19:00:00,7,36
+73,3,4,The vibrant performance had incredible energy from start to finish. The crowd was outstanding and the sound mix made the night unforgettable. I would gladly see this choreography again.,2026-07-14 19:00:00,36,39
+74,3,3,The polished performance had incredible energy from start to finish. The show was outstanding and the choreography made the night unforgettable. I would gladly see this performance again.,2026-07-17 19:00:00,70,39
+75,3,5,What a vibrant evening at the venue. The opening act captivated the crowd while the stage design added depth to every song. Truly a memorable performance.,2026-07-14 19:00:00,72,39
+76,4,5,What a raw evening at the venue. The harmony captivated the crowd while the crowd added depth to every song. Truly a memorable lighting.,2026-07-14 19:00:00,107,39
+77,5,5,The electrifying performance had incredible energy from start to finish. The setlist was outstanding and the drumming made the night unforgettable. I would gladly see this concert again.,2026-08-03 19:00:00,105,33
+78,3,3,"Loved the atmosphere. The finale was crisp, the sound mix was emotional, and the entire show felt carefully crafted for the audience.",2026-08-03 19:00:00,44,33
+79,4,3,Solid encore overall with a few rough edges. The drumming stood out and the bass line kept things interesting throughout the second half.,2026-08-04 19:00:00,12,33
+80,5,4,What a electrifying evening at the venue. The opening act captivated the crowd while the lighting added depth to every song. Truly a memorable opening act.,2026-08-07 19:00:00,80,33
+81,4,3,"Loved the atmosphere. The sound mix was crisp, the stage design was emotional, and the entire opening act felt carefully crafted for the audience.",2026-06-29 19:00:00,68,26
+82,5,3,An unforgettable night. The raw finale and powerful guitar solo created a headliner worth every dollar of the ticket price.,2026-06-28 19:00:00,6,26
+83,3,5,What a polished evening at the venue. The finale captivated the crowd while the encore added depth to every song. Truly a memorable guitar solo.,2026-06-26 19:00:00,7,26
+84,3,4,The raw performance had incredible energy from start to finish. The drumming was outstanding and the encore made the night unforgettable. I would gladly see this opening act again.,2026-06-24 19:00:00,112,26
+85,5,5,The intimate performance had incredible energy from start to finish. The bass line was outstanding and the finale made the night unforgettable. I would gladly see this lighting again.,2026-07-20 19:00:00,103,31
+86,5,3,Solid choreography overall with a few rough edges. The drumming stood out and the bass line kept things interesting throughout the second half.,2026-07-18 19:00:00,10,31
+87,3,3,"Loved the atmosphere. The drumming was crisp, the concert was emotional, and the entire drumming felt carefully crafted for the audience.",2026-07-18 19:00:00,75,31
+88,3,3,The electrifying performance had incredible energy from start to finish. The drumming was outstanding and the choreography made the night unforgettable. I would gladly see this headliner again.,2026-07-18 19:00:00,79,31
+89,3,4,Solid choreography overall with a few rough edges. The lighting stood out and the encore kept things interesting throughout the second half.,2026-03-23 19:00:00,7,25
+90,4,4,An unforgettable night. The vibrant finale and powerful concert created a opening act worth every dollar of the ticket price.,2026-03-26 19:00:00,76,25
+91,3,3,What a intimate evening at the venue. The harmony captivated the crowd while the crowd added depth to every song. Truly a memorable drumming.,2026-03-25 19:00:00,45,25
+92,4,4,The spectacular performance had incredible energy from start to finish. The vocals was outstanding and the choreography made the night unforgettable. I would gladly see this stage design again.,2026-03-24 19:00:00,48,25
+93,4,3,What a raw evening at the venue. The show captivated the crowd while the headliner added depth to every song. Truly a memorable choreography.,2026-08-02 19:00:00,72,35
+94,3,4,"Loved the atmosphere. The harmony was crisp, the choreography was emotional, and the entire encore felt carefully crafted for the audience.",2026-08-04 19:00:00,75,35
+95,4,5,An unforgettable night. The spectacular choreography and powerful encore created a crowd worth every dollar of the ticket price.,2026-08-04 19:00:00,80,35
+96,3,4,An unforgettable night. The polished choreography and powerful harmony created a finale worth every dollar of the ticket price.,2026-08-02 19:00:00,16,35
+97,4,3,The vibrant performance had incredible energy from start to finish. The sound mix was outstanding and the setlist made the night unforgettable. I would gladly see this crowd again.,2026-04-15 19:00:00,8,24
+98,4,4,What a spectacular evening at the venue. The drumming captivated the crowd while the headliner added depth to every song. Truly a memorable finale.,2026-04-16 19:00:00,14,24
+99,4,3,An unforgettable night. The raw encore and powerful lighting created a finale worth every dollar of the ticket price.,2026-04-10 19:00:00,103,24
