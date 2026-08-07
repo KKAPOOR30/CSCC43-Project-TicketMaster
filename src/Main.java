@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Scanner;
 import service.BookingService;
 import service.OrganizerService;
+import service.OrganizerToolkitService;
 import service.QueryService;
 import service.ReportService;
 import service.ResaleService;
@@ -20,13 +21,13 @@ import service.UserService;
 import util.Console;
 
 /**
- * MyTix terminal application: operations, searches (Q1–Q7) and reports (R1–R9).
+ * MyTix terminal application: operations, searches (Q1–Q7), reports (R1–R9),
+ * and the organizer toolkit.
  *
  * <p>Compile / run from the project root:
  *
  * <pre>
- *   javac -cp mysql-connector-java-8.0.29.jar -d out src/*.java src/db/*.java src/util/*.java src/service/*.java
- *   java -cp "out;mysql-connector-java-8.0.29.jar" Main
+ *   ./run.sh
  * </pre>
  */
 public class Main {
@@ -42,6 +43,7 @@ public class Main {
     private final ReviewService reviews;
     private final QueryService queries;
     private final ReportService reports;
+    private final OrganizerToolkitService toolkit;
 
     private Integer currentUserId;
 
@@ -54,6 +56,7 @@ public class Main {
         this.reviews = new ReviewService(conn);
         this.queries = new QueryService(conn);
         this.reports = new ReportService(conn);
+        this.toolkit = new OrganizerToolkitService(conn);
     }
 
     public static void main(String[] args) {
@@ -197,6 +200,7 @@ public class Main {
             System.out.println("  9) Unblock seat");
             System.out.println(" 10) Cancel performance");
             System.out.println(" 11) List my events / genres / venues / artists");
+            System.out.println(" 12) Organizer toolkit (pricing suggestions)");
             System.out.println("  0) Back");
             String c = ui.line("Select: ");
             try {
@@ -212,6 +216,7 @@ public class Main {
                     case "9" -> unblockSeat(uid);
                     case "10" -> cancelPerformance(uid);
                     case "11" -> browseOrganizer(uid);
+                    case "12" -> toolkitMenu();
                     case "0" -> back = true;
                     default -> System.out.println("Unknown option.");
                 }
@@ -335,6 +340,41 @@ public class Main {
         if (ui.yn("List performances for an event?")) {
             int eventId = ui.intVal("Event id: ");
             organizers.listPerformances(eventId);
+        }
+    }
+
+    private void toolkitMenu() throws SQLException {
+        boolean back = false;
+        while (!back) {
+            System.out.println();
+            System.out.println("--- Organizer toolkit ---");
+            System.out.println("  1) Suggest tiers & prices for a new performance");
+            System.out.println("  2) Estimate revenue impact of a tier price change");
+            System.out.println("  0) Back");
+            String c = ui.line("Select: ");
+            try {
+                switch (c) {
+                    case "1" -> {
+                        organizers.listVenues();
+                        int venueId = ui.intVal("Venue id for the new performance: ");
+                        organizers.listGenres();
+                        String genre = ui.required("Genre (exact): ");
+                        toolkit.suggestForNewPerformance(venueId, genre);
+                    }
+                    case "2" -> {
+                        int eventId = ui.intVal("Event id (to list performances): ");
+                        organizers.listPerformances(eventId);
+                        int perfId = ui.intVal("Performance id: ");
+                        String tier = ui.required("Tier name: ");
+                        BigDecimal newPrice = ui.money("Proposed new price: ");
+                        toolkit.estimatePriceChangeImpact(perfId, tier, newPrice);
+                    }
+                    case "0" -> back = true;
+                    default -> System.out.println("Unknown option.");
+                }
+            } catch (SQLException e) {
+                System.out.println("  ERROR: " + friendly(e));
+            }
         }
     }
 
