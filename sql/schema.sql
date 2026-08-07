@@ -13,7 +13,7 @@
 CREATE DATABASE IF NOT EXISTS ticketMaster_db;
 USE ticketMaster_db;
 
-CREATE TABLE User (
+CREATE TABLE IF NOT EXISTS User (
     user_id         INT             NOT NULL AUTO_INCREMENT,
     name            VARCHAR(100)    NOT NULL,
     address         VARCHAR(200)    NOT NULL,
@@ -26,14 +26,14 @@ CREATE TABLE User (
     -- such as CURRENT_DATE inside one. It is enforced by a trigger below.
 );
 
-CREATE TABLE Customer (
+CREATE TABLE IF NOT EXISTS Customer (
     user_id         INT             NOT NULL,
     PRIMARY KEY (user_id),
     FOREIGN KEY (user_id) REFERENCES User (user_id)
         ON DELETE CASCADE
 );
 
-CREATE TABLE Organizer (
+CREATE TABLE IF NOT EXISTS Organizer (
     user_id         INT             NOT NULL,
     PRIMARY KEY (user_id),
     FOREIGN KEY (user_id) REFERENCES User (user_id)
@@ -44,14 +44,14 @@ CREATE TABLE Organizer (
 -- Venues and their seating layout
 -- -------------------------------------------------------------
 
-CREATE TABLE PostalCode (
+CREATE TABLE IF NOT EXISTS PostalCode (
     postal_code     VARCHAR(12)     NOT NULL,
     city            VARCHAR(100)    NOT NULL,
     country         VARCHAR(100)    NOT NULL,
     PRIMARY KEY (postal_code)
 );
 
-CREATE TABLE Venue (
+CREATE TABLE IF NOT EXISTS Venue (
     venue_id        INT             NOT NULL AUTO_INCREMENT,
     name            VARCHAR(150)    NOT NULL,
     latitude        DECIMAL(9,6)    NOT NULL,
@@ -70,7 +70,7 @@ CREATE INDEX idx_venue_address ON Venue (street_address, postal_code);
 -- Q1 ranks venues by distance from a search point.
 CREATE INDEX idx_venue_coords ON Venue (latitude, longitude);
 
-CREATE TABLE Section (
+CREATE TABLE IF NOT EXISTS Section (
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
     PRIMARY KEY (venue_id, section_name),
@@ -78,7 +78,7 @@ CREATE TABLE Section (
         ON DELETE CASCADE
 );
 
-CREATE TABLE ReservedSection (
+CREATE TABLE IF NOT EXISTS ReservedSection (
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
     PRIMARY KEY (venue_id, section_name),
@@ -87,7 +87,7 @@ CREATE TABLE ReservedSection (
         ON DELETE CASCADE
 );
 
-CREATE TABLE GASection (
+CREATE TABLE IF NOT EXISTS GASection (
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
     capacity        INT             NOT NULL,
@@ -98,7 +98,7 @@ CREATE TABLE GASection (
     CONSTRAINT ga_capacity_positive CHECK (capacity > 0)
 );
 
-CREATE TABLE SeatRow (
+CREATE TABLE IF NOT EXISTS SeatRow (
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
     row_name        VARCHAR(20)     NOT NULL,
@@ -108,7 +108,7 @@ CREATE TABLE SeatRow (
         ON DELETE CASCADE
 );
 
-CREATE TABLE Seat (
+CREATE TABLE IF NOT EXISTS Seat (
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
     row_name        VARCHAR(20)     NOT NULL,
@@ -124,13 +124,13 @@ CREATE TABLE Seat (
 -- Events, artists and performances
 -- -------------------------------------------------------------
 
-CREATE TABLE Genre (
+CREATE TABLE IF NOT EXISTS Genre (
     genre           VARCHAR(60)     NOT NULL,
     segment         VARCHAR(60)     NOT NULL,
     PRIMARY KEY (genre)
 );
 
-CREATE TABLE Event (
+CREATE TABLE IF NOT EXISTS Event (
     event_id        INT             NOT NULL AUTO_INCREMENT,
     name            VARCHAR(200)    NOT NULL,
     genre           VARCHAR(60)     NOT NULL,
@@ -143,13 +143,13 @@ CREATE TABLE Event (
         CHECK (resale_cap_pct >= 100.00)
 );
 
-CREATE TABLE Artist (
+CREATE TABLE IF NOT EXISTS Artist (
     artist_id       INT             NOT NULL AUTO_INCREMENT,
     name            VARCHAR(150)    NOT NULL,
     PRIMARY KEY (artist_id)
 );
 
-CREATE TABLE Features (
+CREATE TABLE IF NOT EXISTS Features (
     event_id        INT             NOT NULL,
     artist_id       INT             NOT NULL,
     billing_order   ENUM('headliner','special guest','opening act') NOT NULL,
@@ -158,7 +158,7 @@ CREATE TABLE Features (
     FOREIGN KEY (artist_id) REFERENCES Artist (artist_id)
 );
 
-CREATE TABLE Performance (
+CREATE TABLE IF NOT EXISTS Performance (
     performance_id  INT             NOT NULL AUTO_INCREMENT,
     p_datetime      DATETIME        NOT NULL,
     cancelled       BOOLEAN         NOT NULL DEFAULT FALSE,
@@ -176,7 +176,7 @@ CREATE TABLE Performance (
 -- Q1, Q2, Q4 and Q5 all filter performances by date.
 CREATE INDEX idx_performance_datetime ON Performance (p_datetime);
 
-CREATE TABLE PriceTier (
+CREATE TABLE IF NOT EXISTS PriceTier (
     performance_id  INT             NOT NULL,
     tier_name       VARCHAR(20)     NOT NULL,
     price           DECIMAL(10,2)   NOT NULL,
@@ -186,7 +186,7 @@ CREATE TABLE PriceTier (
     CONSTRAINT tier_price_positive CHECK (price > 0)
 );
 
-CREATE TABLE AssignedTo (
+CREATE TABLE IF NOT EXISTS AssignedTo (
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
     performance_id  INT             NOT NULL,
@@ -200,7 +200,7 @@ CREATE TABLE AssignedTo (
         ON DELETE CASCADE
 );
 
-CREATE TABLE Blocks (
+CREATE TABLE IF NOT EXISTS Blocks (
     performance_id  INT             NOT NULL,
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
@@ -220,7 +220,7 @@ CREATE TABLE Blocks (
 -- Orders and tickets
 -- -------------------------------------------------------------
 
-CREATE TABLE Orders (
+CREATE TABLE IF NOT EXISTS Orders (
     order_id        INT             NOT NULL AUTO_INCREMENT,
     order_date      DATETIME        NOT NULL,
     card_number     VARCHAR(19)     NOT NULL,
@@ -236,7 +236,7 @@ CREATE TABLE Orders (
 CREATE INDEX idx_orders_date     ON Orders (order_date);
 CREATE INDEX idx_orders_customer ON Orders (user_id);
 
-CREATE TABLE Ticket (
+CREATE TABLE IF NOT EXISTS Ticket (
     ticket_id           INT             NOT NULL AUTO_INCREMENT,
     face_value          DECIMAL(10,2)   NOT NULL,
     cancelled           BOOLEAN         NOT NULL DEFAULT FALSE,
@@ -258,7 +258,7 @@ CREATE TABLE Ticket (
 
 CREATE INDEX idx_ticket_order ON Ticket (order_id);
 
-CREATE TABLE SeatTicket (
+CREATE TABLE IF NOT EXISTS SeatTicket (
     ticket_id       INT             NOT NULL,
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
@@ -275,7 +275,7 @@ CREATE TABLE SeatTicket (
 CREATE INDEX idx_seatticket_seat
     ON SeatTicket (venue_id, section_name, row_name, seat_number);
 
-CREATE TABLE GATicket (
+CREATE TABLE IF NOT EXISTS GATicket (
     ticket_id       INT             NOT NULL,
     venue_id        INT             NOT NULL,
     section_name    VARCHAR(60)     NOT NULL,
@@ -292,7 +292,7 @@ CREATE INDEX idx_gaticket_section ON GATicket (venue_id, section_name);
 -- Resale market
 -- -------------------------------------------------------------
 
-CREATE TABLE Listing (
+CREATE TABLE IF NOT EXISTS Listing (
     listing_id      INT             NOT NULL AUTO_INCREMENT,
     list_price      DECIMAL(10,2)   NOT NULL,
     status          ENUM('active','withdrawn','sold') NOT NULL DEFAULT 'active',
@@ -308,7 +308,7 @@ CREATE TABLE Listing (
 CREATE INDEX idx_listing_ticket ON Listing (ticket_id);
 CREATE INDEX idx_listing_seller ON Listing (user_id);
 
-CREATE TABLE Resale (
+CREATE TABLE IF NOT EXISTS Resale (
     resale_id       INT             NOT NULL AUTO_INCREMENT,
     sold_at         DATETIME        NOT NULL,
     listing_id      INT             NOT NULL,
@@ -326,7 +326,7 @@ CREATE INDEX idx_resale_sold_at ON Resale (sold_at);
 -- Reviews
 -- -------------------------------------------------------------
 
-CREATE TABLE Review (
+CREATE TABLE IF NOT EXISTS Review (
     review_id       INT             NOT NULL AUTO_INCREMENT,
     event_rating    TINYINT         NOT NULL,
     venue_rating    TINYINT         NOT NULL,
