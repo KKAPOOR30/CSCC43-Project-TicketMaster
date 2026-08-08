@@ -7,7 +7,9 @@ Group members:
 ## Run
 
 ```
-./run.sh
+windows: bash ./run.sh
+MacOS: ./run.sh
+Linux: ./run.sh
 ```
 
 Note: the submission archive requires a plain-text `README` file (no
