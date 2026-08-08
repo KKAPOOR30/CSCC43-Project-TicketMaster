@@ -192,8 +192,6 @@ def main() -> None:
     # Section layouts per size
     # reserved: list of (section_name, rows, seats_per_row)
     # ga: list of (section_name, capacity) — only for some venues
-    # Keep layouts modest so bulk loading (with per-row triggers) stays fast,
-    # while still varying venue size and meeting the 800+ ticket minimum.
     layouts = {
         "small": {
             "reserved": [("Floor", ["A", "B", "C", "D"], 8), ("Balcony", ["E", "F"], 6)],
@@ -241,7 +239,6 @@ def main() -> None:
             ga_rows.append([vid, sec, cap])
             ga_capacity[(vid, sec)] = cap
 
-    # Venues 1 (large) and 3 (small) have both reserved + GA — already true.
     write_csv("Section.csv", ["venue_id", "section_name"], section_rows)
     write_csv("ReservedSection.csv", ["venue_id", "section_name"], reserved_rows)
     write_csv("GASection.csv", ["venue_id", "section_name", "capacity"], ga_rows)
@@ -748,15 +745,7 @@ def main() -> None:
 
     # Price change locked (has sales in P1)
     sell_performance(upcoming_price_locked, 0.30)
-    # upcoming_price_change: sell NOTHING into its tiers (or only into one lower tier)
-    # Sell a few into last tier only so P1 has zero sales
-    pc_vid = perf_meta[upcoming_price_change]["venue_id"]
-    last_tier_secs = [
-        s for s, t in perf_meta[upcoming_price_change]["section_tier"].items()
-        if t == list(perf_meta[upcoming_price_change]["tiers"].keys())[-1]
-    ]
-    # Actually sell zero tickets for clean P1/P2 price-change demo
-    # (requirement: some tiers with no tickets sold)
+    # upcoming_price_change is left with zero sales in every tier.
 
     # More upcoming light sales for volume
     for p_id, meta in perf_meta.items():
@@ -960,18 +949,13 @@ def main() -> None:
         for s in (scalper1, scalper2)
     }
     for s, tids in scalper_tickets.items():
-        # ensure >= 10 purchased (count includes cancelled? use all tickets ever for them)
         owned = tids[:]
-        # list more than half
         n_list = max(len(owned) // 2 + 1, 1)
         for tid in owned[:n_list]:
             list_ticket(tid, s, at_cap=(tid % 3 == 0), status="active",
                         listed_at=days_ago(RNG.randint(5, 40)))
 
-    # Ensure scalpers have >= 10 tickets purchased — already tried; print counts
     for s in (scalper1, scalper2):
-        purchased = sum(1 for r in ticket_rows if True)
-        # count tickets from their orders
         their_orders = set(customer_orders[s])
         their_tix = [r[0] for r in ticket_rows if r[5] in their_orders]
         print(f"  scalper {s}: purchased {len(their_tix)}, currently owned {len(scalper_tickets[s])}")
@@ -1009,7 +993,6 @@ def main() -> None:
     double_tid = None
     for tid, owner in list(ticket_owner.items()):
         if ticket_perf[tid] and perf_meta[ticket_perf[tid]]["when"] > TODAY:
-            # already resold once?
             prior = [rr for rr in resale_rows if any(
                 lr[0] == rr[2] and lr[4] == tid for lr in listing_rows
             )]
@@ -1025,7 +1008,6 @@ def main() -> None:
             break
 
     if double_tid is not None:
-        # If not already sold once, sell once
         already = [rr for rr in resale_rows if any(
             lr[0] == rr[2] and lr[4] == double_tid for lr in listing_rows
         )]

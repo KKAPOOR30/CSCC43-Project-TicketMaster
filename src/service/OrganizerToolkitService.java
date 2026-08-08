@@ -12,34 +12,11 @@ import java.util.List;
 import java.util.Locale;
 
 /**
- * Organizer toolkit: suggest a tier structure and prices for a new performance,
- * and estimate the revenue impact of a proposed tier price change.
- *
- * <h2>Strategy (documented justification)</h2>
- *
- * <p><b>Comparables.</b> We look at past, non-cancelled performances of the same
- * genre whose venue capacity is within ±35% of the target venue. Same-city
- * comparables are preferred (weighted 2× when averaging). Only performances in
- * the last 24 months are used so prices stay current.
- *
- * <p><b>Tier structure.</b> The suggested number of tiers is the median tier
- * count among comparables (clamped to 2–4). Capacity is then split across tiers
- * using the average share of sellable capacity that comparables assigned to
- * their highest-priced, middle, and lowest-priced tiers. If history is thin, we
- * fall back to a size heuristic: small venues → 2 tiers (40/60), larger → 3
- * tiers (25/35/40).
- *
- * <p><b>Prices.</b> For each suggested tier rank (1 = most expensive), we take
- * the capacity-weighted average price of the corresponding rank among
- * comparables, rounded to the nearest dollar. Same-city comps outweigh others.
- *
- * <p><b>Price-change revenue estimate (extra).</b> For an existing performance
- * tier we fit a simple linear demand model from comparable (price, units sold)
- * points of the same genre and similar capacity: {@code sold ≈ a − b·price}.
- * Applying the model at the current and proposed prices yields expected sold
- * units (clamped to sellable capacity). Expected revenue change is
- * {@code newPrice·newSold − oldPrice·oldSold}. This is a rough positioning aid,
- * not a forecast.
+ * Organizer toolkit: suggests a tier structure and prices for a new
+ * performance from comparable past performances (same genre, venue capacity
+ * within +-35%, same city weighted higher), and estimates the revenue impact
+ * of a proposed tier price change from a linear demand fit over comparable
+ * (price, sold) observations.
  */
 public class OrganizerToolkitService {
 
@@ -140,7 +117,6 @@ public class OrganizerToolkitService {
                 continue;
             }
             double w = c.sameCity ? 2.0 : 1.0;
-            // replicate weighted points simply by adding multiple copies
             for (int k = 0; k < (int) w; k++) {
                 points.add(new double[] {t.price, t.sold});
             }
@@ -238,7 +214,6 @@ public class OrganizerToolkitService {
             shares = averageShares(comps, tierCount);
             prices = averagePrices(comps, tierCount);
         } else {
-            // Heuristic fallback when history is sparse.
             if (venue.capacity < 120) {
                 tierCount = 2;
                 shares = new double[] {0.40, 0.60};
@@ -252,7 +227,6 @@ public class OrganizerToolkitService {
                 shares = new double[] {0.20, 0.35, 0.45};
                 prices = new double[] {220, 130, 70};
             }
-            // Soft-adjust prices if we have at least one comparable.
             if (!comps.isEmpty()) {
                 double[] fromComps = averagePrices(comps, tierCount);
                 for (int i = 0; i < tierCount; i++) {
@@ -370,7 +344,6 @@ public class OrganizerToolkitService {
                 leftover += 1.0 / tierCount;
                 out[i] = 1.0 / tierCount;
             }
-            // renormalize later
             normalize(out);
         }
         return out;
@@ -614,14 +587,12 @@ public class OrganizerToolkitService {
         if (Math.abs(denom) < 1e-9) {
             return new double[] {sumY / n, 0};
         }
-        // y = alpha + beta*x  with beta typically negative
         double beta = (n * sumXY - sumX * sumY) / denom;
         double alpha = (sumY - beta * sumX) / n;
-        // We expose sold ≈ a − b·price with b = −beta if beta is negative.
         if (beta <= 0) {
             return new double[] {alpha, -beta};
         }
-        // If the fit slopes the wrong way, fall back to mean demand, zero slope.
+        // Fit sloped the wrong way (sold rising with price); fall back to flat demand.
         return new double[] {sumY / n, 0};
     }
 
