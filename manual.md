@@ -94,13 +94,7 @@ python generate_data.py
 ./run.sh
 ```
 
-**Windows PowerShell / cmd** (convenience wrapper; submission still uses `run.sh`):
-
-```bat
-.\run.bat
-```
-
-`run.sh` / `run.bat` compile all sources under `src/` into `out/` and start `Main`.
+`run.sh` compiles all sources under `src/` into `out/` and starts `Main`.
 
 On success you should see:
 
@@ -289,7 +283,7 @@ Organizer menu **12**.
 9. **Organizer toolkit** suggestions depend on having enough comparable history; sparse genres fall back to simple heuristics.
 10. **R9 noun phrases** use stopword filtering and n-grams, not a full NLP parser, so phrases are approximate.
 11. **`sql/load.sql` paths** are relative to the MySQL client's working directory, so `mysql ... < sql/load.sql` must be run from the project root (this is how the grading sequence invokes it).
-12. **Windows:** PowerShell does not execute `./run.sh` natively; use Git Bash, WSL with a JDK, or `run.bat`.
+12. **Windows:** PowerShell does not execute `./run.sh` natively; use Git Bash or WSL with a JDK.
 
 ---
 
@@ -305,34 +299,6 @@ Organizer menu **12**.
 8. Full NLP pipeline (or a library such as OpenNLP) for R9 noun-phrase quality.
 9. Batch admin tools: import venues/sections from files, clone a performance’s tier layout.
 10. Export reports to CSV from the menu for marking and organizer use.
-
----
-
-## 9. File map (for maintainers)
-
-| Path | Role |
-|------|------|
-| `sql/schema.sql` | Create schema |
-| `sql/drop.sql` | Drop schema |
-| `sql/load.sql` | Bulk-load CSVs |
-| `data/*.csv` | Sample data |
-| `src/` | Java application |
-| `run.sh` | Compile and run (submission entry point) |
-| `generate_data.py` | Regenerate sample CSVs |
-| `report.pdf` | Design report (separate document) |
-| `manual.md` / `manual.pdf` | This manual |
-
----
-
-## 10. Converting this manual to PDF
-
-When you are ready to submit `manual.pdf`, convert from this file, for example:
-
-```bash
-pandoc manual.md -o manual.pdf
-```
-
-Or use a Markdown PDF extension in VS Code / Cursor (“Markdown PDF: Export (pdf)”).
 
 ---
 
