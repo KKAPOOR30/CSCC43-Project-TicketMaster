@@ -1,8 +1,6 @@
 # MyTix User Manual
 
-**Course:** CSCC43 Database Design Project  
-**System:** MyTix (event ticketing platform)  
-**Group members:** *(fill in names and student numbers)*
+**System:** MyTix (event ticketing platform)
 
 ---
 
@@ -18,12 +16,12 @@ The application is a single-user terminal program that talks to a MySQL 8 databa
 
 Before you begin, ensure the following are available:
 
-| Component | Notes |
-|-----------|--------|
-| MySQL 8 | Server running locally; client able to execute `.sql` files |
-| Java JDK 17+ | `javac` and `java` on your `PATH` |
-| MySQL Connector/J | Bundled as `mysql-connector-java-8.0.29.jar` in the project root |
-| Bash (for `run.sh`) | Linux / macOS / Git Bash on Windows |
+| Component           | Notes                                                            |
+| ------------------- | ---------------------------------------------------------------- |
+| MySQL 8             | Server running locally; client able to execute `.sql` files      |
+| Java JDK 17+        | `javac` and `java` on your `PATH`                                |
+| MySQL Connector/J   | Bundled as `mysql-connector-java-8.0.29.jar` in the project root |
+| Bash (for `run.sh`) | Linux / macOS / Git Bash on Windows                              |
 
 Default JDBC settings assume a local MySQL 8 server with the `root` account
 and no password (the standard result of the course-provided MySQL install
@@ -31,7 +29,7 @@ instructions):
 
 - URL: `jdbc:mysql://localhost:3306/ticketMaster_db`
 - User: `root`
-- Password: *(empty string)*
+- Password: _(empty string)_
 
 If your local setup differs, override these without editing any source file
 by setting environment variables before running `run.sh`:
@@ -109,13 +107,13 @@ Connected to MyTix (...)
 
 The loaded dataset is sized to exercise every operation, query, and report. Approximate contents:
 
-| Entity | Scale (approx.) |
-|--------|------------------|
-| Venues | 9 (Toronto, Vancouver, Montreal, New York, Chicago) |
-| Organizers | users **1–5** |
-| Customers | users **6–115** |
-| Events / performances | 25+ / 60+ |
-| Orders / tickets | hundreds / thousands |
+| Entity                | Scale (approx.)                                     |
+| --------------------- | --------------------------------------------------- |
+| Venues                | 9 (Toronto, Vancouver, Montreal, New York, Chicago) |
+| Organizers            | users **1–5**                                       |
+| Customers             | users **6–115**                                     |
+| Events / performances | 25+ / 60+                                           |
+| Orders / tickets      | hundreds / thousands                                |
 
 Useful landmarks for manual testing:
 
@@ -139,16 +137,16 @@ After most actions, press **Enter** to continue.
 
 ### 5.1 Main menu
 
-| Option | Action |
-|--------|--------|
-| 1 | Sign in (set current user id) |
-| 2 | Create user (customer and/or organizer) |
-| 3 | Delete user |
-| 4 | Organizer operations |
-| 5 | Customer operations |
-| 6 | Search queries (Q1–Q7) |
-| 7 | Reports (R1–R9) |
-| 0 | Exit |
+| Option | Action                                  |
+| ------ | --------------------------------------- |
+| 1      | Sign in (set current user id)           |
+| 2      | Create user (customer and/or organizer) |
+| 3      | Delete user                             |
+| 4      | Organizer operations                    |
+| 5      | Customer operations                     |
+| 6      | Search queries (Q1–Q7)                  |
+| 7      | Reports (R1–R9)                         |
+| 0      | Exit                                    |
 
 ### 5.2 Users
 
@@ -165,20 +163,20 @@ Removes the account if the database allows it. Users with orders, listings, resa
 
 Sign in as an organizer, then choose main menu **4**.
 
-| Option | What it does |
-|--------|----------------|
-| 1 | Create an event (name, genre, resale cap %) |
-| 2 | Update an event’s resale cap |
-| 3 | Link an artist to an event with a billing order (`headliner`, `special guest`, `opening act`) |
-| 4 | Add a performance (event, venue, date/time `YYYY-MM-DD HH:MM`) |
-| 5 | Add a price tier to a performance |
-| 6 | Assign a venue section to a tier for a performance |
-| 7 | Update a tier’s price (future performances only; refused if any ticket already sold in that tier) |
-| 8 / 9 | Block / unblock a reserved seat for a performance |
-| 10 | Cancel a performance (refunds all sold tickets; withdraws active listings) |
-| 11 | Browse your events, genres, venues, artists, and performances |
-| 12 | Organizer toolkit (see §5.6) |
-| 0 | Back to main menu |
+| Option | What it does                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------- |
+| 1      | Create an event (name, genre, resale cap %)                                                       |
+| 2      | Update an event’s resale cap                                                                      |
+| 3      | Link an artist to an event with a billing order (`headliner`, `special guest`, `opening act`)     |
+| 4      | Add a performance (event, venue, date/time `YYYY-MM-DD HH:MM`)                                    |
+| 5      | Add a price tier to a performance                                                                 |
+| 6      | Assign a venue section to a tier for a performance                                                |
+| 7      | Update a tier’s price (future performances only; refused if any ticket already sold in that tier) |
+| 8 / 9  | Block / unblock a reserved seat for a performance                                                 |
+| 10     | Cancel a performance (refunds all sold tickets; withdraws active listings)                        |
+| 11     | Browse your events, genres, venues, artists, and performances                                     |
+| 12     | Organizer toolkit (see §5.6)                                                                      |
+| 0      | Back to main menu                                                                                 |
 
 **Typical setup order for a new show:** create event → add artist(s) → add performance → add price tiers → assign every section to a tier → (optional) block seats.
 
@@ -186,18 +184,18 @@ Sign in as an organizer, then choose main menu **4**.
 
 Sign in as a customer, then choose main menu **5**.
 
-| Option | What it does |
-|--------|----------------|
-| 1 | Book tickets for a performance (reserved seats and/or GA quantity; card number + expiry stored on the order) |
-| 2 | List your orders |
-| 3 | List tickets on one of your orders |
-| 4 | Cancel selected tickets on an order you placed (only if the performance is **more than seven days** away) |
-| 5 | List tickets you currently own (original purchase or latest resale) |
-| 6 | List an owned ticket for resale (price must not exceed the event resale cap) |
-| 7 | Withdraw one of your active listings |
-| 8 | Browse active listings and buy one (ownership transfers) |
-| 9 | Write a review for a past performance you attended |
-| 0 | Back |
+| Option | What it does                                                                                                 |
+| ------ | ------------------------------------------------------------------------------------------------------------ |
+| 1      | Book tickets for a performance (reserved seats and/or GA quantity; card number + expiry stored on the order) |
+| 2      | List your orders                                                                                             |
+| 3      | List tickets on one of your orders                                                                           |
+| 4      | Cancel selected tickets on an order you placed (only if the performance is **more than seven days** away)    |
+| 5      | List tickets you currently own (original purchase or latest resale)                                          |
+| 6      | List an owned ticket for resale (price must not exceed the event resale cap)                                 |
+| 7      | Withdraw one of your active listings                                                                         |
+| 8      | Browse active listings and buy one (ownership transfers)                                                     |
+| 9      | Write a review for a past performance you attended                                                           |
+| 0      | Back                                                                                                         |
 
 **Booking reserved seats:** enter section, row, and seat number repeatedly; leave section blank to finish, then optionally add GA tickets.
 
@@ -207,15 +205,15 @@ Sign in as a customer, then choose main menu **5**.
 
 Main menu **6**. Searches do not require sign-in.
 
-| Query | Description |
-|-------|-------------|
-| Q1 | Upcoming performances within a radius (km) of a latitude/longitude. Default radius **50 km**. Rank by `distance`, `price_asc`, or `price_desc`. Optional date bounds and minimum available tickets. |
-| Q2 | Upcoming performances at venues in the same or adjacent postal codes. Adjacent = shared first three characters of the compact postal code, or the same first two characters within the same city. |
-| Q3 | Exact street-address lookup of a venue and its upcoming performances. |
-| Q4 | Temporal refinement: choose a base search (nearby / postal / address / city) plus a required date range and minimum available tickets. |
-| Q5 | Full filter: any combination of city, segment, genre, date range, cheapest-ticket price band, minimum availability, and seating type (`reserved` / `ga`). |
-| Q6 | Seat-map summary for one performance: per section, tier, price, available / sold / blocked counts (GA reports remaining capacity). |
-| Q7 | Best available: cheapest block of `q` consecutive seats in the same row, optional total budget. |
+| Query | Description                                                                                                                                                                                         |
+| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Q1    | Upcoming performances within a radius (km) of a latitude/longitude. Default radius **50 km**. Rank by `distance`, `price_asc`, or `price_desc`. Optional date bounds and minimum available tickets. |
+| Q2    | Upcoming performances at venues in the same or adjacent postal codes. Adjacent = shared first three characters of the compact postal code, or the same first two characters within the same city.   |
+| Q3    | Exact street-address lookup of a venue and its upcoming performances.                                                                                                                               |
+| Q4    | Temporal refinement: choose a base search (nearby / postal / address / city) plus a required date range and minimum available tickets.                                                              |
+| Q5    | Full filter: any combination of city, segment, genre, date range, cheapest-ticket price band, minimum availability, and seating type (`reserved` / `ga`).                                           |
+| Q6    | Seat-map summary for one performance: per section, tier, price, available / sold / blocked counts (GA reports remaining capacity).                                                                  |
+| Q7    | Best available: cheapest block of `q` consecutive seats in the same row, optional total budget.                                                                                                     |
 
 Distance in Q1 is great-circle distance in **kilometres** (Haversine) from the coordinates you enter to each venue’s stored latitude/longitude.
 
@@ -223,17 +221,17 @@ Distance in Q1 is great-circle distance in **kilometres** (Haversine) from the c
 
 Main menu **7**.
 
-| Report | Description |
-|--------|-------------|
-| R1 | Tickets sold and gross revenue in a date range, by city, or by venue within a city. |
-| R2 | Counts of events and performances by segment/genre, country, country+city, or country+city+venue. |
-| R3 | Organizers ranked by gross revenue (optional country / city filters). |
-| R4 | Possible scalpers: customers who, in the past year and by city, bought ≥10 tickets and listed more than half of them. |
-| R5 | Customers ranked by number of orders in a period; or by city with ≥2 orders in the past year. |
-| R6 | Customers with the most customer-initiated ticket cancellations, and organizers with the most cancelled performances, in the past year. |
-| R7 | Sell-through rate per performance; per price tier for one performance; or sold-out / under-25%-capacity performances for a given month by city. |
-| R8 | Per-event resale stats (completed resales, average markup ratio, fraction listed at the cap); or top 10 events by resale volume in a period. |
-| R9 | Most frequent noun phrases in review comments for each event (lightweight token / bigram / trigram extraction in Java). |
+| Report | Description                                                                                                                                     |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| R1     | Tickets sold and gross revenue in a date range, by city, or by venue within a city.                                                             |
+| R2     | Counts of events and performances by segment/genre, country, country+city, or country+city+venue.                                               |
+| R3     | Organizers ranked by gross revenue (optional country / city filters).                                                                           |
+| R4     | Possible scalpers: customers who, in the past year and by city, bought ≥10 tickets and listed more than half of them.                           |
+| R5     | Customers ranked by number of orders in a period; or by city with ≥2 orders in the past year.                                                   |
+| R6     | Customers with the most customer-initiated ticket cancellations, and organizers with the most cancelled performances, in the past year.         |
+| R7     | Sell-through rate per performance; per price tier for one performance; or sold-out / under-25%-capacity performances for a given month by city. |
+| R8     | Per-event resale stats (completed resales, average markup ratio, fraction listed at the cap); or top 10 events by resale volume in a period.    |
+| R9     | Most frequent noun phrases in review comments for each event (lightweight token / bigram / trigram extraction in Java).                         |
 
 Gross revenue in these reports is based on **face value** of non-cancelled tickets.
 
@@ -254,18 +252,18 @@ Organizer menu **12**.
 
 ## 6. Business rules the system enforces
 
-| Rule | Where enforced |
-|------|----------------|
-| User must be at least 18 | Database trigger |
-| Seat not double-sold / not sold while blocked | Database trigger |
-| Sold seat cannot be blocked | Database trigger |
-| GA sales within section capacity | Database trigger |
-| Listing price ≤ event resale cap | Database trigger (+ app check) |
-| Section assigned only for the performance’s venue | Database trigger |
-| Tier price change only if future and no sales in that tier | Application |
-| Customer cancel only ≥7 days before performance | Application |
-| Only order owner cancels tickets; only event organizer cancels a performance | Application |
-| Only current ticket owner may list / withdraw | Application |
+| Rule                                                                         | Where enforced                  |
+| ---------------------------------------------------------------------------- | ------------------------------- |
+| User must be at least 18                                                     | Database trigger                |
+| Seat not double-sold / not sold while blocked                                | Database trigger                |
+| Sold seat cannot be blocked                                                  | Database trigger                |
+| GA sales within section capacity                                             | Database trigger                |
+| Listing price ≤ event resale cap                                             | Database trigger (+ app check)  |
+| Section assigned only for the performance’s venue                            | Database trigger                |
+| Tier price change only if future and no sales in that tier                   | Application                     |
+| Customer cancel only ≥7 days before performance                              | Application                     |
+| Only order owner cancels tickets; only event organizer cancels a performance | Application                     |
+| Only current ticket owner may list / withdraw                                | Application                     |
 | Review only after attending a past performance; at most once per performance | Application + unique constraint |
 
 ---
@@ -282,8 +280,6 @@ Organizer menu **12**.
 8. **Q1 “today”** uses the database server’s `NOW()`; if the sample calendar and the machine clock differ a lot, “upcoming” vs “past” sets may look unexpected.
 9. **Organizer toolkit** suggestions depend on having enough comparable history; sparse genres fall back to simple heuristics.
 10. **R9 noun phrases** use stopword filtering and n-grams, not a full NLP parser, so phrases are approximate.
-11. **`sql/load.sql` paths** are relative to the MySQL client's working directory, so `mysql ... < sql/load.sql` must be run from the project root (this is how the grading sequence invokes it).
-12. **Windows:** PowerShell does not execute `./run.sh` natively; use Git Bash or WSL with a JDK.
 
 ---
 
@@ -292,14 +288,10 @@ Organizer menu **12**.
 1. Proper login (hashed passwords) and role-based menus without typing raw user ids.
 2. Interactive seat-map display for a performance (ASCII or web UI) driven by Q6.
 3. Transaction isolation / `SELECT … FOR UPDATE` on booking for true multi-user safety.
-4. A dedicated ownership-history table if auditors want a first-class log beyond orders + resales.
-5. Richer postal adjacency (stored neighbour pairs or geospatial types) for Q2.
-6. Payment tokenization and PCI-aware handling if the system were productionized.
-7. Stronger demand model in the organizer toolkit (seasonality, day-of-week, artist popularity).
-8. Full NLP pipeline (or a library such as OpenNLP) for R9 noun-phrase quality.
-9. Batch admin tools: import venues/sections from files, clone a performance’s tier layout.
-10. Export reports to CSV from the menu for marking and organizer use.
+4. Richer postal adjacency (stored neighbour pairs or geospatial types) for Q2.
+5. Full NLP pipeline (or a library such as OpenNLP) for R9 noun-phrase quality.
+6. Export reports to CSV from the menu for marking and organizer use.
 
 ---
 
-*End of MyTix user manual.*
+_End of MyTix user manual._
