@@ -1,9 +1,12 @@
 # CSCC43-Project-TicketMaster
 
-Names and student numbers: (fill in before submission)
+Kshitij Kapoor - 1010297581
+Mathan Thatparananthan - 1010258551
 
 ## Run
 
 ```
-./run.sh
+windows: bash ./run.sh
+MacOS: ./run.sh
+Linux: ./run.sh
 ```
