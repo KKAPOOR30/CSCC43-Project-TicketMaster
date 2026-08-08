@@ -374,7 +374,7 @@ def main() -> None:
     # Past sold-out candidates and low-sell candidates across cities/months
     past_specs = [
         # (event, venue, days_ago, tag)
-        (2, 3, 40, "soldout"),   # small venue — full sell-through still modest
+        (2, 3, 40, "soldout"),
         (4, 9, 55, "soldout"),
         (5, 3, 100, "soldout"),
         (6, 6, 120, "low"),
@@ -695,7 +695,7 @@ def main() -> None:
     # Sold-out / low / normal past sales
     for p_id, tag in past_tags.items():
         if tag == "soldout":
-            sell_performance(p_id, 0.97)
+            sell_performance(p_id, 1.0)
         elif tag == "low":
             sell_performance(p_id, 0.12)
         else:

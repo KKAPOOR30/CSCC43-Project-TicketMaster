@@ -148,7 +148,7 @@ public class QueryService {
             LocalDateTime to,
             Integer minAvailable)
             throws SQLException {
-        String dist = distanceExpr("?", "?");
+        String dist = distanceExpr(Double.toString(lat), Double.toString(lon));
         StringBuilder sql = new StringBuilder();
         sql.append("SELECT p.performance_id, e.name AS event_name, v.name AS venue_name,")
                 .append(" pc.city, p.p_datetime, ")
@@ -188,10 +188,6 @@ public class QueryService {
 
         try (PreparedStatement ps = conn.prepareStatement(sql.toString())) {
             int i = 1;
-            ps.setDouble(i++, lat);
-            ps.setDouble(i++, lon);
-            ps.setDouble(i++, lat);
-            ps.setDouble(i++, lon);
             ps.setDouble(i++, radiusKm);
             if (from != null) {
                 ps.setTimestamp(i++, Timestamp.valueOf(from));
@@ -200,7 +196,7 @@ public class QueryService {
                 ps.setTimestamp(i++, Timestamp.valueOf(to));
             }
             if (minAvailable != null) {
-                ps.setInt(i, minAvailable);
+                ps.setInt(i++, minAvailable);
             }
             printPerformanceRows(ps, true);
         }

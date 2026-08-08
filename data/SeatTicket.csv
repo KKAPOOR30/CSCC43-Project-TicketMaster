@@ -40,2068 +40,2036 @@ ticket_id,venue_id,section_name,row_name,seat_number
 39,3,Balcony,F,4
 40,3,Floor,A,8
 41,3,Floor,B,7
-79,9,Floor,B,2
-80,9,Floor,B,5
-81,9,Floor,C,4
-82,9,Floor,C,6
-83,9,Floor,B,7
-84,9,Floor,B,1
-85,9,Floor,A,7
-86,9,Floor,A,6
-87,9,Floor,A,4
+82,9,Floor,C,7
+83,9,Floor,C,4
+84,9,Balcony,F,2
+85,9,Balcony,E,2
+86,9,Balcony,E,4
+87,9,Floor,B,8
 88,9,Balcony,F,6
-89,9,Floor,B,4
-90,9,Balcony,E,3
-91,9,Floor,B,3
-92,9,Floor,C,5
-93,9,Floor,D,8
-94,9,Floor,D,6
-95,9,Floor,C,7
-96,9,Balcony,E,2
-97,9,Balcony,F,2
-98,9,Floor,A,8
-99,9,Balcony,F,5
-100,9,Floor,D,5
-101,9,Balcony,F,4
-102,9,Floor,D,2
-103,9,Balcony,E,5
-104,9,Floor,D,3
-105,9,Floor,B,6
-106,9,Floor,A,5
-107,9,Floor,C,1
-108,9,Balcony,E,4
-109,9,Floor,D,7
-110,9,Floor,C,2
-111,9,Balcony,F,3
-112,9,Floor,C,3
-113,9,Floor,B,8
-114,9,Floor,C,8
-115,9,Balcony,E,1
-116,9,Floor,D,4
-117,9,Balcony,E,6
-118,9,Balcony,F,1
-119,9,Floor,D,1
-157,3,Floor,B,5
-158,3,Floor,B,4
-159,3,Balcony,F,3
-160,3,Balcony,F,6
-161,3,Floor,C,1
-162,3,Balcony,E,1
-163,3,Balcony,E,3
-164,3,Floor,D,1
-165,3,Floor,A,7
-166,3,Balcony,E,5
-167,3,Floor,A,4
-168,3,Floor,B,3
-169,3,Floor,B,8
-170,3,Floor,D,8
-171,3,Floor,D,7
-172,3,Floor,D,5
-173,3,Floor,C,7
-174,3,Balcony,E,4
-175,3,Floor,C,2
-176,3,Floor,B,1
-177,3,Floor,C,8
-178,3,Floor,D,6
-179,3,Floor,C,5
-180,3,Floor,B,7
-181,3,Balcony,F,2
-182,3,Balcony,E,6
-183,3,Floor,B,6
-184,3,Balcony,E,2
-185,3,Balcony,F,4
-186,3,Floor,C,6
-187,3,Balcony,F,5
-188,3,Floor,B,2
-189,3,Floor,C,3
-190,3,Balcony,F,1
-191,3,Floor,A,8
-192,3,Floor,D,2
-193,3,Floor,A,5
-194,3,Floor,C,4
-195,3,Floor,D,3
-196,3,Floor,D,4
-197,3,Floor,A,6
-235,6,Orchestra,D,10
-236,6,Mezzanine,G,5
-237,6,Balcony,J,5
-238,6,Orchestra,A,9
-239,6,Mezzanine,F,1
-240,6,Mezzanine,F,7
-241,6,Orchestra,B,8
-242,6,Orchestra,A,7
-243,8,100 Level,101,6
-244,8,Floor,B,2
-245,8,Floor,C,6
-246,8,100 Level,102,8
-247,8,200 Level,202,7
-248,8,Floor,D,3
-249,8,Floor,A,4
-250,8,200 Level,202,8
-251,8,100 Level,103,3
-252,8,Floor,C,7
-253,8,Floor,D,9
-254,8,Floor,A,9
-255,8,Floor,C,8
-256,8,Floor,B,9
-257,8,Floor,D,6
-258,5,100 Level,101,4
-259,5,200 Level,201,2
-260,5,Floor,A,2
-261,5,Floor,D,6
-262,5,100 Level,103,6
-263,5,100 Level,103,7
-264,5,Floor,C,10
-265,5,100 Level,102,1
-266,5,200 Level,201,5
-267,5,Floor,D,10
-268,5,100 Level,103,2
-269,5,100 Level,102,4
-270,5,Floor,B,3
-271,5,Floor,B,9
-272,5,Floor,D,7
-273,1,200 Level,202,5
-274,1,100 Level,103,7
-275,1,Floor,A,1
-276,1,100 Level,102,6
-277,1,200 Level,202,6
-278,1,Floor,B,3
-279,1,Floor,C,5
-280,1,100 Level,102,3
-281,1,100 Level,103,5
-282,1,Floor,C,6
-283,1,Floor,A,7
-284,1,Floor,D,3
-285,1,Floor,C,4
-286,1,200 Level,202,3
-287,1,Floor,B,2
-288,1,Floor,D,4
-289,1,200 Level,201,4
-290,1,100 Level,101,3
-291,1,Floor,D,1
-292,1,Floor,C,7
-293,1,Floor,A,2
-294,1,100 Level,102,1
-295,1,Floor,A,5
-296,1,Floor,D,7
-297,1,200 Level,202,8
-298,1,200 Level,202,7
-299,1,100 Level,101,4
-300,1,Floor,B,9
-301,1,Floor,C,10
-302,1,Floor,A,10
-303,1,Floor,D,6
-304,1,Floor,C,1
-305,1,100 Level,101,2
-306,1,Floor,B,8
-307,1,200 Level,201,8
-308,1,100 Level,101,6
-309,1,Floor,A,4
-310,1,Floor,D,9
-311,1,100 Level,102,4
-312,1,Floor,A,9
-313,1,200 Level,202,4
-314,1,Floor,B,1
-315,1,200 Level,201,3
-316,1,100 Level,101,1
-317,1,Floor,D,10
-318,1,100 Level,103,2
-319,1,100 Level,101,5
-320,5,100 Level,101,7
-321,5,200 Level,202,2
-322,5,Floor,D,5
-323,5,Floor,D,2
-324,5,Floor,C,10
-325,5,Floor,B,7
-326,5,100 Level,102,2
-327,5,Floor,C,8
-328,5,Floor,D,6
-329,5,100 Level,103,1
-330,5,Floor,C,9
-331,5,Floor,A,3
-332,5,100 Level,103,6
-333,5,100 Level,103,5
+89,9,Floor,B,7
+90,9,Floor,B,4
+91,9,Balcony,E,1
+92,9,Floor,D,8
+93,9,Floor,B,2
+94,9,Floor,D,7
+95,9,Floor,D,5
+96,9,Balcony,E,5
+97,9,Floor,C,5
+98,9,Floor,B,6
+99,9,Floor,A,5
+100,9,Floor,A,4
+101,9,Floor,B,5
+102,9,Floor,B,1
+103,9,Floor,C,2
+104,9,Floor,D,6
+105,9,Floor,D,2
+106,9,Balcony,F,3
+107,9,Balcony,F,4
+108,9,Floor,A,7
+109,9,Floor,C,1
+110,9,Balcony,F,1
+111,9,Floor,D,3
+112,9,Floor,B,3
+113,9,Floor,C,6
+114,9,Floor,C,3
+115,9,Floor,A,8
+116,9,Floor,A,6
+117,9,Balcony,F,5
+118,9,Balcony,E,3
+119,9,Floor,C,8
+120,9,Floor,D,4
+121,9,Balcony,E,6
+122,9,Floor,D,1
+163,3,Floor,D,7
+164,3,Floor,D,3
+165,3,Floor,C,5
+166,3,Balcony,E,4
+167,3,Floor,B,8
+168,3,Floor,D,1
+169,3,Floor,C,1
+170,3,Balcony,E,3
+171,3,Floor,A,5
+172,3,Floor,A,6
+173,3,Floor,C,2
+174,3,Balcony,E,5
+175,3,Floor,D,6
+176,3,Floor,B,5
+177,3,Floor,B,4
+178,3,Floor,D,4
+179,3,Floor,A,4
+180,3,Floor,C,3
+181,3,Balcony,F,5
+182,3,Balcony,F,1
+183,3,Floor,B,2
+184,3,Floor,A,7
+185,3,Floor,B,3
+186,3,Floor,C,4
+187,3,Balcony,F,6
+188,3,Floor,D,5
+189,3,Balcony,F,4
+190,3,Balcony,F,3
+191,3,Balcony,E,1
+192,3,Balcony,E,2
+193,3,Balcony,F,2
+194,3,Floor,B,6
+195,3,Floor,C,7
+196,3,Floor,C,6
+197,3,Balcony,E,6
+198,3,Floor,A,8
+199,3,Floor,D,2
+200,3,Floor,C,8
+201,3,Floor,B,1
+202,3,Floor,D,8
+203,3,Floor,B,7
+244,6,Mezzanine,G,8
+245,6,Orchestra,D,7
+246,6,Balcony,J,5
+247,6,Balcony,J,1
+248,6,Orchestra,B,7
+249,6,Orchestra,B,5
+250,6,Orchestra,B,8
+251,6,Mezzanine,F,7
+252,6,Orchestra,A,6
+253,8,Floor,D,10
+254,8,Floor,C,4
+255,8,Floor,D,5
+256,8,100 Level,103,2
+257,8,Floor,C,3
+258,8,Floor,D,4
+259,8,200 Level,201,2
+260,8,200 Level,201,6
+261,8,Floor,B,1
+262,8,Floor,C,10
+263,8,100 Level,101,5
+264,8,100 Level,102,1
+265,8,100 Level,103,3
+266,8,Floor,C,6
+267,8,Floor,B,3
+268,8,100 Level,102,2
+269,8,Floor,C,7
+270,8,Floor,B,10
+271,5,Floor,B,2
+272,5,100 Level,102,4
+273,5,Floor,B,3
+274,5,Floor,D,9
+275,5,Floor,A,9
+276,5,200 Level,202,3
+277,5,200 Level,202,5
+278,5,Floor,A,10
+279,5,Floor,C,5
+280,5,Floor,D,7
+281,5,Floor,A,3
+282,5,200 Level,202,7
+283,5,Floor,A,7
+284,5,Floor,C,7
+285,5,200 Level,202,6
+286,5,Floor,B,10
+287,5,100 Level,101,6
+288,5,100 Level,102,8
+289,1,100 Level,103,3
+290,1,200 Level,202,8
+291,1,200 Level,202,4
+292,1,Floor,D,6
+293,1,Floor,C,6
+294,1,100 Level,102,4
+295,1,100 Level,101,2
+296,1,Floor,B,3
+297,1,Floor,C,9
+298,1,Floor,C,8
+299,1,Floor,C,3
+300,1,Floor,A,5
+301,1,Floor,B,8
+302,1,100 Level,101,1
+303,1,100 Level,102,3
+304,1,Floor,B,10
+305,1,Floor,C,1
+306,1,100 Level,103,7
+307,1,Floor,A,6
+308,1,Floor,A,2
+309,1,100 Level,102,5
+310,1,100 Level,103,4
+311,1,200 Level,201,4
+312,1,Floor,B,9
+313,1,200 Level,201,2
+314,1,200 Level,202,6
+315,1,Floor,D,9
+316,1,Floor,D,8
+317,1,Floor,B,4
+318,1,200 Level,202,3
+319,1,100 Level,102,6
+320,1,100 Level,101,6
+321,1,Floor,C,7
+322,1,Floor,D,10
+323,1,Floor,B,2
+324,1,200 Level,201,1
+325,1,Floor,C,5
+326,5,100 Level,102,4
+327,5,Floor,D,10
+328,5,200 Level,201,2
+329,5,100 Level,103,8
+330,5,Floor,C,3
+331,5,Floor,B,7
+332,5,100 Level,101,5
+333,5,100 Level,101,8
 334,5,200 Level,201,8
-335,5,100 Level,101,3
-336,5,100 Level,102,6
-337,5,200 Level,201,4
-338,5,100 Level,101,2
-339,5,100 Level,102,1
-340,5,200 Level,202,8
-341,5,Floor,B,8
-342,5,100 Level,103,2
-343,5,Floor,B,1
-344,5,Floor,C,7
-345,5,Floor,B,6
-346,5,Floor,D,3
-347,5,Floor,D,7
-348,5,Floor,B,4
-349,5,100 Level,101,4
-350,5,Floor,A,6
-351,5,100 Level,102,5
-352,5,100 Level,101,8
-353,5,Floor,B,10
-354,5,100 Level,102,3
-355,5,Floor,A,7
-356,5,Floor,C,6
-357,5,100 Level,102,7
-358,5,200 Level,201,2
-359,5,Floor,C,4
-360,2,Orchestra,B,8
-361,2,Mezzanine,G,7
-362,2,Balcony,K,8
-363,2,Orchestra,A,1
-364,2,Orchestra,D,10
-365,2,Orchestra,B,1
-366,2,Mezzanine,G,2
-367,2,Orchestra,D,5
-368,2,Balcony,K,3
-369,2,Orchestra,D,4
-370,2,Orchestra,D,3
-371,2,Orchestra,D,8
-372,2,Mezzanine,F,5
-373,2,Balcony,K,2
-374,2,Orchestra,C,6
-375,2,Orchestra,A,5
-376,2,Orchestra,A,2
-377,2,Orchestra,B,4
-378,2,Orchestra,A,10
-379,2,Balcony,J,6
-380,2,Orchestra,B,3
-381,2,Orchestra,D,2
-382,2,Orchestra,D,7
-383,2,Balcony,K,4
-384,2,Orchestra,B,6
-385,2,Orchestra,A,3
-386,2,Mezzanine,F,1
-387,2,Balcony,K,6
-388,2,Mezzanine,G,3
-389,7,Floor,D,5
-390,7,Floor,B,8
-391,7,Floor,A,6
-392,7,Floor,B,2
-393,7,Floor,C,8
-394,7,100 Level,102,3
-395,7,Floor,B,10
-396,7,200 Level,201,3
-397,7,100 Level,102,7
-398,7,100 Level,101,8
-399,7,Floor,D,7
-400,7,Floor,D,8
-401,7,Floor,A,10
-402,7,100 Level,101,6
-403,7,100 Level,102,2
-404,7,200 Level,201,7
-405,7,100 Level,103,4
-406,7,Floor,B,6
-407,7,Floor,A,5
-408,7,100 Level,101,2
-409,7,Floor,D,1
-410,7,200 Level,202,8
-411,7,200 Level,201,4
-412,7,Floor,A,4
-413,7,100 Level,103,1
-414,7,Floor,D,3
-415,7,200 Level,202,2
-416,7,Floor,C,1
-417,7,Floor,A,2
-418,7,100 Level,102,5
-419,7,Floor,C,5
-420,7,100 Level,103,6
-421,7,200 Level,201,6
-422,7,200 Level,202,7
-423,7,Floor,C,10
-424,7,Floor,B,4
-425,7,Floor,C,6
-426,7,Floor,A,8
-427,7,100 Level,102,8
-428,7,100 Level,103,8
-429,7,Floor,D,10
-430,7,Floor,B,7
-431,7,100 Level,103,7
-432,7,200 Level,202,4
-433,7,Floor,A,9
-434,7,Floor,D,2
-435,7,Floor,B,1
-436,7,Floor,A,3
-437,7,200 Level,202,5
-438,7,100 Level,101,5
-439,7,Floor,C,4
-440,7,Floor,D,4
-441,7,Floor,D,6
-442,7,Floor,B,9
-443,7,100 Level,102,4
-444,4,Orchestra,B,10
-445,4,Orchestra,A,2
-446,4,Orchestra,D,9
-447,4,Mezzanine,G,2
-448,4,Balcony,K,7
-449,4,Balcony,J,2
-450,4,Mezzanine,F,7
-451,4,Orchestra,A,3
-452,4,Balcony,J,6
-453,4,Balcony,K,8
-454,4,Orchestra,C,9
-455,4,Mezzanine,F,1
-456,4,Mezzanine,G,1
-457,4,Balcony,J,8
-458,4,Orchestra,D,2
-459,4,Balcony,K,5
-460,4,Mezzanine,G,8
-461,4,Orchestra,A,6
-462,4,Orchestra,B,5
-463,4,Orchestra,A,8
-464,4,Orchestra,A,4
-465,8,Floor,C,2
-466,8,100 Level,102,1
-467,8,Floor,D,9
-468,8,Floor,A,5
-469,8,100 Level,102,2
-470,8,Floor,A,8
-471,8,Floor,B,4
+335,5,100 Level,102,3
+336,5,Floor,D,8
+337,5,100 Level,102,7
+338,5,Floor,D,3
+339,5,Floor,A,5
+340,5,100 Level,102,1
+341,5,Floor,B,5
+342,5,100 Level,102,2
+343,5,200 Level,201,1
+344,5,200 Level,201,3
+345,5,200 Level,202,6
+346,5,Floor,D,5
+347,5,Floor,C,10
+348,5,Floor,B,8
+349,5,200 Level,202,7
+350,5,Floor,A,3
+351,5,Floor,A,9
+352,5,200 Level,202,1
+353,5,Floor,C,9
+354,5,100 Level,103,4
+355,5,200 Level,202,5
+356,5,100 Level,103,1
+357,5,100 Level,103,5
+358,5,Floor,A,8
+359,5,100 Level,101,2
+360,5,100 Level,101,7
+361,5,100 Level,101,6
+362,5,Floor,B,1
+363,5,Floor,B,4
+364,2,Orchestra,B,8
+365,2,Mezzanine,F,2
+366,2,Orchestra,D,8
+367,2,Mezzanine,F,3
+368,2,Mezzanine,F,5
+369,2,Mezzanine,G,7
+370,2,Mezzanine,G,5
+371,2,Orchestra,B,2
+372,2,Orchestra,D,9
+373,2,Orchestra,D,3
+374,2,Balcony,K,2
+375,2,Orchestra,A,4
+376,2,Mezzanine,G,4
+377,2,Balcony,K,6
+378,2,Balcony,K,3
+379,2,Orchestra,C,10
+380,2,Orchestra,A,5
+381,2,Orchestra,B,4
+382,2,Orchestra,B,1
+383,2,Balcony,K,1
+384,2,Mezzanine,F,7
+385,2,Balcony,J,6
+386,2,Orchestra,D,7
+387,2,Balcony,J,7
+388,2,Orchestra,C,9
+389,2,Balcony,J,1
+390,2,Mezzanine,F,8
+391,2,Balcony,J,3
+392,7,Floor,B,5
+393,7,Floor,C,10
+394,7,200 Level,201,6
+395,7,100 Level,102,8
+396,7,100 Level,102,1
+397,7,Floor,B,6
+398,7,200 Level,201,2
+399,7,200 Level,201,3
+400,7,100 Level,103,8
+401,7,Floor,C,5
+402,7,Floor,D,4
+403,7,Floor,C,4
+404,7,Floor,A,3
+405,7,Floor,C,2
+406,7,Floor,B,1
+407,7,Floor,A,10
+408,7,Floor,A,6
+409,7,200 Level,201,8
+410,7,Floor,A,7
+411,7,Floor,D,7
+412,7,Floor,A,2
+413,7,Floor,A,5
+414,7,200 Level,201,4
+415,7,100 Level,103,5
+416,7,Floor,A,4
+417,7,200 Level,202,5
+418,7,Floor,A,1
+419,7,Floor,C,6
+420,7,100 Level,102,7
+421,7,Floor,C,8
+422,7,Floor,C,9
+423,7,100 Level,101,3
+424,7,100 Level,103,6
+425,7,Floor,D,1
+426,7,200 Level,202,2
+427,7,Floor,A,8
+428,7,100 Level,102,4
+429,7,Floor,D,5
+430,7,100 Level,103,3
+431,7,Floor,B,2
+432,7,100 Level,103,7
+433,7,200 Level,202,6
+434,7,Floor,B,9
+435,7,Floor,D,10
+436,7,100 Level,101,7
+437,7,Floor,B,3
+438,7,200 Level,202,4
+439,7,100 Level,101,1
+440,7,100 Level,102,5
+441,7,200 Level,202,1
+442,7,100 Level,101,6
+443,7,Floor,C,1
+444,7,200 Level,201,5
+445,7,100 Level,103,4
+446,7,200 Level,201,7
+447,7,Floor,B,10
+448,4,Balcony,J,4
+449,4,Mezzanine,F,8
+450,4,Orchestra,B,10
+451,4,Balcony,K,8
+452,4,Orchestra,C,1
+453,4,Mezzanine,G,2
+454,4,Orchestra,A,10
+455,4,Balcony,K,4
+456,4,Orchestra,D,8
+457,4,Balcony,J,7
+458,4,Mezzanine,F,6
+459,4,Mezzanine,G,8
+460,4,Orchestra,C,4
+461,4,Orchestra,C,8
+462,4,Orchestra,A,6
+463,4,Orchestra,B,4
+464,4,Orchestra,B,1
+465,4,Mezzanine,G,7
+466,4,Mezzanine,F,2
+467,4,Balcony,J,1
+468,4,Orchestra,A,3
+469,4,Balcony,K,5
+470,4,Orchestra,A,4
+471,4,Mezzanine,F,1
 472,8,Floor,A,3
-473,8,100 Level,101,6
-474,8,100 Level,102,8
-475,8,200 Level,202,1
-476,8,Floor,C,10
-477,8,Floor,C,9
-478,8,100 Level,102,3
-479,8,100 Level,101,5
-480,8,200 Level,201,8
+473,8,200 Level,202,6
+474,8,100 Level,102,4
+475,8,Floor,A,8
+476,8,100 Level,102,3
+477,8,200 Level,202,7
+478,8,Floor,A,2
+479,8,200 Level,201,2
+480,8,100 Level,103,2
 481,8,200 Level,201,6
-482,8,Floor,B,9
-483,8,100 Level,103,4
-484,8,Floor,D,3
-485,8,Floor,B,1
-486,8,100 Level,103,3
-487,8,Floor,D,10
-488,8,Floor,D,8
-489,8,200 Level,201,1
-490,8,100 Level,101,1
-491,8,100 Level,101,3
-492,8,200 Level,202,5
-493,8,Floor,A,2
-494,8,Floor,A,6
-495,8,Floor,C,3
-496,8,100 Level,103,1
-497,8,Floor,C,6
-498,8,Floor,A,4
-499,8,Floor,B,7
-500,8,Floor,B,10
-501,8,100 Level,101,2
-502,6,Orchestra,A,1
-503,6,Orchestra,C,8
-504,6,Balcony,K,1
-505,6,Orchestra,D,9
-506,6,Orchestra,D,8
-507,6,Orchestra,B,6
-508,6,Mezzanine,G,1
-509,6,Balcony,K,3
-510,6,Orchestra,B,1
-511,6,Mezzanine,G,7
-512,6,Orchestra,A,9
-513,6,Orchestra,B,3
-514,6,Mezzanine,G,5
-515,6,Balcony,J,8
-516,6,Balcony,K,2
-517,6,Balcony,J,6
-518,6,Balcony,K,5
-519,6,Orchestra,B,2
-520,6,Orchestra,C,6
-521,6,Mezzanine,F,5
-522,1,200 Level,201,4
-523,1,Floor,A,1
-524,1,100 Level,102,3
-525,1,200 Level,202,5
-526,1,Floor,D,7
-527,1,Floor,A,7
-528,1,100 Level,103,1
-529,1,100 Level,101,3
-530,1,Floor,D,10
-531,1,Floor,C,7
-532,1,Floor,A,9
-533,1,Floor,D,5
-534,1,Floor,A,6
-535,1,100 Level,101,2
-536,1,100 Level,102,5
-537,1,Floor,B,9
-538,1,Floor,C,8
-539,1,100 Level,103,5
-540,1,200 Level,202,7
-541,1,Floor,A,8
-542,1,Floor,C,1
-543,1,100 Level,102,4
-544,1,Floor,D,1
-545,1,Floor,D,9
-546,1,200 Level,202,3
-547,1,200 Level,201,3
-548,1,100 Level,103,8
-549,1,Floor,A,5
-550,1,100 Level,102,6
-551,1,200 Level,201,8
-552,1,Floor,C,9
-553,1,100 Level,102,7
-554,1,Floor,A,10
-555,1,Floor,B,5
-556,1,100 Level,101,5
-557,1,200 Level,201,6
-558,1,200 Level,202,4
-559,1,Floor,C,5
-560,1,Floor,B,7
-561,1,Floor,A,4
-562,1,Floor,B,8
-563,1,Floor,D,3
-564,1,100 Level,103,2
-565,1,100 Level,102,8
-566,1,200 Level,201,7
-567,1,200 Level,202,8
-568,1,200 Level,202,2
-569,1,100 Level,101,4
-570,1,Floor,C,3
-571,1,100 Level,103,6
-572,1,Floor,B,1
-573,1,100 Level,101,8
-574,3,Floor,B,4
-575,3,Floor,A,1
-576,3,Floor,D,4
-577,3,Balcony,E,4
-578,3,Floor,D,5
-579,3,Floor,C,6
-580,3,Floor,A,5
-581,3,Balcony,E,5
-582,3,Balcony,F,3
-583,3,Floor,C,8
-584,3,Floor,D,3
-585,3,Floor,A,4
-586,3,Floor,C,1
-587,3,Floor,A,2
-588,3,Floor,D,8
-589,3,Floor,B,8
-590,3,Floor,A,6
-591,3,Floor,D,1
-592,3,Floor,C,4
-593,3,Balcony,F,5
-594,3,Floor,B,6
-595,9,Floor,D,8
-596,9,Floor,B,7
-597,9,Balcony,E,1
-598,9,Floor,A,6
-599,9,Floor,A,7
-600,9,Floor,B,5
-601,9,Balcony,E,3
-602,9,Floor,A,8
-603,9,Balcony,E,2
-604,9,Floor,B,6
-605,9,Floor,C,6
-606,9,Floor,D,3
-607,9,Floor,A,2
-608,9,Floor,B,4
-609,9,Floor,D,4
-610,9,Floor,C,7
-611,9,Floor,C,2
-612,9,Floor,D,5
-613,9,Floor,D,6
-614,9,Floor,C,5
-615,9,Floor,B,1
-616,9,Floor,D,1
-617,9,Balcony,E,6
-618,9,Floor,A,5
-619,9,Balcony,F,3
-620,9,Floor,B,8
-621,9,Floor,B,2
-622,9,Floor,A,1
-623,5,200 Level,202,4
-624,5,Floor,B,3
-625,5,100 Level,103,5
-626,5,200 Level,202,3
-627,5,200 Level,202,2
-628,5,Floor,D,4
-629,5,Floor,C,10
-630,5,Floor,D,7
-631,5,200 Level,202,1
-632,5,100 Level,103,8
-633,5,Floor,A,4
-634,5,200 Level,201,3
-635,5,100 Level,102,2
-636,5,Floor,D,3
-637,5,Floor,D,5
-638,5,100 Level,103,4
-639,5,100 Level,103,3
-640,5,100 Level,102,3
-641,5,200 Level,201,1
-642,5,Floor,C,2
-643,5,200 Level,201,4
-644,5,Floor,B,10
-645,5,100 Level,102,6
-646,5,100 Level,103,6
-647,5,Floor,B,4
-648,5,Floor,B,5
-649,5,Floor,B,7
-650,5,100 Level,101,6
-651,5,Floor,C,1
-652,5,100 Level,103,7
-653,5,100 Level,101,7
-654,5,100 Level,101,8
-655,5,Floor,D,1
-656,5,100 Level,103,2
-657,5,Floor,B,9
-658,7,Floor,B,8
-659,7,100 Level,103,4
-660,7,100 Level,103,6
-661,7,200 Level,202,1
-662,7,100 Level,102,5
-663,7,100 Level,102,1
-664,7,200 Level,202,7
-665,7,100 Level,103,8
-666,7,Floor,B,7
-667,7,Floor,B,6
-668,7,Floor,A,2
-669,7,100 Level,102,6
-670,7,Floor,A,9
-671,7,Floor,D,7
-672,7,200 Level,201,7
-673,7,Floor,C,7
-674,7,Floor,A,7
-675,7,Floor,C,2
-676,7,200 Level,201,1
-677,7,200 Level,201,3
-678,7,100 Level,102,3
-679,7,Floor,A,5
-680,7,200 Level,201,8
-681,7,Floor,C,10
-682,7,Floor,D,1
-683,7,Floor,D,4
-684,7,100 Level,101,5
-685,7,200 Level,202,8
-686,7,200 Level,202,2
-687,7,100 Level,102,2
-688,7,100 Level,101,1
-689,7,100 Level,103,7
-690,7,Floor,B,4
-691,7,200 Level,202,3
-692,7,100 Level,103,5
-693,7,Floor,B,10
-694,7,Floor,D,8
-695,7,Floor,C,3
-696,7,Floor,B,9
-697,7,Floor,A,1
-698,7,100 Level,101,8
-699,7,200 Level,201,6
-700,7,100 Level,101,7
-701,7,Floor,C,8
-702,7,Floor,A,10
-703,7,100 Level,102,8
-704,7,Floor,C,4
-705,7,100 Level,103,3
-706,7,200 Level,202,6
-707,7,100 Level,103,1
-708,2,Orchestra,C,5
-709,2,Orchestra,D,9
-710,2,Orchestra,A,1
-711,2,Orchestra,C,6
-712,2,Mezzanine,G,1
-713,2,Balcony,J,5
-714,2,Balcony,K,1
-715,2,Orchestra,A,7
-716,2,Balcony,J,1
-717,2,Balcony,J,4
-718,2,Orchestra,B,4
-719,2,Orchestra,A,10
-720,2,Balcony,K,8
-721,2,Orchestra,D,8
-722,2,Orchestra,C,3
-723,2,Mezzanine,F,7
-724,2,Mezzanine,F,4
-725,2,Orchestra,D,4
-726,2,Balcony,J,3
-727,2,Mezzanine,F,5
-728,2,Orchestra,B,9
-729,2,Balcony,K,7
-730,2,Orchestra,A,8
-731,2,Balcony,K,5
-732,2,Orchestra,C,4
-733,2,Mezzanine,G,2
-734,2,Orchestra,D,10
-735,2,Balcony,K,2
-736,2,Orchestra,C,2
-737,2,Mezzanine,F,1
-738,2,Orchestra,C,9
-739,8,100 Level,103,3
-740,8,Floor,B,5
-741,8,100 Level,102,5
-742,8,100 Level,103,6
-743,8,100 Level,101,7
-744,8,100 Level,101,5
-745,8,100 Level,102,7
-746,8,Floor,C,3
-747,8,Floor,D,3
-748,8,200 Level,202,6
-749,8,Floor,B,1
-750,8,100 Level,102,4
-751,8,Floor,B,2
-752,8,200 Level,202,5
-753,8,Floor,D,8
-754,8,200 Level,202,7
-755,8,Floor,B,10
-756,8,200 Level,201,3
-757,8,Floor,D,6
-758,8,100 Level,103,7
-759,8,100 Level,102,1
-760,8,Floor,C,7
-761,8,100 Level,102,8
-762,8,Floor,A,7
-763,8,100 Level,102,2
-764,8,200 Level,201,2
-765,8,200 Level,201,8
-766,8,Floor,C,8
-767,8,Floor,D,5
-768,8,Floor,A,8
-769,8,Floor,D,4
-770,8,Floor,B,7
-771,8,Floor,C,6
-772,8,100 Level,103,5
-773,8,Floor,C,5
-774,8,Floor,A,5
+482,8,Floor,C,5
+483,8,200 Level,202,3
+484,8,Floor,A,7
+485,8,Floor,B,3
+486,8,Floor,B,9
+487,8,200 Level,201,5
+488,8,Floor,D,3
+489,8,Floor,C,1
+490,8,Floor,C,6
+491,8,100 Level,103,3
+492,8,Floor,B,6
+493,8,100 Level,102,7
+494,8,100 Level,102,5
+495,8,100 Level,101,4
+496,8,200 Level,201,7
+497,8,Floor,C,7
+498,8,Floor,A,1
+499,8,Floor,A,10
+500,8,200 Level,201,3
+501,8,100 Level,103,6
+502,8,Floor,B,4
+503,8,Floor,C,4
+504,8,200 Level,202,5
+505,8,200 Level,202,1
+506,8,Floor,A,6
+507,8,Floor,B,5
+508,8,200 Level,201,1
+509,8,Floor,D,1
+510,8,Floor,C,3
+511,6,Orchestra,D,2
+512,6,Mezzanine,G,5
+513,6,Mezzanine,F,6
+514,6,Mezzanine,F,7
+515,6,Balcony,K,6
+516,6,Orchestra,D,10
+517,6,Orchestra,C,10
+518,6,Orchestra,D,6
+519,6,Orchestra,D,1
+520,6,Orchestra,C,4
+521,6,Orchestra,C,2
+522,6,Orchestra,B,2
+523,6,Orchestra,D,8
+524,6,Orchestra,B,7
+525,6,Orchestra,A,7
+526,6,Orchestra,C,3
+527,6,Orchestra,A,9
+528,6,Orchestra,C,7
+529,6,Orchestra,B,8
+530,6,Orchestra,A,2
+531,6,Orchestra,B,9
+532,6,Orchestra,B,6
+533,6,Balcony,K,2
+534,6,Balcony,K,5
+535,6,Orchestra,C,8
+536,6,Balcony,K,7
+537,1,200 Level,201,1
+538,1,100 Level,102,5
+539,1,Floor,A,2
+540,1,Floor,B,8
+541,1,Floor,A,5
+542,1,100 Level,103,5
+543,1,Floor,C,4
+544,1,Floor,D,9
+545,1,200 Level,202,6
+546,1,100 Level,103,8
+547,1,100 Level,102,6
+548,1,200 Level,201,3
+549,1,Floor,C,5
+550,1,Floor,D,1
+551,1,Floor,C,6
+552,1,100 Level,101,8
+553,1,Floor,D,10
+554,1,Floor,C,8
+555,1,200 Level,202,7
+556,1,Floor,A,3
+557,1,Floor,C,3
+558,1,Floor,B,4
+559,1,200 Level,202,2
+560,1,Floor,D,5
+561,1,100 Level,103,4
+562,1,100 Level,101,4
+563,1,Floor,A,7
+564,1,100 Level,103,1
+565,1,200 Level,202,4
+566,1,100 Level,101,5
+567,1,100 Level,102,3
+568,1,Floor,D,6
+569,1,Floor,D,4
+570,1,Floor,D,2
+571,1,Floor,C,10
+572,1,Floor,D,8
+573,1,Floor,B,7
+574,1,Floor,A,1
+575,1,Floor,B,3
+576,1,Floor,A,9
+577,1,Floor,A,8
+578,1,100 Level,102,4
+579,1,100 Level,101,1
+580,1,Floor,B,9
+581,1,Floor,C,9
+582,1,200 Level,201,8
+583,1,Floor,B,10
+584,1,Floor,C,7
+585,1,Floor,A,4
+586,1,100 Level,101,6
+587,1,100 Level,103,7
+588,1,200 Level,202,3
+589,1,100 Level,102,7
+590,1,100 Level,103,6
+591,1,Floor,A,10
+592,1,200 Level,202,1
+593,3,Floor,D,6
+594,3,Floor,D,5
+595,3,Floor,C,2
+596,3,Balcony,E,1
+597,3,Floor,C,4
+598,3,Floor,D,2
+599,3,Balcony,F,4
+600,3,Balcony,F,3
+601,3,Floor,B,3
+602,3,Floor,A,5
+603,3,Floor,D,4
+604,3,Floor,C,7
+605,3,Floor,D,3
+606,3,Balcony,E,5
+607,3,Floor,A,1
+608,3,Floor,A,4
+609,3,Floor,B,1
+610,3,Floor,A,2
+611,3,Balcony,F,1
+612,3,Floor,C,3
+613,3,Floor,A,7
+614,3,Balcony,E,3
+615,3,Floor,C,5
+616,3,Balcony,F,6
+617,3,Floor,B,7
+618,3,Balcony,E,4
+619,3,Floor,A,8
+620,3,Floor,B,5
+621,3,Floor,D,7
+622,3,Floor,B,6
+623,3,Floor,D,1
+624,3,Balcony,F,2
+625,3,Balcony,E,6
+626,9,Balcony,E,5
+627,9,Floor,C,8
+628,9,Floor,C,5
+629,9,Floor,C,2
+630,9,Floor,A,5
+631,9,Balcony,E,6
+632,9,Balcony,E,1
+633,9,Floor,D,1
+634,9,Floor,B,7
+635,9,Floor,C,6
+636,9,Balcony,F,1
+637,9,Floor,B,2
+638,9,Floor,C,1
+639,9,Balcony,F,6
+640,9,Floor,A,6
+641,9,Floor,B,5
+642,9,Floor,D,8
+643,9,Floor,B,6
+644,9,Balcony,E,2
+645,9,Floor,D,5
+646,9,Floor,A,8
+647,9,Floor,C,7
+648,9,Balcony,E,3
+649,9,Balcony,F,4
+650,9,Floor,D,2
+651,9,Balcony,E,4
+652,9,Floor,D,4
+653,9,Balcony,F,5
+654,9,Balcony,F,3
+655,5,Floor,C,5
+656,5,100 Level,102,8
+657,5,100 Level,102,6
+658,5,Floor,D,3
+659,5,Floor,C,8
+660,5,200 Level,201,7
+661,5,Floor,A,4
+662,5,200 Level,201,5
+663,5,Floor,B,7
+664,5,100 Level,102,1
+665,5,100 Level,102,3
+666,5,200 Level,202,6
+667,5,200 Level,202,8
+668,5,Floor,C,3
+669,5,Floor,B,10
+670,5,200 Level,201,8
+671,5,Floor,D,8
+672,5,200 Level,201,4
+673,5,Floor,A,3
+674,5,100 Level,101,1
+675,5,200 Level,201,2
+676,5,Floor,A,1
+677,5,Floor,C,1
+678,5,Floor,B,5
+679,5,200 Level,202,1
+680,5,100 Level,103,3
+681,5,100 Level,103,8
+682,5,200 Level,202,4
+683,5,Floor,D,9
+684,5,Floor,C,2
+685,5,Floor,D,4
+686,5,100 Level,101,3
+687,5,Floor,A,2
+688,5,Floor,B,4
+689,5,Floor,D,7
+690,5,Floor,D,2
+691,5,Floor,A,10
+692,5,Floor,A,8
+693,5,Floor,B,8
+694,5,Floor,B,1
+695,5,200 Level,201,6
+696,5,100 Level,102,2
+697,5,100 Level,103,1
+698,5,Floor,B,2
+699,5,Floor,C,6
+700,5,100 Level,101,7
+701,5,Floor,A,6
+702,5,Floor,C,10
+703,5,Floor,B,3
+704,7,200 Level,202,2
+705,7,100 Level,103,1
+706,7,200 Level,201,2
+707,7,100 Level,102,6
+708,7,200 Level,202,5
+709,7,Floor,C,7
+710,7,Floor,B,1
+711,7,Floor,C,8
+712,7,Floor,B,9
+713,7,Floor,A,1
+714,7,Floor,D,4
+715,7,200 Level,201,1
+716,7,Floor,B,3
+717,7,Floor,A,6
+718,7,100 Level,103,2
+719,7,100 Level,103,4
+720,7,100 Level,103,6
+721,7,Floor,C,4
+722,7,100 Level,103,7
+723,7,200 Level,201,3
+724,7,100 Level,102,8
+725,7,200 Level,201,5
+726,7,100 Level,101,6
+727,7,200 Level,202,6
+728,7,Floor,A,3
+729,7,100 Level,103,5
+730,7,Floor,D,8
+731,7,Floor,C,9
+732,7,Floor,B,10
+733,7,100 Level,102,2
+734,7,Floor,D,7
+735,7,Floor,C,1
+736,7,Floor,C,5
+737,7,Floor,B,2
+738,7,Floor,D,10
+739,7,200 Level,201,8
+740,2,Orchestra,A,8
+741,2,Orchestra,C,4
+742,2,Orchestra,D,8
+743,2,Mezzanine,F,5
+744,2,Orchestra,D,10
+745,2,Orchestra,B,4
+746,2,Orchestra,D,7
+747,2,Orchestra,B,6
+748,2,Orchestra,C,5
+749,2,Orchestra,B,10
+750,2,Mezzanine,G,7
+751,2,Orchestra,B,9
+752,2,Balcony,K,3
+753,2,Orchestra,A,9
+754,2,Balcony,J,2
+755,2,Balcony,J,4
+756,2,Mezzanine,F,8
+757,2,Balcony,J,7
+758,2,Mezzanine,G,6
+759,2,Orchestra,A,10
+760,2,Mezzanine,F,3
+761,2,Orchestra,B,3
+762,2,Orchestra,A,1
+763,2,Balcony,K,1
+764,2,Mezzanine,F,4
+765,2,Orchestra,C,6
+766,2,Orchestra,B,5
+767,2,Orchestra,D,4
+768,2,Mezzanine,G,1
+769,2,Mezzanine,F,7
+770,2,Orchestra,D,5
+771,2,Orchestra,A,4
+772,8,100 Level,102,1
+773,8,Floor,D,10
+774,8,100 Level,103,8
 775,8,100 Level,103,2
-776,8,100 Level,101,4
-777,8,Floor,B,9
-778,8,200 Level,201,6
-779,8,200 Level,201,1
-780,8,Floor,A,9
-781,8,200 Level,201,5
-782,8,Floor,C,1
-783,8,Floor,C,9
-784,8,Floor,D,10
-785,8,200 Level,202,1
-786,8,Floor,A,3
-787,2,Mezzanine,G,1
-788,2,Balcony,J,4
-789,2,Mezzanine,F,2
-790,2,Orchestra,C,2
-791,2,Balcony,K,3
-792,2,Orchestra,A,6
-793,2,Orchestra,B,5
-794,2,Orchestra,D,9
-795,2,Orchestra,C,5
-796,2,Balcony,J,7
-797,2,Balcony,K,7
-798,2,Orchestra,B,8
-799,2,Orchestra,A,7
-800,2,Orchestra,B,10
-801,2,Orchestra,B,3
-802,2,Mezzanine,F,4
-803,2,Orchestra,C,6
-804,2,Orchestra,A,1
-805,2,Orchestra,B,6
-806,2,Orchestra,C,1
-807,2,Orchestra,C,3
-808,2,Orchestra,D,7
-809,2,Balcony,J,3
-810,2,Orchestra,D,10
-811,2,Orchestra,A,4
-812,2,Orchestra,A,5
-813,2,Orchestra,B,2
-814,2,Mezzanine,G,8
-815,2,Orchestra,B,6
-816,2,Balcony,K,7
-817,2,Mezzanine,F,1
-818,2,Balcony,J,4
-819,2,Orchestra,A,5
-820,2,Mezzanine,G,2
-821,2,Orchestra,C,6
-822,2,Orchestra,B,10
-823,2,Balcony,K,1
-824,2,Orchestra,D,7
-825,2,Orchestra,C,2
-826,2,Balcony,J,2
-827,2,Orchestra,A,2
-828,2,Orchestra,A,10
-829,2,Mezzanine,F,7
-830,2,Orchestra,A,6
-831,2,Orchestra,D,3
-832,2,Orchestra,D,7
-833,2,Orchestra,C,6
-834,2,Orchestra,B,8
-835,2,Orchestra,C,5
-836,2,Orchestra,B,4
-837,2,Orchestra,D,10
-838,2,Balcony,K,7
-839,2,Orchestra,D,3
-840,2,Orchestra,B,10
-841,2,Balcony,K,4
-842,2,Orchestra,C,10
-843,2,Mezzanine,F,7
-844,2,Balcony,J,2
-845,2,Orchestra,A,6
-846,2,Mezzanine,F,8
-847,2,Orchestra,D,2
-848,2,Mezzanine,G,7
-849,2,Mezzanine,G,2
-850,2,Mezzanine,G,6
-851,2,Orchestra,A,7
-852,2,Orchestra,B,1
-853,2,Balcony,K,1
-854,2,Orchestra,C,1
-855,2,Orchestra,D,4
-856,2,Balcony,J,3
-857,2,Balcony,K,3
-858,2,Balcony,K,6
-859,2,Balcony,K,8
-860,2,Orchestra,A,4
-861,2,Orchestra,A,9
-862,2,Balcony,K,2
-863,2,Orchestra,D,3
-864,2,Orchestra,C,4
-865,2,Balcony,J,5
-866,2,Orchestra,D,4
-867,2,Orchestra,C,1
-868,2,Balcony,J,2
-869,2,Orchestra,A,10
-870,2,Mezzanine,G,1
-871,2,Orchestra,D,1
-872,2,Orchestra,B,3
-873,2,Orchestra,A,2
-874,2,Mezzanine,G,5
-875,2,Orchestra,A,8
-876,2,Orchestra,A,1
-877,2,Orchestra,C,2
-878,2,Mezzanine,G,7
-879,2,Orchestra,A,9
-880,2,Balcony,K,1
-881,2,Orchestra,B,5
-882,2,Orchestra,C,9
-883,2,Orchestra,D,6
-884,2,Orchestra,B,7
-885,2,Orchestra,D,9
-886,2,Orchestra,D,8
-887,2,Balcony,J,6
-888,2,Orchestra,A,4
-889,2,Orchestra,D,5
-890,2,Orchestra,C,3
-891,2,Mezzanine,G,2
-892,2,Orchestra,D,4
-893,2,Orchestra,C,8
-894,2,Orchestra,B,5
-895,2,Orchestra,A,8
-896,2,Orchestra,D,5
-897,2,Orchestra,D,10
-898,2,Balcony,K,6
-899,2,Balcony,K,8
-900,2,Mezzanine,F,1
-901,2,Balcony,J,1
-902,2,Balcony,K,4
-903,2,Orchestra,B,8
-904,2,Balcony,K,2
-905,2,Orchestra,B,6
-906,2,Balcony,J,4
-907,2,Balcony,J,5
-908,2,Mezzanine,F,8
-909,2,Mezzanine,G,5
-910,2,Orchestra,A,7
-911,2,Orchestra,A,6
-912,2,Orchestra,C,9
-913,2,Mezzanine,F,3
-914,2,Orchestra,A,4
-915,2,Orchestra,A,2
-916,2,Orchestra,B,4
-917,2,Mezzanine,G,3
-918,2,Orchestra,C,10
-919,2,Orchestra,C,3
-920,2,Mezzanine,G,6
-921,2,Balcony,K,2
-922,2,Orchestra,D,6
-923,2,Mezzanine,G,2
-924,2,Orchestra,B,7
-925,2,Orchestra,A,2
-926,2,Orchestra,A,7
-927,2,Orchestra,A,9
-928,2,Balcony,K,4
-929,2,Orchestra,D,5
-930,2,Balcony,J,2
-931,2,Orchestra,A,5
-932,2,Balcony,J,6
-933,2,Mezzanine,G,8
-934,2,Mezzanine,F,2
-935,2,Orchestra,C,4
-936,2,Balcony,J,5
-937,2,Mezzanine,G,3
-938,2,Orchestra,B,4
-939,2,Orchestra,B,3
-940,2,Orchestra,A,5
-941,2,Balcony,J,8
-942,2,Balcony,J,2
-943,2,Mezzanine,F,5
-944,2,Orchestra,C,2
-945,2,Balcony,K,8
-946,2,Orchestra,D,8
-947,2,Balcony,J,4
-948,2,Orchestra,A,9
-949,2,Orchestra,B,1
-950,2,Orchestra,A,7
-951,2,Orchestra,A,1
-952,2,Balcony,K,6
-953,2,Orchestra,D,10
-954,2,Balcony,J,7
-955,2,Orchestra,C,6
-956,2,Balcony,K,2
-957,2,Mezzanine,G,8
-958,2,Orchestra,B,9
-959,2,Orchestra,C,3
-960,2,Mezzanine,G,1
-961,2,Orchestra,A,4
-962,2,Orchestra,A,6
-963,2,Orchestra,C,5
-964,2,Orchestra,C,7
-965,2,Orchestra,C,2
-966,2,Balcony,J,8
-967,2,Orchestra,A,5
-968,2,Orchestra,D,9
-969,2,Orchestra,D,4
-970,2,Balcony,K,6
-971,2,Orchestra,D,7
-972,2,Orchestra,C,10
-973,2,Balcony,J,2
-974,2,Balcony,K,3
-975,2,Balcony,K,7
-976,2,Orchestra,C,9
-977,2,Balcony,J,1
-978,2,Orchestra,C,1
-979,2,Balcony,K,1
-980,2,Balcony,J,4
-981,2,Balcony,J,5
-982,2,Orchestra,D,7
-983,2,Balcony,K,5
-984,2,Orchestra,B,7
-985,2,Balcony,K,1
-986,2,Balcony,J,5
-987,2,Orchestra,A,5
-988,2,Orchestra,D,2
-989,2,Orchestra,A,9
-990,2,Mezzanine,F,6
-991,2,Orchestra,D,10
-992,2,Mezzanine,F,2
-993,2,Balcony,K,6
-994,2,Orchestra,D,8
-995,2,Balcony,K,3
-996,2,Balcony,J,7
-997,2,Mezzanine,F,8
-998,2,Orchestra,B,2
-999,2,Orchestra,D,4
-1000,2,Orchestra,C,1
-1001,2,Balcony,J,3
-1002,2,Orchestra,C,4
-1003,2,Orchestra,A,6
-1004,2,Balcony,J,8
-1005,2,Mezzanine,G,8
-1006,2,Mezzanine,F,3
-1007,2,Orchestra,D,6
-1008,2,Orchestra,B,3
-1009,2,Balcony,J,4
-1010,2,Orchestra,C,9
-1011,2,Orchestra,C,10
-1012,2,Mezzanine,G,2
-1013,2,Mezzanine,G,6
-1014,2,Orchestra,C,3
-1015,2,Mezzanine,G,4
-1016,2,Orchestra,C,1
-1017,2,Orchestra,B,7
-1018,2,Balcony,K,7
-1019,2,Balcony,K,3
-1020,2,Orchestra,C,8
-1021,2,Mezzanine,G,8
-1022,2,Mezzanine,F,6
-1023,2,Mezzanine,G,6
-1024,2,Orchestra,D,8
-1025,2,Balcony,J,3
-1026,2,Orchestra,C,4
-1027,2,Balcony,J,4
-1028,2,Orchestra,A,8
-1029,2,Orchestra,D,2
-1030,2,Orchestra,B,8
-1031,2,Orchestra,A,2
-1032,2,Balcony,J,1
-1033,2,Orchestra,A,9
-1034,2,Balcony,J,5
-1035,2,Orchestra,C,2
-1036,2,Orchestra,C,9
-1037,2,Balcony,K,8
-1038,2,Orchestra,B,10
-1039,2,Orchestra,D,1
-1040,2,Orchestra,C,7
-1041,2,Balcony,J,8
-1042,2,Balcony,J,5
-1043,2,Orchestra,D,5
-1044,2,Mezzanine,F,5
-1045,2,Orchestra,D,7
-1046,2,Mezzanine,F,4
-1047,2,Orchestra,B,3
-1048,2,Orchestra,B,5
-1049,2,Mezzanine,G,4
-1050,2,Balcony,J,2
-1051,2,Balcony,K,3
-1052,2,Orchestra,C,3
-1053,2,Balcony,J,6
-1054,2,Mezzanine,F,7
-1055,2,Orchestra,A,9
-1056,2,Orchestra,C,8
-1057,2,Orchestra,D,3
-1058,2,Orchestra,B,8
-1059,2,Orchestra,B,6
-1060,2,Mezzanine,G,3
-1061,2,Balcony,J,1
-1062,2,Orchestra,A,4
-1063,2,Mezzanine,F,2
-1064,2,Orchestra,B,10
-1065,2,Balcony,K,8
-1066,2,Orchestra,D,5
-1067,2,Orchestra,C,7
-1068,2,Orchestra,D,10
-1069,2,Orchestra,A,9
-1070,2,Balcony,J,1
-1071,2,Mezzanine,G,3
-1072,2,Balcony,J,3
-1073,2,Orchestra,B,1
-1074,2,Orchestra,D,4
-1075,2,Mezzanine,G,5
-1076,2,Orchestra,A,3
-1077,2,Orchestra,B,8
-1078,2,Orchestra,C,9
-1079,2,Orchestra,A,2
-1080,2,Orchestra,C,4
-1081,2,Orchestra,B,10
-1082,2,Mezzanine,G,7
-1083,2,Balcony,K,5
-1084,2,Orchestra,C,8
-1085,2,Orchestra,D,8
-1086,2,Orchestra,B,2
-1087,2,Orchestra,A,8
-1088,2,Orchestra,C,6
-1089,2,Mezzanine,F,4
-1090,2,Balcony,J,5
-1091,2,Balcony,J,2
-1092,2,Orchestra,D,7
-1093,2,Balcony,K,7
-1094,2,Mezzanine,G,8
-1095,1,Floor,A,4
-1096,1,200 Level,202,6
-1097,1,Floor,D,10
-1098,1,Floor,B,4
-1099,1,Floor,C,3
-1100,1,Floor,D,7
-1101,1,Floor,D,6
-1102,1,Floor,B,1
-1103,1,100 Level,102,3
-1104,1,100 Level,103,4
-1105,1,100 Level,103,3
-1106,1,200 Level,201,7
-1107,1,100 Level,101,2
-1108,1,Floor,B,7
-1109,1,200 Level,202,5
-1110,1,100 Level,101,4
-1111,1,100 Level,102,2
-1112,1,Floor,A,6
-1113,1,200 Level,202,1
-1114,1,Floor,A,9
-1115,1,100 Level,101,1
-1116,1,100 Level,101,7
-1117,1,Floor,A,5
-1118,1,Floor,B,2
-1119,1,200 Level,202,7
-1120,1,Floor,B,5
-1121,1,100 Level,103,7
-1122,1,100 Level,103,8
-1123,1,Floor,C,9
-1124,1,200 Level,201,8
-1125,1,Floor,C,1
-1126,1,200 Level,201,4
-1127,1,Floor,B,10
-1128,1,Floor,A,1
-1129,1,100 Level,101,6
-1130,1,Floor,A,8
-1131,1,100 Level,102,1
-1132,1,100 Level,102,7
-1133,1,Floor,A,2
-1134,1,Floor,A,10
-1135,1,Floor,C,8
-1136,1,Floor,C,7
-1137,1,Floor,C,10
-1138,1,100 Level,102,5
-1139,1,100 Level,103,5
-1140,1,Floor,C,5
-1141,1,Floor,C,6
-1142,1,Floor,B,8
-1143,5,Floor,A,9
-1144,5,Floor,D,8
-1145,5,100 Level,101,7
-1146,5,100 Level,103,2
-1147,5,200 Level,202,4
-1148,5,100 Level,102,6
-1149,5,100 Level,103,3
-1150,5,Floor,C,6
-1151,5,200 Level,201,8
-1152,5,100 Level,102,7
-1153,5,200 Level,202,7
-1154,5,Floor,B,8
-1155,5,200 Level,201,3
-1156,5,Floor,C,5
-1157,5,100 Level,103,7
-1158,5,Floor,D,6
-1159,5,Floor,B,3
-1160,5,Floor,D,2
-1161,5,Floor,B,2
-1162,5,200 Level,201,2
-1163,5,200 Level,202,2
-1164,5,Floor,B,7
-1165,5,200 Level,202,3
-1166,5,100 Level,103,6
-1167,5,Floor,B,10
-1168,5,Floor,A,4
-1169,5,Floor,A,1
-1170,5,Floor,D,5
-1171,5,100 Level,101,8
-1172,5,100 Level,102,2
-1173,5,200 Level,201,5
-1174,5,100 Level,102,4
-1175,5,Floor,B,1
-1176,5,100 Level,101,3
-1177,5,100 Level,101,5
-1178,5,100 Level,103,8
-1179,5,Floor,D,10
-1180,5,100 Level,102,1
-1181,5,Floor,C,2
-1182,5,100 Level,102,3
-1183,5,Floor,D,9
-1184,5,100 Level,102,5
-1185,5,Floor,A,2
-1186,5,Floor,A,10
-1187,5,Floor,B,9
-1188,5,Floor,C,8
-1189,5,100 Level,101,2
-1190,5,100 Level,102,8
-1191,7,200 Level,201,6
-1192,7,200 Level,202,2
-1193,7,Floor,C,6
-1194,7,200 Level,202,3
-1195,7,Floor,B,2
-1196,7,200 Level,202,7
-1197,7,Floor,A,10
-1198,7,200 Level,201,1
-1199,7,Floor,D,4
-1200,7,100 Level,101,8
-1201,7,200 Level,201,5
-1202,7,100 Level,103,2
-1203,7,100 Level,101,3
-1204,7,100 Level,102,7
-1205,7,100 Level,101,1
-1206,7,Floor,B,3
-1207,7,Floor,C,3
-1208,7,200 Level,201,2
-1209,7,Floor,C,2
-1210,7,100 Level,101,6
-1211,7,100 Level,103,4
-1212,7,100 Level,102,6
-1213,7,200 Level,201,8
-1214,7,Floor,A,2
-1215,7,Floor,C,9
-1216,7,Floor,B,5
-1217,7,Floor,D,8
-1218,7,100 Level,103,3
-1219,7,Floor,A,4
-1220,7,Floor,C,4
-1221,7,Floor,B,7
-1222,7,200 Level,202,6
-1223,7,100 Level,103,1
-1224,7,Floor,A,9
-1225,7,Floor,C,5
-1226,7,Floor,A,5
-1227,7,Floor,C,8
-1228,7,Floor,A,7
-1229,7,Floor,A,6
-1230,7,100 Level,102,3
-1231,7,200 Level,201,4
-1232,7,Floor,D,1
-1233,7,200 Level,201,7
-1234,7,100 Level,101,7
-1235,7,Floor,B,6
-1236,1,100 Level,102,6
-1237,1,100 Level,102,1
-1238,1,Floor,C,2
-1239,1,100 Level,102,4
-1240,1,200 Level,201,7
-1241,1,Floor,D,7
-1242,1,Floor,C,9
-1243,1,200 Level,201,6
-1244,1,Floor,C,5
-1245,1,100 Level,103,2
-1246,1,100 Level,101,5
-1247,1,Floor,D,9
-1248,1,100 Level,101,1
-1249,1,200 Level,201,5
-1250,1,Floor,C,3
-1251,1,100 Level,103,6
-1252,1,100 Level,103,1
-1253,1,Floor,C,8
-1254,1,Floor,D,5
-1255,1,100 Level,102,5
-1256,1,100 Level,101,7
-1257,1,Floor,B,2
-1258,1,Floor,B,4
-1259,1,Floor,B,6
-1260,1,Floor,B,8
-1261,1,Floor,B,10
-1282,1,Floor,C,2
-1283,1,Floor,C,7
-1284,1,Floor,B,2
-1285,1,Floor,D,3
-1286,1,Floor,D,10
-1287,1,100 Level,102,8
-1288,1,Floor,B,5
-1289,1,Floor,A,9
-1290,1,100 Level,102,4
-1291,1,Floor,D,1
-1292,1,100 Level,102,5
-1293,1,100 Level,103,3
-1294,1,200 Level,202,1
-1295,1,100 Level,101,7
-1296,1,Floor,A,7
-1297,1,100 Level,102,6
-1298,1,Floor,A,4
-1299,1,Floor,D,8
-1300,1,Floor,A,5
-1301,1,100 Level,103,6
-1302,1,Floor,B,3
-1303,1,Floor,A,8
+776,8,Floor,B,9
+777,8,Floor,C,8
+778,8,Floor,D,6
+779,8,Floor,D,5
+780,8,Floor,A,5
+781,8,Floor,B,5
+782,8,200 Level,201,4
+783,8,200 Level,202,7
+784,8,200 Level,202,6
+785,8,100 Level,102,3
+786,8,100 Level,101,8
+787,8,Floor,B,6
+788,8,Floor,D,1
+789,8,100 Level,103,1
+790,8,Floor,C,5
+791,8,Floor,B,3
+792,8,100 Level,103,3
+793,8,Floor,A,1
+794,8,Floor,B,8
+795,8,200 Level,202,1
+796,8,Floor,A,4
+797,8,Floor,D,4
+798,8,Floor,A,9
+799,8,200 Level,202,2
+800,8,Floor,C,4
+801,8,100 Level,101,2
+802,8,100 Level,101,1
+803,8,200 Level,201,1
+804,8,100 Level,101,4
+805,8,Floor,C,2
+806,8,100 Level,102,6
+807,8,Floor,C,9
+808,8,100 Level,101,6
+809,8,Floor,C,1
+810,8,200 Level,202,4
+811,8,100 Level,103,7
+812,8,100 Level,102,4
+813,8,Floor,A,3
+814,2,Orchestra,B,10
+815,2,Mezzanine,G,8
+816,2,Mezzanine,F,2
+817,2,Mezzanine,G,5
+818,2,Balcony,J,5
+819,2,Orchestra,C,4
+820,2,Balcony,K,6
+821,2,Orchestra,C,8
+822,2,Mezzanine,F,6
+823,2,Orchestra,A,7
+824,2,Orchestra,B,5
+825,2,Orchestra,C,3
+826,2,Mezzanine,G,3
+827,2,Orchestra,C,5
+828,2,Orchestra,C,7
+829,2,Orchestra,B,9
+830,2,Orchestra,A,5
+831,2,Orchestra,A,10
+832,2,Orchestra,C,10
+833,2,Mezzanine,F,4
+834,2,Mezzanine,G,7
+835,2,Balcony,K,7
+836,2,Mezzanine,F,1
+837,2,Orchestra,A,9
+838,2,Orchestra,A,4
+839,2,Orchestra,B,5
+840,2,Balcony,J,2
+841,2,Mezzanine,F,5
+842,2,Orchestra,B,1
+843,2,Balcony,J,5
+844,2,Mezzanine,F,1
+845,2,Orchestra,A,3
+846,2,Mezzanine,G,6
+847,2,Orchestra,B,10
+848,2,Balcony,K,7
+849,2,Mezzanine,F,3
+850,2,Orchestra,D,5
+851,2,Orchestra,B,6
+852,2,Balcony,K,4
+853,2,Orchestra,C,1
+854,2,Orchestra,C,5
+855,2,Orchestra,B,8
+856,2,Orchestra,C,4
+857,2,Orchestra,B,2
+858,2,Orchestra,D,6
+859,2,Orchestra,B,4
+860,2,Orchestra,B,9
+861,2,Orchestra,A,10
+862,2,Orchestra,D,2
+863,2,Balcony,J,8
+864,2,Balcony,K,6
+865,2,Orchestra,C,6
+866,2,Mezzanine,G,7
+867,2,Mezzanine,F,6
+868,2,Balcony,J,6
+869,2,Mezzanine,F,7
+870,2,Orchestra,A,10
+871,2,Orchestra,D,8
+872,2,Orchestra,C,6
+873,2,Balcony,K,3
+874,2,Mezzanine,F,2
+875,2,Mezzanine,F,8
+876,2,Balcony,J,1
+877,2,Orchestra,A,8
+878,2,Orchestra,D,5
+879,2,Balcony,K,6
+880,2,Orchestra,C,1
+881,2,Orchestra,B,7
+882,2,Orchestra,C,3
+883,2,Orchestra,D,3
+884,2,Mezzanine,G,6
+885,2,Balcony,K,5
+886,2,Balcony,K,2
+887,2,Orchestra,B,6
+888,2,Balcony,J,4
+889,2,Orchestra,B,8
+890,2,Mezzanine,G,4
+891,2,Balcony,J,8
+892,2,Orchestra,D,1
+893,2,Mezzanine,G,5
+894,2,Orchestra,D,10
+895,2,Orchestra,C,8
+896,2,Mezzanine,G,7
+897,2,Mezzanine,G,8
+898,2,Orchestra,A,1
+899,2,Orchestra,C,4
+900,2,Orchestra,A,4
+901,2,Orchestra,C,10
+902,2,Balcony,K,8
+903,2,Orchestra,C,3
+904,2,Mezzanine,G,2
+905,2,Orchestra,D,4
+906,2,Orchestra,C,8
+907,2,Orchestra,B,5
+908,2,Orchestra,A,8
+909,2,Orchestra,D,5
+910,2,Orchestra,D,10
+911,2,Balcony,K,6
+912,2,Balcony,K,8
+913,2,Mezzanine,F,1
+914,2,Balcony,J,1
+915,2,Balcony,K,4
+916,2,Orchestra,B,8
+917,2,Balcony,K,2
+918,2,Orchestra,B,6
+919,2,Balcony,J,4
+920,2,Balcony,J,5
+921,2,Mezzanine,F,8
+922,2,Mezzanine,G,5
+923,2,Orchestra,A,7
+924,2,Orchestra,A,6
+925,2,Orchestra,C,9
+926,2,Mezzanine,F,3
+927,2,Orchestra,A,4
+928,2,Orchestra,A,2
+929,2,Orchestra,B,4
+930,2,Mezzanine,G,3
+931,2,Orchestra,C,10
+932,2,Orchestra,C,3
+933,2,Mezzanine,G,6
+934,2,Balcony,K,2
+935,2,Orchestra,D,6
+936,2,Mezzanine,G,2
+937,2,Orchestra,B,7
+938,2,Orchestra,A,2
+939,2,Orchestra,A,7
+940,2,Orchestra,A,9
+941,2,Balcony,K,4
+942,2,Orchestra,D,5
+943,2,Balcony,J,2
+944,2,Orchestra,A,5
+945,2,Balcony,J,6
+946,2,Mezzanine,G,8
+947,2,Mezzanine,F,2
+948,2,Orchestra,C,4
+949,2,Balcony,J,5
+950,2,Mezzanine,G,3
+951,2,Orchestra,B,4
+952,2,Orchestra,B,3
+953,2,Orchestra,A,5
+954,2,Balcony,J,8
+955,2,Balcony,J,2
+956,2,Mezzanine,F,5
+957,2,Orchestra,C,2
+958,2,Balcony,K,8
+959,2,Orchestra,D,8
+960,2,Balcony,J,4
+961,2,Orchestra,A,9
+962,2,Orchestra,B,1
+963,2,Orchestra,A,7
+964,2,Orchestra,A,1
+965,2,Balcony,K,6
+966,2,Orchestra,D,10
+967,2,Balcony,J,7
+968,2,Orchestra,C,6
+969,2,Balcony,K,2
+970,2,Mezzanine,G,8
+971,2,Orchestra,B,9
+972,2,Orchestra,C,3
+973,2,Mezzanine,G,1
+974,2,Orchestra,A,4
+975,2,Orchestra,A,6
+976,2,Orchestra,C,5
+977,2,Orchestra,C,7
+978,2,Orchestra,C,2
+979,2,Balcony,J,8
+980,2,Orchestra,A,5
+981,2,Orchestra,D,9
+982,2,Orchestra,D,4
+983,2,Balcony,K,6
+984,2,Orchestra,D,7
+985,2,Orchestra,C,10
+986,2,Balcony,J,2
+987,2,Balcony,K,3
+988,2,Balcony,K,7
+989,2,Orchestra,C,9
+990,2,Balcony,J,1
+991,2,Orchestra,C,1
+992,2,Balcony,K,1
+993,2,Balcony,J,4
+994,2,Balcony,J,5
+995,2,Orchestra,D,7
+996,2,Balcony,K,5
+997,2,Orchestra,B,7
+998,2,Balcony,K,1
+999,2,Balcony,J,5
+1000,2,Orchestra,A,5
+1001,2,Orchestra,D,2
+1002,2,Orchestra,A,9
+1003,2,Mezzanine,F,6
+1004,2,Orchestra,D,10
+1005,2,Mezzanine,F,2
+1006,2,Balcony,K,6
+1007,2,Orchestra,D,8
+1008,2,Balcony,K,3
+1009,2,Balcony,J,7
+1010,2,Mezzanine,F,8
+1011,2,Orchestra,B,2
+1012,2,Orchestra,D,4
+1013,2,Orchestra,C,1
+1014,2,Balcony,J,3
+1015,2,Orchestra,C,4
+1016,2,Orchestra,A,6
+1017,2,Balcony,J,8
+1018,2,Mezzanine,G,8
+1019,2,Mezzanine,F,3
+1020,2,Orchestra,D,6
+1021,2,Orchestra,B,3
+1022,2,Balcony,J,4
+1023,2,Orchestra,C,9
+1024,2,Orchestra,C,10
+1025,2,Mezzanine,G,2
+1026,2,Mezzanine,G,6
+1027,2,Orchestra,C,3
+1028,2,Mezzanine,G,4
+1029,2,Orchestra,C,1
+1030,2,Orchestra,B,7
+1031,2,Balcony,K,7
+1032,2,Balcony,K,3
+1033,2,Orchestra,C,8
+1034,2,Mezzanine,G,8
+1035,2,Mezzanine,F,6
+1036,2,Mezzanine,G,6
+1037,2,Orchestra,D,8
+1038,2,Balcony,J,3
+1039,2,Orchestra,C,4
+1040,2,Balcony,J,4
+1041,2,Orchestra,A,8
+1042,2,Orchestra,D,2
+1043,2,Orchestra,B,8
+1044,2,Orchestra,A,2
+1045,2,Balcony,J,1
+1046,2,Orchestra,A,9
+1047,2,Balcony,J,5
+1048,2,Orchestra,C,2
+1049,2,Orchestra,C,9
+1050,2,Balcony,K,8
+1051,2,Orchestra,B,10
+1052,2,Orchestra,D,1
+1053,2,Orchestra,C,7
+1054,2,Balcony,J,8
+1055,2,Balcony,J,5
+1056,2,Orchestra,D,5
+1057,2,Mezzanine,F,5
+1058,2,Orchestra,D,7
+1059,2,Mezzanine,F,4
+1060,2,Orchestra,B,3
+1061,2,Orchestra,B,5
+1062,2,Mezzanine,G,4
+1063,2,Balcony,J,2
+1064,2,Balcony,K,3
+1065,2,Orchestra,C,3
+1066,2,Balcony,J,6
+1067,2,Mezzanine,F,7
+1068,2,Orchestra,A,9
+1069,2,Orchestra,C,8
+1070,2,Orchestra,D,3
+1071,2,Orchestra,B,8
+1072,2,Orchestra,B,6
+1073,2,Mezzanine,G,3
+1074,2,Balcony,J,1
+1075,2,Orchestra,A,4
+1076,2,Mezzanine,F,2
+1077,2,Orchestra,B,10
+1078,2,Balcony,K,8
+1079,2,Orchestra,D,5
+1080,2,Orchestra,C,7
+1081,2,Orchestra,D,10
+1082,2,Orchestra,A,9
+1083,2,Balcony,J,1
+1084,2,Mezzanine,G,3
+1085,2,Balcony,J,3
+1086,2,Orchestra,B,1
+1087,2,Orchestra,D,4
+1088,2,Mezzanine,G,5
+1089,2,Orchestra,A,3
+1090,2,Orchestra,B,8
+1091,2,Orchestra,C,9
+1092,2,Orchestra,A,2
+1093,2,Orchestra,C,4
+1094,2,Orchestra,B,10
+1095,2,Mezzanine,G,7
+1096,2,Balcony,K,5
+1097,2,Orchestra,C,8
+1098,2,Orchestra,D,8
+1099,2,Orchestra,B,2
+1100,2,Orchestra,A,8
+1101,2,Orchestra,C,6
+1102,2,Mezzanine,F,4
+1103,2,Balcony,J,5
+1104,2,Balcony,J,2
+1105,2,Orchestra,D,7
+1106,2,Balcony,K,7
+1107,2,Mezzanine,G,8
+1108,2,Balcony,K,8
+1109,2,Mezzanine,G,6
+1110,2,Orchestra,D,6
+1111,2,Mezzanine,F,2
+1112,2,Orchestra,B,4
+1113,2,Orchestra,A,9
+1114,2,Orchestra,C,3
+1115,2,Balcony,J,2
+1116,2,Orchestra,A,6
+1117,2,Orchestra,A,3
+1118,2,Orchestra,D,7
+1119,2,Mezzanine,G,7
+1120,2,Orchestra,D,10
+1121,2,Orchestra,B,7
+1122,2,Orchestra,A,8
+1123,2,Orchestra,A,5
+1124,2,Balcony,J,4
+1125,2,Orchestra,C,2
+1126,2,Orchestra,C,9
+1127,2,Orchestra,B,10
+1128,2,Orchestra,C,1
+1129,2,Balcony,J,5
+1130,2,Mezzanine,G,2
+1131,2,Balcony,K,3
+1132,2,Mezzanine,F,7
+1133,2,Mezzanine,G,1
+1134,2,Mezzanine,G,3
+1135,2,Orchestra,A,4
+1136,2,Orchestra,B,5
+1137,2,Balcony,K,6
+1138,2,Orchestra,A,1
+1139,2,Balcony,J,3
+1140,2,Orchestra,C,8
+1141,2,Orchestra,C,7
+1142,1,100 Level,103,2
+1143,1,200 Level,201,4
+1144,1,100 Level,102,5
+1145,1,100 Level,103,7
+1146,1,100 Level,102,3
+1147,1,100 Level,101,6
+1148,1,Floor,C,1
+1149,1,100 Level,101,5
+1150,1,200 Level,201,2
+1151,1,Floor,D,2
+1152,1,Floor,B,6
+1153,1,Floor,D,1
+1154,1,Floor,C,6
+1155,1,100 Level,101,7
+1156,1,Floor,D,7
+1157,1,Floor,D,4
+1158,1,200 Level,202,7
+1159,1,Floor,A,10
+1160,1,Floor,B,8
+1161,1,200 Level,201,1
+1162,1,100 Level,102,8
+1163,1,Floor,D,3
+1164,1,100 Level,101,4
+1165,1,Floor,A,9
+1166,1,Floor,A,1
+1167,1,Floor,A,5
+1168,1,200 Level,202,3
+1169,1,Floor,C,4
+1170,1,Floor,B,5
+1171,1,Floor,B,3
+1172,1,200 Level,201,3
+1173,1,100 Level,101,8
+1174,1,100 Level,101,1
+1175,1,Floor,C,10
+1176,1,100 Level,102,7
+1177,1,Floor,B,9
+1178,1,Floor,C,5
+1179,1,200 Level,202,2
+1180,1,Floor,A,7
+1181,1,100 Level,103,3
+1182,1,100 Level,101,2
+1183,1,100 Level,103,5
+1184,1,Floor,D,10
+1185,1,200 Level,201,5
+1186,1,100 Level,102,4
+1187,1,Floor,B,4
+1188,5,Floor,B,2
+1189,5,200 Level,202,7
+1190,5,Floor,D,7
+1191,5,100 Level,101,2
+1192,5,200 Level,202,8
+1193,5,200 Level,201,1
+1194,5,200 Level,202,3
+1195,5,Floor,C,9
+1196,5,100 Level,103,7
+1197,5,100 Level,102,4
+1198,5,Floor,D,10
+1199,5,100 Level,103,8
+1200,5,100 Level,101,5
+1201,5,Floor,A,10
+1202,5,Floor,D,5
+1203,5,200 Level,201,4
+1204,5,Floor,B,3
+1205,5,Floor,A,4
+1206,5,Floor,A,5
+1207,5,100 Level,101,4
+1208,5,100 Level,102,2
+1209,5,100 Level,103,6
+1210,5,100 Level,103,1
+1211,5,100 Level,103,5
+1212,5,Floor,C,8
+1213,5,100 Level,103,4
+1214,5,Floor,C,3
+1215,5,Floor,C,4
+1216,5,Floor,B,7
+1217,5,Floor,D,1
+1218,5,Floor,D,9
+1219,5,Floor,A,6
+1220,5,200 Level,201,2
+1221,5,200 Level,202,5
+1222,5,100 Level,102,5
+1223,5,Floor,C,5
+1224,5,Floor,A,8
+1225,5,Floor,B,8
+1226,5,100 Level,103,3
+1227,5,100 Level,103,2
+1228,5,100 Level,101,1
+1229,5,Floor,B,5
+1230,5,100 Level,102,6
+1231,5,Floor,B,10
+1232,5,Floor,B,9
+1233,5,Floor,B,1
+1234,7,Floor,A,7
+1235,7,200 Level,201,7
+1236,7,100 Level,103,6
+1237,7,Floor,C,4
+1238,7,100 Level,103,8
+1239,7,Floor,C,9
+1240,7,Floor,A,10
+1241,7,200 Level,202,6
+1242,7,100 Level,103,3
+1243,7,200 Level,201,2
+1244,7,Floor,B,5
+1245,7,Floor,D,9
+1246,7,200 Level,202,8
+1247,7,Floor,D,10
+1248,7,Floor,C,7
+1249,7,Floor,C,5
+1250,7,Floor,B,6
+1251,7,200 Level,202,4
+1252,7,200 Level,201,8
+1253,7,Floor,A,1
+1254,7,200 Level,202,1
+1255,7,Floor,D,2
+1256,7,Floor,A,4
+1257,7,200 Level,201,4
+1258,7,Floor,B,1
+1259,7,Floor,A,2
+1260,7,200 Level,201,1
+1261,7,100 Level,102,6
+1262,7,Floor,B,3
+1263,7,100 Level,102,5
+1264,7,100 Level,101,8
+1265,7,Floor,C,1
+1266,7,100 Level,101,1
+1267,7,Floor,A,9
+1268,7,Floor,D,1
+1269,7,200 Level,202,2
+1270,7,200 Level,202,3
+1271,7,Floor,A,8
+1272,7,Floor,A,3
+1273,7,100 Level,101,3
+1274,7,Floor,C,10
+1275,7,100 Level,102,7
+1276,7,Floor,B,7
+1277,7,100 Level,102,8
+1278,7,100 Level,102,1
+1279,7,Floor,A,6
+1280,7,Floor,B,8
+1281,1,100 Level,102,3
+1282,1,200 Level,202,2
+1283,1,Floor,C,5
+1284,1,100 Level,101,2
+1285,1,200 Level,201,2
+1286,1,200 Level,201,1
+1287,1,Floor,C,4
+1288,1,Floor,C,9
+1289,1,100 Level,102,5
+1290,1,Floor,D,10
+1291,1,100 Level,102,6
+1292,1,Floor,C,2
+1293,1,100 Level,102,2
+1294,1,Floor,C,3
+1295,1,Floor,D,7
+1296,1,100 Level,102,7
+1297,1,100 Level,103,8
+1298,1,200 Level,201,3
+1299,1,Floor,C,1
+1300,1,100 Level,103,2
+1301,1,100 Level,102,1
+1302,1,Floor,B,2
+1303,1,Floor,B,4
 1304,1,Floor,B,6
 1305,1,Floor,B,8
-1306,1,100 Level,101,2
-1307,1,Floor,C,8
-1308,1,Floor,A,1
-1309,1,100 Level,103,7
-1310,1,100 Level,101,6
-1311,1,100 Level,102,3
-1312,1,Floor,D,9
-1313,1,100 Level,103,2
-1314,1,200 Level,201,2
-1315,1,Floor,A,10
-1316,1,200 Level,201,7
-1317,1,Floor,C,10
-1318,1,Floor,C,9
-1319,1,Floor,C,1
-1320,1,Floor,B,9
-1321,1,200 Level,201,1
-1322,1,Floor,C,4
-1323,1,Floor,D,4
-1324,1,100 Level,103,8
-1325,1,100 Level,102,1
-1326,1,Floor,C,3
-1327,1,Floor,D,6
-1328,1,200 Level,201,8
-1329,1,200 Level,201,4
-1330,1,Floor,A,6
-1331,1,Floor,D,7
-1332,1,100 Level,101,3
+1306,1,Floor,B,10
+1327,1,200 Level,201,1
+1328,1,Floor,A,2
+1329,1,Floor,A,10
+1330,1,100 Level,101,2
+1331,1,Floor,D,10
+1332,1,Floor,D,4
 1333,1,Floor,A,3
-1334,1,Floor,C,6
-1335,1,Floor,B,7
-1336,1,Floor,C,5
-1337,1,200 Level,201,5
-1338,7,200 Level,201,1
-1339,7,Floor,A,4
-1340,7,Floor,A,3
-1341,7,Floor,C,8
-1342,7,Floor,A,7
-1343,7,100 Level,101,4
-1344,7,200 Level,201,6
-1345,7,200 Level,201,7
-1346,7,Floor,B,8
-1347,7,Floor,A,6
-1348,7,Floor,A,10
-1349,7,100 Level,102,6
-1350,7,Floor,D,3
-1351,7,100 Level,103,6
-1352,7,100 Level,101,1
-1353,7,Floor,B,1
-1354,7,Floor,C,3
-1355,7,Floor,D,10
-1356,7,Floor,D,1
-1357,7,100 Level,103,4
-1358,7,Floor,A,1
-1359,7,100 Level,102,4
-1360,7,Floor,C,5
-1361,7,200 Level,201,2
-1362,7,100 Level,103,7
-1363,7,Floor,D,5
-1364,7,100 Level,101,7
-1365,7,Floor,B,6
-1366,7,200 Level,201,5
-1367,7,Floor,D,8
-1368,7,100 Level,103,5
-1369,7,Floor,C,7
-1370,7,Floor,A,8
-1371,7,200 Level,201,3
-1372,7,100 Level,103,2
-1373,7,Floor,D,7
-1374,7,Floor,B,7
-1375,7,Floor,B,3
-1376,1,Floor,C,8
-1377,1,Floor,B,2
-1378,1,100 Level,101,6
-1379,1,Floor,A,6
-1380,1,200 Level,202,8
-1381,1,100 Level,103,2
-1382,1,100 Level,102,8
-1383,1,200 Level,202,5
-1384,1,Floor,B,7
-1385,1,200 Level,202,3
-1386,1,100 Level,101,3
-1387,1,Floor,D,5
-1388,1,100 Level,102,1
-1389,1,Floor,C,5
-1390,1,200 Level,201,1
-1391,1,200 Level,201,5
-1392,1,100 Level,103,3
-1393,1,Floor,A,2
-1394,1,100 Level,102,4
-1395,1,Floor,B,1
-1396,1,Floor,A,3
-1397,1,100 Level,102,7
-1398,1,Floor,C,10
-1399,1,Floor,D,6
-1400,1,Floor,C,4
-1401,1,100 Level,101,1
-1402,1,Floor,A,4
-1403,1,200 Level,201,4
-1404,1,100 Level,103,7
-1405,1,200 Level,201,2
-1406,1,Floor,C,2
-1407,1,100 Level,103,1
-1408,1,Floor,D,1
-1409,1,Floor,A,7
-1410,1,Floor,D,7
-1411,1,Floor,B,10
-1412,8,100 Level,103,2
-1413,8,100 Level,103,8
-1414,8,Floor,D,1
-1415,8,Floor,A,9
-1416,8,200 Level,201,7
-1417,8,100 Level,103,1
-1418,8,200 Level,201,5
-1419,8,Floor,C,6
-1420,8,200 Level,202,1
-1421,8,100 Level,101,7
-1422,8,100 Level,102,6
-1423,8,Floor,C,7
-1424,8,100 Level,101,3
-1425,8,Floor,C,10
-1426,8,100 Level,103,3
-1427,8,100 Level,102,1
-1428,8,Floor,C,8
-1429,8,Floor,C,1
-1430,8,100 Level,103,4
-1431,8,Floor,B,8
-1432,8,Floor,B,5
-1433,8,Floor,B,1
-1434,8,Floor,C,5
-1435,8,100 Level,103,6
-1436,8,Floor,D,6
-1437,8,Floor,D,4
-1438,8,Floor,B,6
-1439,8,200 Level,201,1
-1440,8,Floor,A,6
-1441,8,Floor,B,7
-1442,8,Floor,D,8
-1443,8,100 Level,102,3
-1444,6,Balcony,K,4
-1445,6,Orchestra,D,8
-1446,6,Orchestra,D,2
-1447,6,Orchestra,D,3
-1448,6,Balcony,J,5
-1449,6,Orchestra,C,3
-1450,6,Orchestra,A,9
-1451,6,Balcony,K,5
-1452,6,Mezzanine,F,4
-1453,6,Balcony,K,3
-1454,6,Orchestra,B,9
-1455,6,Orchestra,A,6
-1456,3,Floor,C,6
-1457,3,Floor,B,6
-1458,3,Floor,B,1
-1459,3,Balcony,E,4
-1460,3,Balcony,E,6
-1461,3,Balcony,E,3
-1462,3,Floor,A,8
-1463,3,Balcony,F,6
-1464,3,Floor,D,8
-1465,3,Floor,D,3
-1466,3,Floor,B,5
-1467,3,Floor,D,6
-1468,3,Floor,C,1
-1469,3,Balcony,F,3
-1470,3,Floor,C,2
-1471,3,Floor,D,1
-1472,3,Floor,A,2
-1473,3,Floor,D,7
-1474,3,Floor,A,4
-1475,3,Floor,D,5
-1476,3,Floor,C,7
-1477,3,Floor,B,7
-1478,3,Floor,C,5
-1479,3,Floor,C,3
-1480,3,Balcony,E,2
-1481,3,Floor,A,3
-1482,3,Floor,C,4
-1483,3,Floor,D,4
-1484,4,Orchestra,D,10
-1485,4,Orchestra,B,5
-1486,4,Balcony,K,3
-1487,4,Balcony,K,5
-1488,4,Orchestra,C,8
-1489,4,Balcony,K,8
-1490,4,Mezzanine,F,6
-1491,4,Mezzanine,G,3
-1492,4,Balcony,J,7
-1493,4,Orchestra,C,3
-1494,4,Balcony,J,6
-1495,4,Orchestra,D,4
-1496,4,Mezzanine,G,6
-1497,6,Orchestra,B,7
-1498,6,Balcony,J,1
-1499,6,Orchestra,C,7
-1500,6,Orchestra,A,8
-1501,6,Balcony,K,1
-1502,6,Mezzanine,F,5
-1503,6,Mezzanine,G,1
-1504,6,Orchestra,A,10
-1505,6,Orchestra,D,4
-1506,6,Mezzanine,G,2
-1507,6,Mezzanine,G,5
-1508,6,Mezzanine,F,1
-1509,6,Orchestra,D,10
-1510,6,Balcony,K,2
-1511,6,Mezzanine,G,4
-1512,6,Mezzanine,F,6
-1513,6,Orchestra,A,9
-1514,6,Orchestra,A,3
-1515,6,Orchestra,C,9
-1516,6,Balcony,J,2
-1517,6,Orchestra,C,3
-1518,6,Mezzanine,G,3
-1519,8,200 Level,202,5
-1520,8,Floor,D,6
-1521,8,100 Level,103,4
-1522,8,100 Level,103,1
-1523,8,100 Level,103,5
-1524,8,200 Level,201,6
-1525,8,Floor,B,9
-1526,8,200 Level,201,3
-1527,8,Floor,C,10
-1528,8,Floor,C,1
-1529,8,100 Level,101,1
-1530,8,200 Level,202,4
-1531,8,Floor,D,10
-1532,8,Floor,C,5
-1533,8,200 Level,201,7
-1534,8,Floor,A,4
-1535,8,Floor,A,5
-1536,8,100 Level,102,6
-1537,8,Floor,B,7
-1538,8,Floor,B,3
-1539,8,Floor,B,6
-1540,8,Floor,B,2
-1541,9,Floor,C,1
-1542,9,Floor,C,7
-1543,9,Balcony,E,5
-1544,9,Balcony,E,2
-1545,9,Floor,B,7
-1546,9,Floor,B,3
-1547,9,Floor,D,5
-1548,9,Balcony,F,5
-1549,9,Floor,B,8
-1550,9,Balcony,F,3
-1551,9,Floor,B,5
-1552,9,Floor,D,3
-1553,9,Balcony,E,6
-1554,9,Floor,B,2
-1555,9,Floor,A,6
-1556,9,Balcony,F,4
-1557,9,Floor,A,1
-1558,9,Floor,C,4
-1559,9,Floor,C,3
-1560,9,Floor,A,2
-1561,9,Floor,A,7
-1562,2,Orchestra,D,7
-1563,2,Mezzanine,F,5
-1564,2,Balcony,J,8
-1565,2,Orchestra,B,4
-1566,2,Mezzanine,G,6
-1567,2,Orchestra,C,5
-1568,2,Orchestra,B,7
-1569,2,Orchestra,D,2
-1570,2,Balcony,J,6
-1571,2,Mezzanine,F,3
-1572,2,Mezzanine,G,8
-1573,2,Mezzanine,F,6
-1574,2,Balcony,K,4
-1575,2,Orchestra,A,7
-1576,5,Floor,B,7
-1577,5,Floor,C,1
-1578,5,200 Level,202,1
-1579,5,100 Level,103,5
-1580,5,200 Level,201,5
-1581,5,200 Level,201,4
-1582,5,100 Level,102,3
-1583,5,Floor,B,1
-1584,5,200 Level,202,7
-1585,5,Floor,A,2
-1586,5,Floor,A,8
-1587,5,Floor,B,2
-1588,5,Floor,C,4
-1589,5,200 Level,202,5
-1590,5,Floor,C,3
-1591,5,100 Level,103,6
-1592,5,Floor,D,4
-1593,5,Floor,D,2
-1594,5,200 Level,202,6
-1595,5,Floor,A,9
-1596,5,Floor,C,7
-1597,5,Floor,D,8
-1598,5,Floor,D,9
-1599,5,Floor,C,10
-1600,5,Floor,C,8
-1601,5,100 Level,102,1
-1602,5,Floor,B,9
-1603,5,Floor,B,4
-1604,5,200 Level,201,6
-1605,5,200 Level,201,1
-1606,5,Floor,D,1
-1607,5,Floor,A,1
-1608,5,Floor,B,10
-1609,5,Floor,D,5
-1610,5,Floor,A,3
-1611,5,Floor,B,5
-1612,1,Floor,B,2
-1613,1,Floor,D,3
-1614,1,100 Level,101,1
-1615,1,100 Level,103,4
-1616,1,100 Level,103,7
-1617,1,Floor,D,2
-1618,1,100 Level,101,6
-1619,1,Floor,B,3
-1620,1,100 Level,101,5
-1621,1,100 Level,102,8
-1622,1,100 Level,103,3
-1623,1,Floor,D,8
-1624,1,Floor,D,9
-1625,1,Floor,C,2
-1626,1,Floor,D,4
-1627,1,Floor,C,1
-1628,1,Floor,D,10
-1629,1,200 Level,202,4
-1630,1,Floor,B,8
-1631,1,100 Level,102,1
-1632,1,200 Level,202,6
-1633,1,100 Level,101,4
-1634,1,200 Level,202,1
-1635,1,Floor,A,4
-1636,1,Floor,A,6
-1637,1,100 Level,103,1
-1638,1,Floor,C,9
-1639,1,200 Level,201,4
-1640,1,Floor,C,10
-1641,1,Floor,C,5
-1642,1,Floor,A,3
-1643,1,100 Level,103,6
-1644,1,Floor,A,1
-1645,1,Floor,A,8
-1646,1,Floor,A,10
-1647,1,200 Level,202,2
-1648,1,Floor,A,5
-1649,1,Floor,D,6
-1650,1,Floor,D,5
-1651,7,Floor,C,6
-1652,7,Floor,A,9
-1653,7,100 Level,103,4
-1654,7,Floor,C,1
-1655,7,Floor,B,7
-1656,7,200 Level,202,5
-1657,7,200 Level,202,7
-1658,7,100 Level,103,6
-1659,7,Floor,D,2
-1660,7,100 Level,102,8
-1661,7,Floor,C,4
-1662,7,Floor,C,5
-1663,7,100 Level,102,3
-1664,7,Floor,C,7
-1665,7,Floor,B,9
-1666,7,100 Level,102,4
-1667,7,200 Level,201,7
-1668,7,Floor,C,10
-1669,7,Floor,D,5
-1670,7,100 Level,101,8
-1671,7,Floor,A,4
-1672,7,100 Level,102,7
-1673,7,200 Level,202,1
-1674,7,Floor,B,10
-1675,7,Floor,A,8
-1676,7,100 Level,102,2
-1677,7,200 Level,202,2
-1678,7,100 Level,101,2
-1679,7,100 Level,103,8
-1680,7,Floor,A,10
-1681,7,Floor,A,5
-1682,7,Floor,D,4
-1683,7,Floor,B,4
-1684,7,Floor,D,10
-1685,7,Floor,D,9
-1686,7,Floor,A,3
-1687,7,100 Level,103,3
-1688,7,100 Level,101,7
-1689,7,200 Level,202,4
+1334,1,100 Level,101,4
+1335,1,100 Level,102,6
+1336,1,100 Level,103,2
+1337,1,200 Level,201,8
+1338,1,Floor,C,3
+1339,1,Floor,B,8
+1340,1,100 Level,102,2
+1341,1,Floor,D,3
+1342,1,Floor,C,2
+1343,1,200 Level,201,5
+1344,1,Floor,B,1
+1345,1,100 Level,101,5
+1346,1,100 Level,103,7
+1347,1,Floor,C,4
+1348,1,100 Level,102,4
+1349,1,200 Level,201,4
+1350,1,200 Level,201,6
+1351,1,200 Level,202,1
+1352,1,Floor,B,5
+1353,1,200 Level,202,2
+1354,1,Floor,D,7
+1355,1,100 Level,102,5
+1356,1,Floor,C,6
+1357,1,Floor,B,9
+1358,1,100 Level,101,3
+1359,1,100 Level,101,6
+1360,1,100 Level,101,7
+1361,1,Floor,C,8
+1362,1,Floor,A,1
+1363,1,Floor,B,10
+1364,1,Floor,D,2
+1365,1,Floor,B,4
+1366,1,100 Level,103,4
+1367,1,100 Level,102,8
+1368,1,100 Level,103,1
+1369,1,100 Level,103,5
+1370,1,100 Level,101,8
+1371,1,Floor,A,6
+1372,1,Floor,C,9
+1373,1,200 Level,201,2
+1374,1,100 Level,103,3
+1375,1,Floor,B,3
+1376,1,Floor,A,5
+1377,1,100 Level,101,1
+1378,1,100 Level,102,7
+1379,1,Floor,C,1
+1380,1,Floor,A,4
+1381,1,100 Level,102,3
+1382,7,100 Level,102,1
+1383,7,Floor,C,7
+1384,7,100 Level,101,7
+1385,7,Floor,A,7
+1386,7,Floor,D,4
+1387,7,100 Level,101,5
+1388,7,Floor,D,10
+1389,7,Floor,A,5
+1390,7,200 Level,202,2
+1391,7,Floor,B,9
+1392,7,Floor,A,2
+1393,7,Floor,C,2
+1394,7,Floor,A,8
+1395,7,100 Level,103,7
+1396,7,200 Level,201,2
+1397,7,100 Level,101,4
+1398,7,Floor,C,10
+1399,7,100 Level,102,5
+1400,7,Floor,A,6
+1401,7,Floor,D,6
+1402,7,100 Level,103,5
+1403,7,200 Level,201,1
+1404,7,100 Level,101,6
+1405,7,200 Level,201,8
+1406,7,100 Level,103,6
+1407,7,100 Level,102,3
+1408,7,200 Level,201,6
+1409,7,Floor,B,8
+1410,7,Floor,A,9
+1411,7,Floor,B,10
+1412,7,Floor,B,5
+1413,7,Floor,B,4
+1414,7,200 Level,202,1
+1415,7,100 Level,103,8
+1416,7,100 Level,102,2
+1417,7,Floor,C,3
+1418,7,100 Level,103,3
+1419,7,Floor,D,1
+1420,7,Floor,D,7
+1421,1,Floor,A,5
+1422,1,Floor,D,7
+1423,1,100 Level,103,6
+1424,1,Floor,B,4
+1425,1,Floor,D,6
+1426,1,Floor,B,8
+1427,1,100 Level,102,8
+1428,1,200 Level,201,7
+1429,1,100 Level,101,4
+1430,1,100 Level,103,5
+1431,1,200 Level,201,1
+1432,1,Floor,A,8
+1433,1,200 Level,202,6
+1434,1,200 Level,201,6
+1435,1,Floor,D,8
+1436,1,200 Level,201,3
+1437,1,Floor,A,3
+1438,1,Floor,C,10
+1439,1,Floor,B,9
+1440,1,200 Level,202,2
+1441,1,Floor,A,10
+1442,1,100 Level,103,7
+1443,1,Floor,B,1
+1444,1,200 Level,202,5
+1445,1,Floor,C,7
+1446,1,Floor,D,5
+1447,1,Floor,A,1
+1448,1,Floor,D,10
+1449,1,200 Level,201,2
+1450,1,100 Level,101,8
+1451,1,Floor,D,9
+1452,1,Floor,D,3
+1453,1,200 Level,202,1
+1454,1,Floor,A,2
+1455,8,Floor,A,5
+1456,8,200 Level,201,7
+1457,8,200 Level,201,1
+1458,8,Floor,A,2
+1459,8,Floor,C,8
+1460,8,Floor,A,8
+1461,8,200 Level,201,5
+1462,8,Floor,C,1
+1463,8,Floor,D,2
+1464,8,Floor,B,9
+1465,8,Floor,C,3
+1466,8,Floor,A,3
+1467,8,Floor,D,9
+1468,8,100 Level,102,7
+1469,8,Floor,B,2
+1470,8,100 Level,103,5
+1471,8,100 Level,102,1
+1472,8,Floor,C,5
+1473,8,100 Level,102,3
+1474,8,Floor,A,1
+1475,8,Floor,B,5
+1476,8,Floor,D,3
+1477,8,100 Level,101,1
+1478,8,200 Level,202,5
+1479,8,200 Level,202,2
+1480,8,Floor,C,2
+1481,6,Mezzanine,F,2
+1482,6,Orchestra,C,7
+1483,6,Orchestra,D,7
+1484,6,Balcony,J,4
+1485,6,Orchestra,B,9
+1486,6,Orchestra,A,9
+1487,6,Orchestra,C,5
+1488,6,Orchestra,C,9
+1489,6,Orchestra,C,3
+1490,6,Mezzanine,G,7
+1491,6,Balcony,J,7
+1492,6,Orchestra,B,7
+1493,6,Balcony,K,1
+1494,6,Orchestra,C,4
+1495,6,Orchestra,D,9
+1496,6,Orchestra,C,1
+1497,6,Orchestra,A,8
+1498,6,Orchestra,A,5
+1499,6,Mezzanine,F,8
+1500,6,Orchestra,D,10
+1501,6,Orchestra,C,10
+1502,6,Balcony,K,4
+1503,6,Orchestra,A,3
+1504,3,Floor,D,4
+1505,3,Floor,D,6
+1506,3,Floor,C,8
+1507,3,Floor,C,2
+1508,3,Balcony,E,6
+1509,3,Floor,A,4
+1510,3,Floor,D,1
+1511,3,Floor,C,4
+1512,3,Floor,B,1
+1513,3,Floor,B,6
+1514,3,Floor,C,5
+1515,3,Floor,B,2
+1516,3,Floor,C,6
+1517,3,Floor,B,3
+1518,3,Floor,B,7
+1519,3,Balcony,E,5
+1520,3,Balcony,E,3
+1521,3,Floor,D,7
+1522,3,Balcony,F,3
+1523,3,Floor,A,6
+1524,3,Floor,C,1
+1525,3,Balcony,F,6
+1526,3,Floor,D,5
+1527,3,Balcony,F,1
+1528,3,Floor,C,7
+1529,3,Floor,B,4
+1530,4,Mezzanine,G,6
+1531,4,Orchestra,B,2
+1532,4,Orchestra,B,7
+1533,4,Orchestra,A,8
+1534,4,Orchestra,D,5
+1535,4,Orchestra,D,1
+1536,4,Balcony,K,6
+1537,4,Balcony,J,3
+1538,4,Mezzanine,G,7
+1539,4,Orchestra,C,4
+1540,4,Orchestra,D,9
+1541,4,Orchestra,B,1
+1542,4,Mezzanine,F,7
+1543,4,Mezzanine,G,3
+1544,4,Orchestra,A,2
+1545,4,Balcony,J,2
+1546,4,Orchestra,A,9
+1547,4,Orchestra,B,9
+1548,4,Orchestra,A,3
+1549,6,Orchestra,A,1
+1550,6,Orchestra,D,8
+1551,6,Balcony,J,1
+1552,6,Orchestra,B,4
+1553,6,Balcony,K,5
+1554,6,Orchestra,C,9
+1555,6,Orchestra,A,2
+1556,6,Balcony,K,3
+1557,6,Mezzanine,F,6
+1558,6,Orchestra,A,3
+1559,6,Mezzanine,F,7
+1560,6,Orchestra,C,4
+1561,6,Mezzanine,G,3
+1562,6,Mezzanine,F,2
+1563,6,Orchestra,C,5
+1564,6,Orchestra,A,8
+1565,6,Orchestra,A,10
+1566,6,Orchestra,A,4
+1567,6,Orchestra,A,6
+1568,6,Orchestra,D,6
+1569,6,Orchestra,D,2
+1570,6,Mezzanine,G,1
+1571,6,Orchestra,D,1
+1572,8,Floor,C,5
+1573,8,Floor,B,9
+1574,8,Floor,D,8
+1575,8,100 Level,102,1
+1576,8,Floor,C,9
+1577,8,100 Level,101,7
+1578,8,Floor,C,7
+1579,8,Floor,C,8
+1580,8,Floor,D,6
+1581,8,Floor,B,4
+1582,8,Floor,D,2
+1583,8,100 Level,101,1
+1584,8,Floor,A,7
+1585,8,200 Level,202,6
+1586,8,100 Level,101,5
+1587,8,Floor,D,4
+1588,8,Floor,B,7
+1589,8,Floor,B,5
+1590,8,100 Level,101,2
+1591,8,100 Level,103,2
+1592,8,Floor,A,5
+1593,8,200 Level,201,8
+1594,8,200 Level,202,4
+1595,9,Floor,C,7
+1596,9,Floor,B,4
+1597,9,Balcony,F,3
+1598,9,Floor,C,1
+1599,9,Floor,D,4
+1600,9,Floor,A,4
+1601,9,Floor,B,1
+1602,9,Floor,A,5
+1603,9,Balcony,F,1
+1604,9,Balcony,E,2
+1605,9,Floor,D,1
+1606,2,Mezzanine,F,2
+1607,2,Orchestra,B,3
+1608,2,Orchestra,D,6
+1609,2,Balcony,J,7
+1610,2,Balcony,K,1
+1611,2,Orchestra,B,5
+1612,2,Balcony,J,2
+1613,2,Balcony,J,4
+1614,2,Orchestra,D,4
+1615,5,100 Level,103,5
+1616,5,200 Level,202,7
+1617,5,Floor,C,3
+1618,5,100 Level,101,6
+1619,5,100 Level,103,2
+1620,5,100 Level,103,7
+1621,5,100 Level,102,8
+1622,5,Floor,B,5
+1623,5,200 Level,201,6
+1624,5,Floor,A,4
+1625,5,100 Level,103,4
+1626,5,Floor,C,8
+1627,5,200 Level,201,1
+1628,5,Floor,D,10
+1629,5,200 Level,201,7
+1630,5,200 Level,201,2
+1631,5,Floor,C,5
+1632,5,100 Level,103,1
+1633,5,Floor,C,7
+1634,5,200 Level,202,2
+1635,1,100 Level,101,7
+1636,1,100 Level,101,3
+1637,1,Floor,B,4
+1638,1,Floor,C,1
+1639,1,Floor,C,10
+1640,1,200 Level,201,2
+1641,1,Floor,A,5
+1642,1,Floor,D,10
+1643,1,100 Level,101,6
+1644,1,Floor,B,2
+1645,1,200 Level,201,7
+1646,1,100 Level,102,3
+1647,1,100 Level,101,4
+1648,1,100 Level,102,1
+1649,1,100 Level,102,4
+1650,1,Floor,A,6
+1651,1,Floor,B,10
+1652,1,100 Level,101,8
+1653,1,200 Level,202,6
+1654,1,200 Level,202,7
+1655,1,Floor,A,4
+1656,1,200 Level,202,2
+1657,1,Floor,A,3
+1658,1,Floor,A,1
+1659,1,100 Level,103,4
+1660,1,100 Level,101,1
+1661,1,100 Level,103,8
+1662,1,Floor,C,6
+1663,1,Floor,D,5
+1664,1,Floor,C,2
+1665,1,Floor,C,8
+1666,1,200 Level,202,1
+1667,1,Floor,A,7
+1668,1,Floor,B,7
+1669,1,Floor,D,4
+1670,1,Floor,C,4
+1671,1,200 Level,202,5
+1672,7,200 Level,202,4
+1673,7,Floor,D,5
+1674,7,200 Level,202,6
+1675,7,100 Level,101,6
+1676,7,100 Level,103,7
+1677,7,Floor,A,1
+1678,7,200 Level,202,2
+1679,7,Floor,B,4
+1680,7,Floor,C,1
+1681,7,Floor,C,3
+1682,7,100 Level,101,1
+1683,7,Floor,A,10
+1684,7,Floor,C,6
+1685,7,100 Level,103,6
+1686,7,100 Level,103,4
+1687,7,Floor,B,10
+1688,7,Floor,A,5
+1689,7,Floor,D,1
 1690,7,Floor,B,3
-1691,7,100 Level,103,1
-1692,7,100 Level,101,6
-1693,6,Orchestra,B,5
-1694,6,Orchestra,C,9
-1695,6,Mezzanine,G,5
-1696,6,Orchestra,B,1
-1697,6,Balcony,K,2
-1698,6,Balcony,J,2
-1699,6,Orchestra,C,7
-1700,6,Balcony,J,7
-1701,6,Orchestra,D,5
-1702,6,Balcony,K,4
-1703,6,Orchestra,B,10
+1691,7,200 Level,202,1
+1692,6,Mezzanine,G,7
+1693,6,Orchestra,C,1
+1694,6,Orchestra,A,9
+1695,6,Mezzanine,F,5
+1696,6,Orchestra,D,3
+1697,6,Balcony,J,4
+1698,6,Orchestra,C,2
+1699,6,Balcony,K,3
+1700,6,Orchestra,D,4
+1701,6,Mezzanine,F,1
+1702,6,Orchestra,A,6
+1703,6,Orchestra,B,6
 1704,6,Mezzanine,G,1
-1705,6,Mezzanine,F,6
-1706,6,Orchestra,A,1
-1707,6,Orchestra,D,8
-1708,6,Balcony,K,7
-1709,6,Balcony,J,5
-1710,6,Balcony,K,6
-1711,6,Balcony,J,6
-1712,6,Mezzanine,F,2
-1713,6,Mezzanine,F,3
-1714,6,Orchestra,D,2
-1715,8,200 Level,201,7
-1716,8,100 Level,103,5
-1717,8,Floor,C,4
-1718,8,Floor,C,2
-1719,8,Floor,A,10
-1720,8,200 Level,202,5
-1721,8,Floor,B,4
-1722,8,Floor,B,6
-1723,8,Floor,B,10
-1724,8,200 Level,201,4
-1725,8,100 Level,101,2
-1726,8,Floor,D,8
-1727,8,100 Level,102,6
-1728,8,200 Level,202,8
-1729,8,Floor,A,1
-1730,8,200 Level,201,1
-1731,8,Floor,C,8
-1732,8,Floor,C,10
-1733,8,100 Level,101,5
-1734,8,100 Level,102,2
-1735,8,100 Level,101,6
-1736,8,100 Level,103,7
-1737,8,100 Level,102,5
-1738,8,100 Level,103,6
-1739,8,Floor,B,2
-1740,8,100 Level,101,4
-1741,8,100 Level,103,4
-1742,8,200 Level,202,2
-1743,8,200 Level,201,3
-1744,8,Floor,B,5
-1745,8,200 Level,202,7
-1746,8,Floor,D,3
-1747,8,Floor,B,3
-1748,8,200 Level,201,5
-1749,8,Floor,D,10
-1750,4,Orchestra,A,6
-1751,4,Orchestra,A,3
-1752,4,Mezzanine,F,3
-1753,4,Orchestra,C,8
-1754,4,Orchestra,D,6
-1755,4,Balcony,K,5
-1756,4,Mezzanine,F,6
-1757,4,Mezzanine,G,5
-1758,4,Balcony,J,2
-1759,4,Mezzanine,G,3
-1760,4,Orchestra,D,2
-1761,4,Orchestra,B,9
-1762,4,Orchestra,C,10
-1763,4,Orchestra,A,5
-1764,4,Orchestra,A,4
-1765,4,Orchestra,C,3
-1766,4,Orchestra,A,8
-1767,4,Orchestra,C,7
-1768,4,Orchestra,A,10
-1769,4,Balcony,K,8
-1770,4,Balcony,J,1
-1771,4,Orchestra,B,10
-1772,4,Orchestra,A,1
-1773,4,Mezzanine,F,8
-1774,3,Balcony,E,4
-1775,3,Floor,C,6
-1776,3,Floor,A,2
-1777,3,Balcony,F,6
-1778,3,Floor,D,3
-1779,3,Floor,D,6
-1780,3,Floor,D,2
-1781,3,Floor,C,8
-1782,3,Balcony,F,2
-1783,3,Floor,D,7
-1784,3,Balcony,E,6
-1785,3,Floor,C,5
-1786,3,Floor,C,3
-1787,3,Floor,A,8
-1788,1,Floor,B,10
-1789,1,Floor,D,7
-1790,1,Floor,B,9
-1791,1,Floor,D,10
-1792,1,100 Level,103,5
-1793,1,Floor,B,1
-1794,1,100 Level,102,7
-1795,1,100 Level,101,8
-1796,1,Floor,A,5
-1797,1,200 Level,201,4
-1798,1,100 Level,101,5
-1799,1,200 Level,202,6
-1800,1,200 Level,201,2
-1801,1,Floor,B,4
-1802,1,Floor,C,5
-1803,1,100 Level,102,4
-1804,1,200 Level,201,6
-1805,1,Floor,B,8
-1806,1,200 Level,201,7
-1807,1,Floor,A,6
-1808,1,200 Level,201,3
-1809,1,Floor,D,9
-1810,1,100 Level,103,6
-1811,1,Floor,D,1
-1812,1,200 Level,201,1
-1813,1,Floor,C,7
-1814,1,100 Level,101,7
-1815,1,200 Level,202,8
-1816,1,100 Level,102,2
-1817,1,Floor,C,2
-1818,1,100 Level,101,2
-1819,1,Floor,C,9
-1820,1,Floor,D,5
-1821,5,100 Level,102,1
-1822,5,Floor,A,7
-1823,5,Floor,D,10
-1824,5,Floor,C,5
-1825,5,Floor,B,8
-1826,5,Floor,D,8
-1827,5,Floor,B,2
-1828,5,Floor,B,10
-1829,5,100 Level,102,5
-1830,5,Floor,D,5
-1831,5,Floor,C,7
-1832,5,100 Level,102,3
-1833,5,200 Level,201,7
-1834,5,200 Level,202,8
-1835,5,100 Level,102,6
-1836,5,100 Level,101,4
-1837,5,200 Level,201,2
-1838,5,200 Level,202,6
-1839,5,100 Level,103,1
-1840,5,Floor,B,9
-1841,5,Floor,C,1
-1842,5,200 Level,201,1
-1843,5,200 Level,202,7
-1844,5,200 Level,201,5
-1845,5,100 Level,101,1
-1846,5,100 Level,102,7
-1847,5,100 Level,101,8
-1848,5,Floor,D,3
-1849,5,Floor,C,10
-1850,5,200 Level,201,3
-1851,5,200 Level,202,1
-1852,5,Floor,D,1
-1853,5,Floor,A,9
-1854,5,Floor,B,6
-1855,5,Floor,D,4
-1856,5,Floor,A,5
-1857,5,200 Level,201,8
-1858,5,Floor,A,6
-1859,5,Floor,A,10
-1860,5,100 Level,101,2
-1861,5,100 Level,103,5
-1862,5,100 Level,103,4
-1863,5,100 Level,103,2
-1864,5,200 Level,202,4
-1865,5,Floor,B,1
-1866,5,200 Level,201,6
-1867,5,100 Level,103,3
-1868,7,100 Level,101,3
-1869,7,100 Level,102,2
-1870,7,Floor,D,6
-1871,7,200 Level,202,4
-1872,7,Floor,A,3
-1873,7,Floor,D,5
-1874,7,200 Level,202,3
-1875,7,200 Level,201,7
-1876,7,100 Level,103,6
-1877,7,100 Level,103,3
-1878,7,Floor,D,1
-1879,7,Floor,A,5
-1880,7,Floor,B,3
-1881,7,200 Level,201,6
-1882,7,200 Level,202,7
-1883,7,200 Level,202,6
-1884,7,Floor,C,9
-1885,7,200 Level,201,8
-1886,7,200 Level,202,1
-1887,7,100 Level,101,7
-1888,7,Floor,C,3
-1889,7,Floor,B,6
-1890,7,100 Level,103,7
-1891,7,Floor,B,4
-1892,7,Floor,D,10
-1893,7,Floor,B,8
-1894,7,200 Level,201,2
-1895,7,Floor,C,6
-1896,7,200 Level,201,1
-1897,7,Floor,C,8
-1898,7,Floor,C,2
-1899,7,100 Level,103,2
-1900,7,200 Level,201,4
-1901,7,Floor,B,9
-1902,7,100 Level,101,8
-1903,7,Floor,B,2
-1904,7,100 Level,102,8
-1905,7,100 Level,103,1
-1906,7,Floor,D,4
-1907,7,100 Level,101,4
-1908,7,100 Level,103,4
-1909,7,Floor,B,10
-1910,7,Floor,D,7
-1911,7,200 Level,202,5
-1912,7,200 Level,202,2
-1913,7,100 Level,102,5
-1914,7,Floor,A,2
-1915,2,Mezzanine,F,4
-1916,2,Mezzanine,F,3
-1917,2,Orchestra,B,8
-1918,2,Orchestra,C,1
-1919,2,Mezzanine,G,3
-1920,2,Orchestra,B,7
-1921,2,Orchestra,A,4
-1922,2,Orchestra,C,2
-1923,2,Balcony,J,3
-1924,9,Floor,A,7
-1925,9,Floor,B,6
-1926,9,Balcony,F,5
-1927,9,Floor,C,8
-1928,9,Balcony,F,3
-1929,9,Floor,B,7
-1930,9,Balcony,E,6
-1931,9,Floor,D,7
-1932,4,Balcony,J,4
-1933,4,Orchestra,D,8
-1934,4,Balcony,K,8
-1935,4,Orchestra,A,5
-1936,4,Orchestra,B,7
-1937,4,Orchestra,D,6
-1938,4,Orchestra,D,4
-1939,4,Balcony,K,3
-1940,4,Orchestra,D,1
-1941,4,Orchestra,B,5
-1942,4,Orchestra,A,7
-1943,4,Balcony,J,2
-1944,4,Orchestra,B,3
-1945,4,Mezzanine,F,2
-1946,4,Orchestra,D,7
-1947,4,Orchestra,A,3
-1948,4,Orchestra,B,9
-1949,4,Orchestra,A,8
-1950,4,Orchestra,C,7
-1951,4,Orchestra,D,2
-1952,4,Orchestra,A,10
-1953,4,Orchestra,C,1
-1954,4,Orchestra,B,6
-1955,4,Balcony,J,8
-1956,4,Mezzanine,F,5
-1957,1,100 Level,102,7
-1958,1,Floor,C,6
-1959,1,100 Level,103,5
-1960,1,100 Level,102,8
-1961,1,200 Level,201,6
-1962,1,Floor,B,6
-1963,1,100 Level,101,1
-1964,1,Floor,D,8
-1965,1,200 Level,202,3
-1966,1,Floor,C,7
-1967,1,100 Level,102,3
-1968,1,Floor,D,5
-1969,1,100 Level,102,2
-1970,1,Floor,C,1
-1971,1,200 Level,201,4
-1972,1,Floor,B,10
-1973,1,Floor,A,3
-1974,1,200 Level,202,6
-1975,1,Floor,C,2
-1976,1,Floor,D,10
-1977,1,100 Level,101,7
-1978,5,Floor,D,5
-1979,5,Floor,B,8
-1980,5,Floor,C,2
-1981,5,200 Level,202,2
-1982,5,Floor,D,4
-1983,5,200 Level,202,4
-1984,5,Floor,C,1
-1985,5,200 Level,202,7
-1986,5,100 Level,101,6
-1987,5,100 Level,103,8
-1988,5,Floor,B,1
-1989,5,Floor,D,6
-1990,5,Floor,B,2
-1991,5,200 Level,201,7
-1992,5,200 Level,202,3
-1993,5,200 Level,201,4
-1994,5,100 Level,102,7
-1995,5,100 Level,101,4
-1996,5,Floor,A,9
-1997,5,Floor,D,2
-1998,5,100 Level,103,6
-1999,5,100 Level,101,5
-2000,5,200 Level,201,6
-2001,5,Floor,B,4
-2002,5,100 Level,101,3
-2003,5,100 Level,103,2
-2004,5,Floor,D,1
-2005,5,Floor,A,5
-2006,5,Floor,A,7
-2007,5,200 Level,202,5
-2008,5,100 Level,103,5
-2009,5,Floor,C,5
-2010,5,Floor,D,10
-2011,5,Floor,A,1
-2012,5,Floor,C,3
-2013,5,Floor,C,7
-2014,5,Floor,B,5
-2015,5,100 Level,101,1
-2016,5,Floor,D,9
-2017,7,Floor,D,4
-2018,7,100 Level,101,5
-2019,7,Floor,C,10
-2020,7,200 Level,201,6
-2021,7,Floor,D,7
-2022,7,100 Level,103,2
-2023,7,100 Level,103,5
-2024,7,100 Level,103,3
-2025,7,Floor,C,2
-2026,7,100 Level,102,5
-2027,7,100 Level,102,6
-2028,7,Floor,A,8
-2029,7,200 Level,201,4
-2030,7,200 Level,201,2
-2031,7,100 Level,101,6
-2032,7,Floor,D,9
-2033,7,100 Level,101,1
-2034,7,200 Level,202,4
-2035,7,Floor,C,4
-2036,7,100 Level,103,8
-2037,7,Floor,C,7
-2038,7,Floor,C,6
-2039,7,100 Level,103,4
-2040,7,Floor,B,9
-2041,6,Orchestra,C,1
-2042,6,Mezzanine,F,5
-2043,6,Orchestra,C,4
-2044,6,Balcony,J,2
-2045,6,Balcony,K,4
-2046,6,Balcony,K,1
-2047,6,Orchestra,B,6
-2048,6,Orchestra,D,3
-2049,6,Balcony,K,2
-2050,6,Orchestra,D,5
-2051,6,Orchestra,C,9
-2052,6,Mezzanine,G,6
-2053,6,Mezzanine,F,4
-2054,6,Mezzanine,G,3
-2055,8,Floor,D,10
-2056,8,100 Level,101,3
-2057,8,100 Level,103,2
-2058,8,Floor,D,6
-2059,8,Floor,C,7
-2060,8,200 Level,201,3
-2061,8,100 Level,101,2
-2062,8,Floor,D,4
-2063,8,100 Level,102,5
-2064,8,100 Level,102,7
-2065,8,200 Level,202,7
-2066,8,Floor,B,1
-2067,8,Floor,A,1
-2068,8,200 Level,202,2
-2069,8,Floor,D,9
-2070,8,200 Level,202,5
-2071,8,Floor,C,1
-2072,8,200 Level,202,4
-2073,8,Floor,A,3
-2074,8,Floor,C,8
-2075,8,200 Level,201,2
-2076,8,Floor,B,4
-2077,8,Floor,B,8
-2078,8,100 Level,102,8
-2079,8,200 Level,201,8
-2080,8,Floor,C,3
-2081,8,100 Level,103,3
-2082,8,Floor,A,2
-2083,8,Floor,D,1
-2084,8,Floor,B,5
-2085,8,100 Level,103,4
-2086,8,Floor,A,8
-2087,8,Floor,A,4
-2088,8,100 Level,102,6
-2089,8,100 Level,103,8
-2090,8,200 Level,201,4
-2091,8,200 Level,202,8
-2092,8,Floor,B,2
-2093,8,Floor,A,5
-2094,8,Floor,D,7
-2095,8,Floor,C,9
-2096,8,Floor,B,3
-2097,8,200 Level,202,3
-2098,1,Floor,A,3
-2099,1,Floor,A,7
-2100,1,Floor,B,3
-2101,1,Floor,B,6
-2102,1,Floor,B,9
-2103,1,Floor,C,2
-2104,5,Floor,A,3
-2105,5,Floor,A,5
-2106,5,Floor,A,6
-2107,5,Floor,A,7
-2108,5,Floor,A,8
-2109,5,Floor,B,4
-2110,7,Floor,A,1
-2111,7,Floor,A,3
-2112,7,Floor,A,8
-2113,7,Floor,B,1
-2114,7,Floor,B,4
-2115,7,Floor,B,8
-2116,5,Floor,A,1
-2117,5,Floor,A,3
-2118,5,Floor,A,4
-2119,5,Floor,A,5
-2120,5,Floor,A,6
-2121,5,Floor,A,7
-2122,1,Floor,A,3
-2123,1,Floor,A,6
-2124,1,Floor,A,8
-2125,1,Floor,B,4
-2126,1,Floor,B,5
-2127,1,Floor,B,6
-2128,5,Floor,A,1
-2129,5,Floor,A,2
-2130,5,Floor,A,4
-2131,5,Floor,A,5
-2132,5,Floor,A,8
-2133,5,Floor,A,9
-2134,7,Floor,A,1
-2135,7,Floor,A,7
-2136,7,Floor,B,3
-2137,7,Floor,B,5
-2138,7,Floor,C,2
-2139,7,Floor,C,3
-2140,1,Floor,A,2
-2141,1,Floor,A,3
-2142,1,Floor,B,2
-2143,1,Floor,B,3
-2144,1,Floor,B,4
-2145,1,Floor,B,6
-2146,5,Floor,A,1
-2147,5,Floor,A,2
-2148,5,Floor,A,3
-2149,5,Floor,A,5
-2150,5,Floor,A,6
-2151,5,Floor,A,7
-2152,7,Floor,A,3
-2153,7,Floor,A,4
-2154,7,Floor,A,6
-2155,7,Floor,A,8
-2156,7,Floor,B,1
-2157,7,Floor,B,2
-2158,1,Floor,C,4
-2159,1,Floor,D,1
-2160,5,Floor,B,5
-2161,5,Floor,B,6
-2162,1,Floor,D,2
-2163,1,Floor,D,3
-2164,5,Floor,C,1
-2165,5,Floor,C,3
-2166,1,Floor,D,4
-2167,1,Floor,D,5
-2168,5,Floor,C,4
-2169,5,Floor,C,7
-2170,1,Floor,D,8
-2171,1,Floor,D,9
-2172,5,Floor,C,9
-2173,5,Floor,C,10
-2174,1,100 Level,101,3
-2175,1,100 Level,101,5
-2176,5,Floor,D,1
-2177,5,Floor,D,3
-2178,4,Orchestra,A,1
-2179,4,Orchestra,A,2
-2180,4,Orchestra,A,3
-2181,4,Orchestra,A,4
-2182,4,Orchestra,A,5
-2183,4,Orchestra,A,6
-2184,4,Orchestra,A,7
-2185,4,Orchestra,A,8
-2186,4,Orchestra,A,9
-2187,4,Orchestra,A,10
-2188,4,Orchestra,B,1
-2189,4,Orchestra,B,2
-2190,4,Orchestra,B,3
-2191,4,Orchestra,B,4
-2192,4,Orchestra,B,5
-2193,4,Orchestra,B,6
-2194,4,Orchestra,B,7
-2195,4,Orchestra,B,8
-2196,4,Orchestra,B,9
-2197,4,Orchestra,B,10
-2198,4,Orchestra,C,1
-2199,4,Orchestra,C,2
-2200,4,Orchestra,C,3
-2201,4,Orchestra,C,4
-2202,4,Orchestra,C,5
-2203,4,Orchestra,C,6
-2204,4,Orchestra,C,7
-2205,4,Orchestra,C,8
-2206,4,Orchestra,C,9
-2207,4,Orchestra,C,10
-2208,7,Floor,A,1
-2209,7,Floor,A,2
-2210,7,Floor,A,3
-2211,7,Floor,A,4
-2212,7,Floor,A,5
-2213,7,Floor,A,6
-2214,7,Floor,A,7
-2215,7,Floor,A,8
-2216,7,Floor,A,9
-2217,7,Floor,A,10
-2218,7,Floor,B,1
-2219,7,Floor,B,2
-2220,7,Floor,B,3
-2221,7,Floor,B,4
-2222,7,Floor,B,5
-2223,7,Floor,B,6
-2224,7,Floor,B,7
-2225,7,Floor,B,8
-2226,7,Floor,B,9
-2227,7,Floor,B,10
-2228,7,Floor,C,1
-2229,7,Floor,C,2
-2230,7,Floor,C,3
-2231,7,Floor,C,4
-2232,7,Floor,C,5
-2233,7,Floor,C,6
-2234,7,Floor,C,7
-2235,7,Floor,C,8
-2236,7,Floor,C,9
-2237,7,Floor,C,10
+1705,6,Balcony,J,5
+1706,6,Balcony,K,5
+1707,6,Orchestra,A,1
+1708,6,Orchestra,A,5
+1709,6,Balcony,J,8
+1710,8,Floor,D,2
+1711,8,Floor,A,2
+1712,8,100 Level,102,4
+1713,8,Floor,C,10
+1714,8,Floor,B,3
+1715,8,100 Level,102,5
+1716,8,Floor,A,8
+1717,8,200 Level,201,3
+1718,8,Floor,B,2
+1719,8,100 Level,101,2
+1720,8,200 Level,202,6
+1721,8,Floor,A,9
+1722,8,Floor,A,5
+1723,8,100 Level,103,6
+1724,8,100 Level,102,6
+1725,8,200 Level,202,3
+1726,4,Orchestra,B,10
+1727,4,Balcony,K,8
+1728,4,Orchestra,B,4
+1729,4,Mezzanine,F,1
+1730,4,Orchestra,B,6
+1731,4,Balcony,J,5
+1732,4,Orchestra,C,9
+1733,4,Orchestra,A,10
+1734,4,Orchestra,B,5
+1735,4,Orchestra,A,6
+1736,4,Orchestra,D,2
+1737,4,Mezzanine,F,3
+1738,4,Mezzanine,G,5
+1739,4,Orchestra,C,8
+1740,4,Mezzanine,G,6
+1741,4,Orchestra,C,7
+1742,4,Mezzanine,G,2
+1743,4,Balcony,K,1
+1744,4,Mezzanine,G,7
+1745,3,Floor,C,8
+1746,3,Balcony,F,1
+1747,3,Floor,B,3
+1748,3,Floor,D,7
+1749,3,Floor,A,2
+1750,3,Floor,B,5
+1751,3,Floor,D,2
+1752,3,Floor,A,4
+1753,3,Floor,C,1
+1754,3,Floor,C,2
+1755,3,Floor,D,6
+1756,3,Balcony,F,2
+1757,3,Floor,B,1
+1758,3,Floor,A,6
+1759,3,Floor,A,3
+1760,3,Floor,A,1
+1761,3,Floor,D,3
+1762,3,Floor,D,8
+1763,3,Floor,B,2
+1764,3,Floor,C,6
+1765,1,Floor,B,10
+1766,1,Floor,D,7
+1767,1,Floor,B,9
+1768,1,Floor,D,10
+1769,1,100 Level,103,5
+1770,1,Floor,B,1
+1771,1,100 Level,102,7
+1772,1,100 Level,101,8
+1773,1,Floor,A,5
+1774,1,200 Level,201,4
+1775,1,100 Level,101,5
+1776,1,200 Level,202,6
+1777,1,200 Level,201,2
+1778,1,Floor,B,4
+1779,1,Floor,C,5
+1780,1,100 Level,102,4
+1781,1,200 Level,201,6
+1782,1,Floor,B,8
+1783,1,200 Level,201,7
+1784,1,Floor,A,6
+1785,1,200 Level,201,3
+1786,1,Floor,D,9
+1787,1,100 Level,103,6
+1788,1,Floor,D,1
+1789,1,200 Level,201,1
+1790,1,Floor,C,7
+1791,1,100 Level,101,7
+1792,1,200 Level,202,8
+1793,1,100 Level,102,2
+1794,1,Floor,C,2
+1795,1,100 Level,101,2
+1796,1,Floor,C,9
+1797,1,Floor,D,5
+1798,5,100 Level,102,1
+1799,5,Floor,A,7
+1800,5,Floor,D,10
+1801,5,Floor,C,5
+1802,5,Floor,B,8
+1803,5,Floor,D,8
+1804,5,Floor,B,2
+1805,5,Floor,B,10
+1806,5,100 Level,102,5
+1807,5,Floor,D,5
+1808,5,Floor,C,7
+1809,5,100 Level,102,3
+1810,5,200 Level,201,7
+1811,5,200 Level,202,8
+1812,5,100 Level,102,6
+1813,5,100 Level,101,4
+1814,5,200 Level,201,2
+1815,5,200 Level,202,6
+1816,5,100 Level,103,1
+1817,5,Floor,B,9
+1818,5,Floor,C,1
+1819,5,200 Level,201,1
+1820,5,200 Level,202,7
+1821,5,200 Level,201,5
+1822,5,100 Level,101,1
+1823,5,100 Level,102,7
+1824,5,100 Level,101,8
+1825,5,Floor,D,3
+1826,5,Floor,C,10
+1827,5,200 Level,201,3
+1828,5,200 Level,202,1
+1829,5,Floor,D,1
+1830,5,Floor,A,9
+1831,5,Floor,B,6
+1832,5,Floor,D,4
+1833,5,Floor,A,5
+1834,5,200 Level,201,8
+1835,5,Floor,A,6
+1836,5,Floor,A,10
+1837,5,100 Level,101,2
+1838,5,100 Level,103,5
+1839,5,100 Level,103,4
+1840,5,100 Level,103,2
+1841,5,200 Level,202,4
+1842,5,Floor,B,1
+1843,5,200 Level,201,6
+1844,5,100 Level,103,3
+1845,7,100 Level,101,3
+1846,7,100 Level,102,2
+1847,7,Floor,D,6
+1848,7,200 Level,202,4
+1849,7,Floor,A,3
+1850,7,Floor,D,5
+1851,7,200 Level,202,3
+1852,7,200 Level,201,7
+1853,7,100 Level,103,6
+1854,7,100 Level,103,3
+1855,7,Floor,D,1
+1856,7,Floor,A,5
+1857,7,Floor,B,3
+1858,7,200 Level,201,6
+1859,7,200 Level,202,7
+1860,7,200 Level,202,6
+1861,7,Floor,C,9
+1862,7,200 Level,201,8
+1863,7,200 Level,202,1
+1864,7,100 Level,101,7
+1865,7,Floor,C,3
+1866,7,Floor,B,6
+1867,7,100 Level,103,7
+1868,7,Floor,B,4
+1869,7,Floor,D,10
+1870,7,Floor,B,8
+1871,7,200 Level,201,2
+1872,7,Floor,C,6
+1873,7,200 Level,201,1
+1874,7,Floor,C,8
+1875,7,Floor,C,2
+1876,7,100 Level,103,2
+1877,7,200 Level,201,4
+1878,7,Floor,B,9
+1879,7,100 Level,101,8
+1880,7,Floor,B,2
+1881,7,100 Level,102,8
+1882,7,100 Level,103,1
+1883,7,Floor,D,4
+1884,7,100 Level,101,4
+1885,7,100 Level,103,4
+1886,7,Floor,B,10
+1887,7,Floor,D,7
+1888,7,200 Level,202,5
+1889,7,200 Level,202,2
+1890,7,100 Level,102,5
+1891,7,Floor,A,2
+1892,2,Mezzanine,F,4
+1893,2,Mezzanine,F,3
+1894,2,Orchestra,B,8
+1895,2,Orchestra,C,1
+1896,2,Mezzanine,G,3
+1897,2,Orchestra,B,7
+1898,2,Orchestra,A,4
+1899,2,Orchestra,C,2
+1900,2,Balcony,J,3
+1901,9,Floor,A,7
+1902,9,Floor,B,6
+1903,9,Balcony,F,5
+1904,9,Floor,C,8
+1905,9,Balcony,F,3
+1906,9,Floor,B,7
+1907,9,Balcony,E,6
+1908,9,Floor,D,7
+1909,4,Balcony,J,4
+1910,4,Orchestra,D,8
+1911,4,Balcony,K,8
+1912,4,Orchestra,A,5
+1913,4,Orchestra,B,7
+1914,4,Orchestra,D,6
+1915,4,Orchestra,D,4
+1916,4,Balcony,K,3
+1917,4,Orchestra,D,1
+1918,4,Orchestra,B,5
+1919,4,Orchestra,A,7
+1920,4,Balcony,J,2
+1921,4,Orchestra,B,3
+1922,4,Mezzanine,F,2
+1923,4,Orchestra,D,7
+1924,4,Orchestra,A,3
+1925,4,Orchestra,B,9
+1926,4,Orchestra,A,8
+1927,4,Orchestra,C,7
+1928,4,Orchestra,D,2
+1929,4,Orchestra,A,10
+1930,4,Orchestra,C,1
+1931,4,Orchestra,B,6
+1932,4,Balcony,J,8
+1933,4,Mezzanine,F,5
+1934,1,100 Level,102,7
+1935,1,Floor,C,6
+1936,1,100 Level,103,5
+1937,1,100 Level,102,8
+1938,1,200 Level,201,6
+1939,1,Floor,B,6
+1940,1,100 Level,101,1
+1941,1,Floor,D,8
+1942,1,200 Level,202,3
+1943,1,Floor,C,7
+1944,1,100 Level,102,3
+1945,1,Floor,D,5
+1946,1,100 Level,102,2
+1947,1,Floor,C,1
+1948,1,200 Level,201,4
+1949,1,Floor,B,10
+1950,1,Floor,A,3
+1951,1,200 Level,202,6
+1952,1,Floor,C,2
+1953,1,Floor,D,10
+1954,1,100 Level,101,7
+1955,5,Floor,D,5
+1956,5,Floor,B,8
+1957,5,Floor,C,2
+1958,5,200 Level,202,2
+1959,5,Floor,D,4
+1960,5,200 Level,202,4
+1961,5,Floor,C,1
+1962,5,200 Level,202,7
+1963,5,100 Level,101,6
+1964,5,100 Level,103,8
+1965,5,Floor,B,1
+1966,5,Floor,D,6
+1967,5,Floor,B,2
+1968,5,200 Level,201,7
+1969,5,200 Level,202,3
+1970,5,200 Level,201,4
+1971,5,100 Level,102,7
+1972,5,100 Level,101,4
+1973,5,Floor,A,9
+1974,5,Floor,D,2
+1975,5,100 Level,103,6
+1976,5,100 Level,101,5
+1977,5,200 Level,201,6
+1978,5,Floor,B,4
+1979,5,100 Level,101,3
+1980,5,100 Level,103,2
+1981,5,Floor,D,1
+1982,5,Floor,A,5
+1983,5,Floor,A,7
+1984,5,200 Level,202,5
+1985,5,100 Level,103,5
+1986,5,Floor,C,5
+1987,5,Floor,D,10
+1988,5,Floor,A,1
+1989,5,Floor,C,3
+1990,5,Floor,C,7
+1991,5,Floor,B,5
+1992,5,100 Level,101,1
+1993,5,Floor,D,9
+1994,7,Floor,D,4
+1995,7,100 Level,101,5
+1996,7,Floor,C,10
+1997,7,200 Level,201,6
+1998,7,Floor,D,7
+1999,7,100 Level,103,2
+2000,7,100 Level,103,5
+2001,7,100 Level,103,3
+2002,7,Floor,C,2
+2003,7,100 Level,102,5
+2004,7,100 Level,102,6
+2005,7,Floor,A,8
+2006,7,200 Level,201,4
+2007,7,200 Level,201,2
+2008,7,100 Level,101,6
+2009,7,Floor,D,9
+2010,7,100 Level,101,1
+2011,7,200 Level,202,4
+2012,7,Floor,C,4
+2013,7,100 Level,103,8
+2014,7,Floor,C,7
+2015,7,Floor,C,6
+2016,7,100 Level,103,4
+2017,7,Floor,B,9
+2018,6,Orchestra,C,1
+2019,6,Mezzanine,F,5
+2020,6,Orchestra,C,4
+2021,6,Balcony,J,2
+2022,6,Balcony,K,4
+2023,6,Balcony,K,1
+2024,6,Orchestra,B,6
+2025,6,Orchestra,D,3
+2026,6,Balcony,K,2
+2027,6,Orchestra,D,5
+2028,6,Orchestra,C,9
+2029,6,Mezzanine,G,6
+2030,6,Mezzanine,F,4
+2031,6,Mezzanine,G,3
+2032,8,Floor,D,10
+2033,8,100 Level,101,3
+2034,8,100 Level,103,2
+2035,8,Floor,D,6
+2036,8,Floor,C,7
+2037,8,200 Level,201,3
+2038,8,100 Level,101,2
+2039,8,Floor,D,4
+2040,8,100 Level,102,5
+2041,8,100 Level,102,7
+2042,8,200 Level,202,7
+2043,8,Floor,B,1
+2044,8,Floor,A,1
+2045,8,200 Level,202,2
+2046,8,Floor,D,9
+2047,8,200 Level,202,5
+2048,8,Floor,C,1
+2049,8,200 Level,202,4
+2050,8,Floor,A,3
+2051,8,Floor,C,8
+2052,8,200 Level,201,2
+2053,8,Floor,B,4
+2054,8,Floor,B,8
+2055,8,100 Level,102,8
+2056,8,200 Level,201,8
+2057,8,Floor,C,3
+2058,8,100 Level,103,3
+2059,8,Floor,A,2
+2060,8,Floor,D,1
+2061,8,Floor,B,5
+2062,8,100 Level,103,4
+2063,8,Floor,A,8
+2064,8,Floor,A,4
+2065,8,100 Level,102,6
+2066,8,100 Level,103,8
+2067,8,200 Level,201,4
+2068,8,200 Level,202,8
+2069,8,Floor,B,2
+2070,8,Floor,A,5
+2071,8,Floor,D,7
+2072,8,Floor,C,9
+2073,8,Floor,B,3
+2074,8,200 Level,202,3
+2075,1,Floor,A,2
+2076,1,Floor,A,3
+2077,1,Floor,A,4
+2078,1,Floor,A,6
+2079,1,Floor,A,8
+2080,1,Floor,B,1
+2081,5,Floor,A,1
+2082,5,Floor,A,2
+2083,5,Floor,A,3
+2084,5,Floor,A,7
+2085,5,Floor,A,9
+2086,5,Floor,B,4
+2087,7,Floor,A,5
+2088,7,Floor,B,2
+2089,7,Floor,B,4
+2090,7,Floor,B,9
+2091,7,Floor,B,10
+2092,7,Floor,C,2
+2093,5,Floor,A,1
+2094,5,Floor,A,2
+2095,5,Floor,A,4
+2096,5,Floor,A,5
+2097,5,Floor,A,6
+2098,5,Floor,A,8
+2099,1,Floor,A,1
+2100,1,Floor,A,3
+2101,1,Floor,A,4
+2102,1,Floor,A,7
+2103,1,Floor,A,8
+2104,1,Floor,A,9
+2105,5,Floor,A,1
+2106,5,Floor,A,2
+2107,5,Floor,A,4
+2108,5,Floor,A,6
+2109,5,Floor,A,7
+2110,5,Floor,A,10
+2111,7,Floor,A,9
+2112,7,Floor,B,4
+2113,7,Floor,B,7
+2114,7,Floor,B,8
+2115,7,Floor,C,3
+2116,7,Floor,C,7
+2117,1,Floor,A,6
+2118,1,Floor,B,1
+2119,1,Floor,B,2
+2120,1,Floor,B,5
+2121,1,Floor,B,6
+2122,1,Floor,C,1
+2123,5,Floor,A,5
+2124,5,Floor,A,7
+2125,5,Floor,A,9
+2126,5,Floor,B,6
+2127,5,Floor,B,9
+2128,5,Floor,C,4
+2129,7,Floor,A,2
+2130,7,Floor,A,4
+2131,7,Floor,A,5
+2132,7,Floor,A,7
+2133,7,Floor,A,8
+2134,7,Floor,A,9
+2135,1,Floor,B,2
+2136,1,Floor,B,7
+2137,5,Floor,B,6
+2138,5,Floor,C,1
+2139,1,Floor,B,10
+2140,1,Floor,C,2
+2141,5,Floor,C,2
+2142,5,Floor,C,6
+2143,1,Floor,C,3
+2144,1,Floor,C,7
+2145,5,Floor,C,7
+2146,5,Floor,C,10
+2147,1,Floor,C,8
+2148,1,Floor,C,9
+2149,5,Floor,D,2
+2150,5,Floor,D,3
+2151,1,Floor,D,5
+2152,1,Floor,D,6
+2153,5,Floor,D,4
+2154,5,Floor,D,6
+2155,4,Orchestra,A,1
+2156,4,Orchestra,A,2
+2157,4,Orchestra,A,3
+2158,4,Orchestra,A,4
+2159,4,Orchestra,A,5
+2160,4,Orchestra,A,6
+2161,4,Orchestra,A,7
+2162,4,Orchestra,A,8
+2163,4,Orchestra,A,9
+2164,4,Orchestra,A,10
+2165,4,Orchestra,B,1
+2166,4,Orchestra,B,2
+2167,4,Orchestra,B,3
+2168,4,Orchestra,B,4
+2169,4,Orchestra,B,5
+2170,4,Orchestra,B,6
+2171,4,Orchestra,B,7
+2172,4,Orchestra,B,8
+2173,4,Orchestra,B,9
+2174,4,Orchestra,B,10
+2175,4,Orchestra,C,1
+2176,4,Orchestra,C,2
+2177,4,Orchestra,C,3
+2178,4,Orchestra,C,4
+2179,4,Orchestra,C,5
+2180,4,Orchestra,C,6
+2181,4,Orchestra,C,7
+2182,4,Orchestra,C,8
+2183,4,Orchestra,C,9
+2184,4,Orchestra,C,10
+2185,7,Floor,A,1
+2186,7,Floor,A,2
+2187,7,Floor,A,3
+2188,7,Floor,A,4
+2189,7,Floor,A,5
+2190,7,Floor,A,6
+2191,7,Floor,A,7
+2192,7,Floor,A,8
+2193,7,Floor,A,9
+2194,7,Floor,A,10
+2195,7,Floor,B,1
+2196,7,Floor,B,2
+2197,7,Floor,B,3
+2198,7,Floor,B,4
+2199,7,Floor,B,5
+2200,7,Floor,B,6
+2201,7,Floor,B,7
+2202,7,Floor,B,8
+2203,7,Floor,B,9
+2204,7,Floor,B,10
+2205,7,Floor,C,1
+2206,7,Floor,C,2
+2207,7,Floor,C,3
+2208,7,Floor,C,4
+2209,7,Floor,C,5
+2210,7,Floor,C,6
+2211,7,Floor,C,7
+2212,7,Floor,C,8
+2213,7,Floor,C,9
+2214,7,Floor,C,10

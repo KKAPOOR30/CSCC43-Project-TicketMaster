@@ -25,11 +25,23 @@ Before you begin, ensure the following are available:
 | MySQL Connector/J | Bundled as `mysql-connector-java-8.0.29.jar` in the project root |
 | Bash (for `run.sh`) | Linux / macOS / Git Bash on Windows |
 
-Default JDBC settings (edit `src/db/Database.java` if yours differ):
+Default JDBC settings assume a local MySQL 8 server with the `root` account
+and no password (the standard result of the course-provided MySQL install
+instructions):
 
 - URL: `jdbc:mysql://localhost:3306/ticketMaster_db`
 - User: `root`
 - Password: *(empty string)*
+
+If your local setup differs, override these without editing any source file
+by setting environment variables before running `run.sh`:
+
+```bash
+export MYTIX_DB_URL="jdbc:mysql://localhost:3306/ticketMaster_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
+export MYTIX_DB_USER="root"
+export MYTIX_DB_PASSWORD="yourpassword"
+./run.sh
+```
 
 ---
 
@@ -64,7 +76,9 @@ Bulk load requires `LOCAL INFILE`:
 mysql --local-infile=1 -u root ticketMaster_db < sql/load.sql
 ```
 
-**MySQL Workbench:** enable local infile on the connection (`OPT_LOCAL_INFILE=1` under connection Advanced options), then run `sql/load.sql`. That file uses absolute Windows paths to the `data/` CSVs; change those paths if you move the project.
+`sql/load.sql` uses paths relative to the project root (e.g. `data/Genre.csv`), so run it from the project root as shown above.
+
+**MySQL Workbench:** enable local infile on the connection (`OPT_LOCAL_INFILE=1` under connection Advanced options). Workbench resolves relative `LOCAL INFILE` paths against wherever the Workbench process was launched from, not the project root, so the CLI command above is the reliable option for grading.
 
 **Regenerating CSVs** (optional):
 
@@ -274,7 +288,7 @@ Organizer menu **12**.
 8. **Q1 “today”** uses the database server’s `NOW()`; if the sample calendar and the machine clock differ a lot, “upcoming” vs “past” sets may look unexpected.
 9. **Organizer toolkit** suggestions depend on having enough comparable history; sparse genres fall back to simple heuristics.
 10. **R9 noun phrases** use stopword filtering and n-grams, not a full NLP parser, so phrases are approximate.
-11. **`sql/load.sql` paths** may be absolute for Workbench convenience; TAs running from the project root should confirm paths match their environment (or use CLI `LOAD DATA LOCAL INFILE` relative to the client cwd).
+11. **`sql/load.sql` paths** are relative to the MySQL client's working directory, so `mysql ... < sql/load.sql` must be run from the project root (this is how the grading sequence invokes it).
 12. **Windows:** PowerShell does not execute `./run.sh` natively; use Git Bash, WSL with a JDK, or `run.bat`.
 
 ---
